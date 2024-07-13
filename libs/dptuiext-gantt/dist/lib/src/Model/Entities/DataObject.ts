@@ -1,5 +1,5 @@
-import { isDefined } from "@devexpress/utils/lib/utils/common";
-import { MathUtils } from "@devexpress/utils/lib/utils/math";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
+import { MathUtils } from "@dptuiext/utils/lib/utils/math";
 
 export abstract class DataObject {
     id: any;

@@ -1,4 +1,4 @@
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { StyleBase } from "../../Model/Style";
 import { DiagramItem } from "../../Model/DiagramItem";
 import { RenderUtils } from "../Utils";

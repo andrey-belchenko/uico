@@ -1,6 +1,6 @@
 import { DiamondShapeDescription } from "../General/DiamondShapeDescription";
 import { ShapeTypes } from "../../ShapeTypes";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { ShapeDefaultDimension } from "../ShapeDescription";
 
 export class DecisionShapeDescription extends DiamondShapeDescription {

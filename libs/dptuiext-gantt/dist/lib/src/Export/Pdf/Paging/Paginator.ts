@@ -1,5 +1,5 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { PdfDependencyLineInfo } from "../DataObjects/DependencyLineInfo";
 import { PdfTaskInfo } from "../DataObjects/TaskInfo";
 import { PdfTaskResourcesInfo } from "../DataObjects/TaskResourcesInfo";

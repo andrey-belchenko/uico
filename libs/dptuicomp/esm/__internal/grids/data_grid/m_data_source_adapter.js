@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 import DataSourceAdapter from "../../grids/grid_core/data_source_adapter/m_data_source_adapter";
 let DataSourceAdapterType = DataSourceAdapter;

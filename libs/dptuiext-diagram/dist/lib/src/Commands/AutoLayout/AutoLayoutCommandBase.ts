@@ -8,7 +8,7 @@ import { SimpleCommandBase } from "../SimpleCommandBase";
 import { Shape } from "../../Model/Shapes/Shape";
 import { Connector } from "../../Model/Connectors/Connector";
 import { GeometryUtils, Utils } from "../../Utils";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 import { ScrollIntoViewOnRedoHistoryItem, ScrollIntoViewOnUndoHistoryItem } from "../../History/Common/ScrollIntoViewHistoryItem";
 
 export abstract class AutoLayoutCommandBase extends SimpleCommandBase {

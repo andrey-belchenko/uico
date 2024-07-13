@@ -1,10 +1,10 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { GridElementInfo } from "../Helpers/GridElementInfo";
 import { Task } from "../../Model/Entities/Task";
 import { ViewType } from "../Helpers/Enums";
 import { DateRange } from "../../Model/WorkingTime/DateRange";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
-import { Browser } from "@devexpress/utils/lib/browser";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
+import { Browser } from "@dptuiext/utils/lib/browser";
 import { ViewVisualModelItem } from "../../Model/VisualModel/ViewVisualModelItem";
 import { TaskEditTooltip } from "./TaskEditTooltip";
 import { DependencyType } from "../../Model/Entities/Enums";

@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,17 +8,17 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxBullet, { Properties } from "devextreme/viz/bullet";
+import dxBullet, { Properties } from "dptuicomp/viz/bullet";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent } from "devextreme/viz/bullet";
-import type { template } from "devextreme/core/templates/template";
-import type { Font as ChartsFont } from "devextreme/common/charts";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent } from "dptuicomp/viz/bullet";
+import type { template } from "dptuicomp/core/templates/template";
+import type { Font as ChartsFont } from "dptuicomp/common/charts";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -127,5 +127,5 @@ declare const _componentTooltip: React.MemoExoticComponent<(props: ITooltipProps
 declare const Tooltip: typeof _componentTooltip & IElementDescriptor;
 export default Bullet;
 export { Bullet, IBulletOptions, BulletRef, Border, IBorderProps, Font, IFontProps, Format, IFormatProps, Margin, IMarginProps, Shadow, IShadowProps, Size, ISizeProps, Tooltip, ITooltipProps };
-import type * as BulletTypes from 'devextreme/viz/bullet_types';
+import type * as BulletTypes from 'dptuicomp/viz/bullet_types';
 export { BulletTypes };

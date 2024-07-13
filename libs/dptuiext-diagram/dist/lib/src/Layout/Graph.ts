@@ -3,7 +3,7 @@ import { ItemKey } from "../Model/DiagramItem";
 import { Shape } from "../Model/Shapes/Shape";
 import { Connector } from "../Model/Connectors/Connector";
 import { IKeyOwner } from "../Interfaces";
-import { SearchUtils } from "@devexpress/utils/lib/utils/search";
+import { SearchUtils } from "@dptuiext/utils/lib/utils/search";
 import { HashSet, KeySet } from "../ListUtils";
 
 export interface IEdge extends IKeyOwner {

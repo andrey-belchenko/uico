@@ -1,6 +1,6 @@
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { Shape } from "../../Model/Shapes/Shape";
 import { ResizeEventSource, DiagramMouseEvent } from "../Event";
 import { MouseHandlerDraggingState } from "./MouseHandlerDraggingState";

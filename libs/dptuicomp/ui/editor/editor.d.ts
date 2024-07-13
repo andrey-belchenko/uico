@@ -4,7 +4,7 @@
 * Build date: Tue Jun 11 2024
 *
 * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
-* Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+* Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
 */
 import {
     NativeEventInfo,
@@ -23,7 +23,7 @@ import {
 
 /**
  * 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface ValueChangedInfo {
     /**
@@ -38,7 +38,7 @@ export interface ValueChangedInfo {
 
 /**
  * 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface EditorOptions<TComponent> extends WidgetOptions<TComponent> {
     /**
@@ -89,7 +89,7 @@ export interface EditorOptions<TComponent> extends WidgetOptions<TComponent> {
 }
 /**
  * A base class for editors.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export default class Editor<TProperties = Properties> extends Widget<TProperties> {
     /**
@@ -104,11 +104,11 @@ export default class Editor<TProperties = Properties> extends Widget<TProperties
 }
 
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 interface EditorInstance extends Editor<Properties> { }
 
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 type Properties = EditorOptions<EditorInstance>;

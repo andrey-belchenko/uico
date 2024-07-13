@@ -1,4 +1,4 @@
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
 import { Task } from "../../Model/Entities/Task";
 import { TooltipSettings } from "../Settings/InitSettings/TooltipSettings";
 import { ElementTextHelperCultureInfo } from "../Utils/ElementTextHelperCultureInfo";

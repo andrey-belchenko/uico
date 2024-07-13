@@ -8,7 +8,7 @@ module.exports = (_env, argv) => {
     const webpack = require('webpack');
     const fs = require('fs');
 
-    const eula = "https://www.devexpress.com/Support/EULAs";
+    const eula = "https://www.dptuiext.com/Support/EULAs";
 
     const isProductionBuild = argv.mode === 'production';
     const pathToIndexTs = path.resolve(__dirname, 'src', 'index.ts');

@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,16 +8,16 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxTextBox, { Properties } from "devextreme/ui/text_box";
+import dxTextBox, { Properties } from "dptuicomp/ui/text_box";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ChangeEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, PasteEvent, ValueChangedEvent } from "devextreme/ui/text_box";
-import type { ContentReadyEvent as ButtonContentReadyEvent, DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, ClickEvent, OptionChangedEvent } from "devextreme/ui/button";
-import type { template } from "devextreme/core/templates/template";
+import type { ChangeEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, PasteEvent, ValueChangedEvent } from "dptuicomp/ui/text_box";
+import type { ContentReadyEvent as ButtonContentReadyEvent, DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, ClickEvent, OptionChangedEvent } from "dptuicomp/ui/button";
+import type { template } from "dptuicomp/core/templates/template";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -90,5 +90,5 @@ declare const _componentOptions: React.MemoExoticComponent<(props: IOptionsProps
 declare const Options: typeof _componentOptions & IElementDescriptor;
 export default TextBox;
 export { TextBox, ITextBoxOptions, TextBoxRef, Button, IButtonProps, Options, IOptionsProps };
-import type * as TextBoxTypes from 'devextreme/ui/text_box_types';
+import type * as TextBoxTypes from 'dptuicomp/ui/text_box_types';
 export { TextBoxTypes };

@@ -1,7 +1,7 @@
 import { DataObject } from "../Entities/DataObject";
 import { RecurrenceBase } from "./Recurrence/RecurrenceBase";
 import { TimeRange } from "./TimeRange";
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { DateTimeUtils } from "./DateTimeUtils";
 import { RecurrenceFactory } from "./Recurrence/RecurrenceFactory";
 import { Daily } from "./Recurrence/Daily";

@@ -5,8 +5,8 @@ import { SvgPrimitive } from "../../../../Render/Primitives/Primitive";
 import { PathPrimitive, PathPrimitiveMoveToCommand, PathPrimitiveLineToCommand, PathPrimitiveClosePathCommand, PathPrimitiveArcToCommand } from "../../../../Render/Primitives/PathPrimitive";
 import { GeometryUtils } from "../../../../Utils";
 import { ShapeTextPadding } from "../ShapeDescription";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 
 export class DelayShapeDescription extends RectangleShapeDescription {
     static readonly arcWidthRatio = 0.2;

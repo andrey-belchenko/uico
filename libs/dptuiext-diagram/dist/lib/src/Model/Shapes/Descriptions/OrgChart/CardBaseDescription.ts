@@ -1,6 +1,6 @@
 import { ShapeDefaultDimension, ShapeTextPadding } from "../ShapeDescription";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { Shape } from "../../Shape";
 import { SvgPrimitive } from "../../../../Render/Primitives/Primitive";
 import { ShapeWithImageDescription, SHAPE_IMAGE_CLASSNAMES } from "../ShapeWithImageDescription";
@@ -10,8 +10,8 @@ import { GroupPrimitive } from "../../../../Render/Primitives/GroupPrimitive";
 import { ShapeImageIndicator } from "../../../../Render/ShapeImageIndicator";
 import { ShapeTypes } from "../../ShapeTypes";
 import { DiagramLocalizationService } from "../../../../LocalizationService";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 
 export abstract class CardBaseDescription extends ShapeWithImageDescription {
     constructor(defaultSize: Size = new Size(ShapeDefaultDimension, 26 / 46 * ShapeDefaultDimension)) {

@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,7 +8,7 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 "use strict";
@@ -38,7 +38,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TemplateWrapper = void 0;
 const React = __importStar(require("react"));
-const events = __importStar(require("devextreme/events"));
+const events = __importStar(require("dptuicomp/events"));
 const react_1 = require("react");
 const react_dom_1 = require("react-dom");
 const component_base_1 = require("./component-base");

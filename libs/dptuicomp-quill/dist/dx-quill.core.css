@@ -1,6 +1,6 @@
 /*!
  * DevExtreme-Quill Editor v.1.7.1
- * https://js.devexpress.com/
+ * https://js.dptuiext.com/
  * Copyright (c) 2020, Developer Express Inc.
  * Copyright (c) 2017, Slab
  * Copyright (c) 2014, Jason Chen

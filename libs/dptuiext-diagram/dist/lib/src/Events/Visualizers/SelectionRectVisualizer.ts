@@ -1,5 +1,5 @@
 import { EventDispatcher } from "../../Utils";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 import { IVisualizersListener } from "../../Events/EventManager";
 
 export class SelectionRectVisualizer {

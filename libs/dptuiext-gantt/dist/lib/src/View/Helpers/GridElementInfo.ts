@@ -1,6 +1,6 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Margins } from "@devexpress/utils/lib/geometry/margins";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Margins } from "@dptuiext/utils/lib/geometry/margins";
 
 export class GridElementInfo {
     private static id: number = 0;

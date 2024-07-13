@@ -1,6 +1,6 @@
 import { INativeActionListener } from "./INativeActionListener";
 import { EventDispatcher } from "../Utils";
-import { BatchUpdatableObject } from "@devexpress/utils/lib/class/batch-updatable";
+import { BatchUpdatableObject } from "@dptuiext/utils/lib/class/batch-updatable";
 import { DiagramModel } from "../Model/Model";
 import { Selection, ISelectionChangesListener } from "../Selection/Selection";
 import { DiagramMouseEvent, MouseEventElementType } from "../Events/Event";

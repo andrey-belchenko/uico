@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 import Scrollable from "../../../../ui/scroll_view/ui.scrollable";
 export const EDITOR_CELL_CLASS = "dx-editor-cell";

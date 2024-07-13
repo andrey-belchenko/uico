@@ -4,11 +4,11 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.default = void 0;
-var _devextremeQuill = _interopRequireDefault(require("devextreme-quill"));
+var _dptuicompQuill = _interopRequireDefault(require("dptuicomp-quill"));
 
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
@@ -16,8 +16,8 @@ function _interopRequireDefault(obj) {
     }
 }
 let BaseTheme;
-if (_devextremeQuill.default) {
-    const Theme = _devextremeQuill.default.import("core/theme");
+if (_dptuicompQuill.default) {
+    const Theme = _dptuicompQuill.default.import("core/theme");
     BaseTheme = class extends Theme {
         constructor(quill, options) {
             super(quill, options);

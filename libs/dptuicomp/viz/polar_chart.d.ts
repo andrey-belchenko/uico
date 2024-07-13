@@ -4,7 +4,7 @@
 * Build date: Tue Jun 11 2024
 *
 * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
-* Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+* Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
 */
 import {
     UserDefinedElement,
@@ -79,7 +79,7 @@ import {
 
 /**
  * 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface SeriesInteractionInfo {
     /**
@@ -269,7 +269,7 @@ export type ZoomStartEvent = Cancelable & NativeEventInfo<dxPolarChart, MouseEve
 
 /**
  * Specifies properties for PolarChart UI component series.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface PolarChartSeries extends dxPolarChartSeriesTypesCommonPolarChartSeries {
     /**
@@ -289,7 +289,7 @@ export interface PolarChartSeries extends dxPolarChartSeriesTypesCommonPolarChar
 /**
  * 
  * @deprecated 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPolarChartOptions extends BaseChartOptions<dxPolarChart> {
     /**
@@ -1084,7 +1084,7 @@ export default class dxPolarChart extends BaseChart<dxPolarChartOptions> {
 
 /**
  * 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPolarChartAnnotationConfig extends dxPolarChartCommonAnnotationConfig {
     /**
@@ -1095,7 +1095,7 @@ export interface dxPolarChartAnnotationConfig extends dxPolarChartCommonAnnotati
 
 /**
  * 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPolarChartCommonAnnotationConfig extends BaseChartAnnotationConfig {
     /**
@@ -1122,7 +1122,7 @@ export interface dxPolarChartCommonAnnotationConfig extends BaseChartAnnotationC
 
 /**
  * This section lists objects that define properties used to configure series of specific types.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPolarChartSeriesTypes {
     /**
@@ -1151,7 +1151,7 @@ export interface dxPolarChartSeriesTypes {
     stackedbarpolarseries?: dxPolarChartSeriesTypesStackedbarpolarseries;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPolarChartSeriesTypesCommonPolarChartSeries {
     /**
@@ -1424,7 +1424,7 @@ export interface dxPolarChartSeriesTypesCommonPolarChartSeries {
     width?: number;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPolarChartSeriesTypesCommonPolarChartSeriesLabel {
     /**
@@ -1507,7 +1507,7 @@ export interface dxPolarChartSeriesTypesCommonPolarChartSeriesLabel {
      displayFormat?: string;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPolarChartSeriesTypesCommonPolarChartSeriesPoint {
     /**
@@ -1630,7 +1630,7 @@ export interface dxPolarChartSeriesTypesCommonPolarChartSeriesPoint {
     visible?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPolarChartSeriesTypesAreapolarseries extends dxPolarChartSeriesTypesCommonPolarChartSeries {
     /**
@@ -1647,7 +1647,7 @@ export interface dxPolarChartSeriesTypesAreapolarseries extends dxPolarChartSeri
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPolarChartSeriesTypesAreapolarseriesPoint extends dxPolarChartSeriesTypesCommonPolarChartSeriesPoint {
     /**
@@ -1656,7 +1656,7 @@ export interface dxPolarChartSeriesTypesAreapolarseriesPoint extends dxPolarChar
     visible?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPolarChartSeriesTypesBarpolarseries extends dxPolarChartSeriesTypesCommonPolarChartSeries {
     /**
@@ -1669,7 +1669,7 @@ export interface dxPolarChartSeriesTypesBarpolarseries extends dxPolarChartSerie
     selectionMode?: 'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPolarChartSeriesTypesLinepolarseries extends dxPolarChartSeriesTypesCommonPolarChartSeries {
     /**
@@ -1682,7 +1682,7 @@ export interface dxPolarChartSeriesTypesLinepolarseries extends dxPolarChartSeri
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPolarChartSeriesTypesStackedbarpolarseries extends dxPolarChartSeriesTypesCommonPolarChartSeries {
     /**
@@ -1699,7 +1699,7 @@ export interface dxPolarChartSeriesTypesStackedbarpolarseries extends dxPolarCha
     selectionMode?: 'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPolarChartSeriesTypesStackedbarpolarseriesLabel extends dxPolarChartSeriesTypesCommonPolarChartSeriesLabel {
     /**
@@ -1710,14 +1710,14 @@ export interface dxPolarChartSeriesTypesStackedbarpolarseriesLabel extends dxPol
 
 /**
  * This section describes the Point object, which represents a series point.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface polarPointObject extends basePointObject {
 }
 
 /**
  * This section describes the Series object, which represents a series.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface polarChartSeriesObject extends baseSeriesObject {
 }
@@ -1726,7 +1726,7 @@ export type Properties = dxPolarChartOptions;
 
 /**
  * @deprecated use Properties instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type Options = dxPolarChartOptions;
 
@@ -1734,163 +1734,163 @@ export type Options = dxPolarChartOptions;
 
 /**
  * @deprecated Use AdaptiveLayout instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartAdaptiveLayout = AdaptiveLayout;
 
 /**
  * @deprecated Use ArgumentAxis instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartArgumentAxis = ArgumentAxis;
 
 /**
  * @deprecated Use ArgumentAxisConstantLines instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartArgumentAxisConstantLines = ArgumentAxisConstantLines;
 
 /**
  * @deprecated Use ArgumentAxisConstantLinesLabel instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartArgumentAxisConstantLinesLabel = ArgumentAxisConstantLinesLabel;
 
 /**
  * @deprecated Use ArgumentAxisLabel instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartArgumentAxisLabel = ArgumentAxisLabel;
 
 /**
  * @deprecated Use ArgumentAxisMinorTick instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartArgumentAxisMinorTick = ArgumentAxisMinorTick;
 
 /**
  * @deprecated Use ArgumentAxisStrips instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartArgumentAxisStrips = ArgumentAxisStrips;
 
 /**
  * @deprecated Use ArgumentAxisStripsLabel instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartArgumentAxisStripsLabel = ArgumentAxisStripsLabel;
 
 /**
  * @deprecated Use ArgumentAxisTick instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartArgumentAxisTick = ArgumentAxisTick;
 
 /**
  * @deprecated Use CommonAxisSettings instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartCommonAxisSettings = CommonAxisSettings;
 
 /**
  * @deprecated Use CommonAxisSettingsConstantLineStyle instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartCommonAxisSettingsConstantLineStyle = CommonAxisSettingsConstantLineStyle;
 
 /**
  * @deprecated Use CommonAxisSettingsConstantLineStyleLabel instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartCommonAxisSettingsConstantLineStyleLabel = CommonAxisSettingsConstantLineStyleLabel;
 
 /**
  * @deprecated Use CommonAxisSettingsLabel instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartCommonAxisSettingsLabel = CommonAxisSettingsLabel;
 
 /**
  * @deprecated Use CommonAxisSettingsMinorTick instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartCommonAxisSettingsMinorTick = CommonAxisSettingsMinorTick;
 
 /**
  * @deprecated Use CommonAxisSettingsStripStyle instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartCommonAxisSettingsStripStyle = CommonAxisSettingsStripStyle;
 
 /**
  * @deprecated Use CommonAxisSettingsStripStyleLabel instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartCommonAxisSettingsStripStyleLabel = CommonAxisSettingsStripStyleLabel;
 
 /**
  * @deprecated Use CommonAxisSettingsTick instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartCommonAxisSettingsTick = CommonAxisSettingsTick;
 
 /**
  * @deprecated Use CommonSeriesSettings instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartCommonSeriesSettings = CommonSeriesSettings;
 
 /**
  * @deprecated Use Legend instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartLegend = Legend;
 
 /**
  * @deprecated Use Tooltip instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartTooltip = Tooltip;
 
 /**
  * @deprecated Use ValueAxis instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartValueAxis = ValueAxis;
 
 /**
  * @deprecated Use ValueAxisConstantLines instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartValueAxisConstantLines = ValueAxisConstantLines;
 
 /**
  * @deprecated Use ValueAxisConstantLinesLabel instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartValueAxisConstantLinesLabel = ValueAxisConstantLinesLabel;
 
 /**
  * @deprecated Use ValueAxisLabel instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartValueAxisLabel = ValueAxisLabel;
 
 /**
  * @deprecated Use ValueAxisStrips instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartValueAxisStrips = ValueAxisStrips;
 
 /**
  * @deprecated Use ValueAxisStripsLabel instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartValueAxisStripsLabel = ValueAxisStripsLabel;
 
 /**
  * @deprecated Use ValueAxisTick instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPolarChartValueAxisTick = ValueAxisTick;
 

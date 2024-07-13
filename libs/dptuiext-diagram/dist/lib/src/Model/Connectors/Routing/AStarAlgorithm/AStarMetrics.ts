@@ -1,8 +1,8 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Metrics } from "@devexpress/utils/lib/geometry/metrics";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Metrics } from "@dptuiext/utils/lib/geometry/metrics";
 
 import { DiagramItem } from "../../../DiagramItem";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 import { ConnectorRoutingPenaltyDescription } from "../ConnectorRoutingModel";
 
 export enum RightAngleTurnDirection {

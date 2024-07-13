@@ -1,4 +1,4 @@
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { DateTimeUtils } from "../../Model/WorkingTime/DateTimeUtils";
 import { ViewType, TaskTitlePosition } from "../Helpers/Enums";
 import { ElementTextHelperCultureInfo } from "../Utils/ElementTextHelperCultureInfo";

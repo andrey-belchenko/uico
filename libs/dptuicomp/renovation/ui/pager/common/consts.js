@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.PAGER_SELECTION_CLASS = exports.PAGER_SELECTED_PAGE_SIZE_CLASS = exports.PAGER_PAGE_SIZE_CLASS = exports.PAGER_PAGE_SIZES_CLASS = exports.PAGER_PAGE_INDEXES_CLASS = exports.PAGER_PAGE_CLASS = exports.PAGER_PAGES_CLASS = exports.PAGER_CLASS = exports.LIGHT_MODE_CLASS = exports.FIRST_CHILD_CLASS = void 0;

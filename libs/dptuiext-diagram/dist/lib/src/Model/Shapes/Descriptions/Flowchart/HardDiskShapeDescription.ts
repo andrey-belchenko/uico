@@ -4,9 +4,9 @@ import { Shape } from "../../Shape";
 import { SvgPrimitive } from "../../../../Render/Primitives/Primitive";
 import { PathPrimitive, PathPrimitiveMoveToCommand, PathPrimitiveLineToCommand, PathPrimitiveArcToCommand } from "../../../../Render/Primitives/PathPrimitive";
 import { EllipsePrimitive } from "../../../../Render/Primitives/EllipsePrimitive";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 import { ShapeTextPadding } from "../ShapeDescription";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 export class HardDiskShapeDescription extends RectangleShapeDescription {
     static readonly arcWidthRatio = 0.2;

@@ -1,5 +1,5 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Segment } from "@devexpress/utils/lib/geometry/segment";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Segment } from "@dptuiext/utils/lib/geometry/segment";
 import { DiagramItem } from "../../../DiagramItem";
 import { ConnectorRenderPoint } from "../../ConnectorRenderPoint";
 import { IConnectorRoutingModel, IConnectorRoutingStrategy } from "../ConnectorRoutingModel";

@@ -4,12 +4,12 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 import {
     getHeight
 } from "../../../core/utils/size";
-import Quill from "devextreme-quill";
+import Quill from "dptuicomp-quill";
 import $ from "../../../core/renderer";
 import {
     extend

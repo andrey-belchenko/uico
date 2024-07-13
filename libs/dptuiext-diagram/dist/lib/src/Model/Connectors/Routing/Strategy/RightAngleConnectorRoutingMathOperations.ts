@@ -1,7 +1,7 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Segment } from "@devexpress/utils/lib/geometry/segment";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { MathUtils } from "@devexpress/utils/lib/utils/math";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Segment } from "@dptuiext/utils/lib/geometry/segment";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { MathUtils } from "@dptuiext/utils/lib/utils/math";
 
 import { RightAngleTurnDirection } from "../AStarAlgorithm/AStarMetrics";
 import { GeometryUtils } from "../../../../Utils";

@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,21 +8,21 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxScheduler, { Properties } from "devextreme/ui/scheduler";
+import dxScheduler, { Properties } from "dptuicomp/ui/scheduler";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { AppointmentAddedEvent, AppointmentAddingEvent, AppointmentClickEvent, AppointmentContextMenuEvent, AppointmentDblClickEvent, AppointmentDeletedEvent, AppointmentDeletingEvent, AppointmentFormOpeningEvent, AppointmentRenderedEvent, AppointmentTooltipShowingEvent, AppointmentUpdatedEvent, AppointmentUpdatingEvent, CellClickEvent, CellContextMenuEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, AppointmentTemplateData, AppointmentTooltipTemplateData, dxSchedulerScrolling } from "devextreme/ui/scheduler";
-import type { event } from "devextreme/events/index";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
-import type { template } from "devextreme/core/templates/template";
-import type dxSortable from "devextreme/ui/sortable";
-import type dxDraggable from "devextreme/ui/draggable";
-import type DataSource from "devextreme/data/data_source";
+import type { AppointmentAddedEvent, AppointmentAddingEvent, AppointmentClickEvent, AppointmentContextMenuEvent, AppointmentDblClickEvent, AppointmentDeletedEvent, AppointmentDeletingEvent, AppointmentFormOpeningEvent, AppointmentRenderedEvent, AppointmentTooltipShowingEvent, AppointmentUpdatedEvent, AppointmentUpdatingEvent, CellClickEvent, CellContextMenuEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, AppointmentTemplateData, AppointmentTooltipTemplateData, dxSchedulerScrolling } from "dptuicomp/ui/scheduler";
+import type { event } from "dptuicomp/events/index";
+import type { DataSourceOptions } from "dptuicomp/data/data_source";
+import type { Store } from "dptuicomp/data/store";
+import type { template } from "dptuicomp/core/templates/template";
+import type dxSortable from "dptuicomp/ui/sortable";
+import type dxDraggable from "dptuicomp/ui/draggable";
+import type DataSource from "dptuicomp/data/data_source";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -214,5 +214,5 @@ declare const _componentView: React.MemoExoticComponent<(props: IViewProps) => R
 declare const View: typeof _componentView & IElementDescriptor;
 export default Scheduler;
 export { Scheduler, ISchedulerOptions, SchedulerRef, AppointmentDragging, IAppointmentDraggingProps, Editing, IEditingProps, Resource, IResourceProps, Scrolling, IScrollingProps, View, IViewProps };
-import type * as SchedulerTypes from 'devextreme/ui/scheduler_types';
+import type * as SchedulerTypes from 'dptuicomp/ui/scheduler_types';
 export { SchedulerTypes };

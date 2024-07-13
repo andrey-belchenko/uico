@@ -7,7 +7,7 @@ import { ViewVisualModelItem } from "./ViewVisualModelItem";
 import { ViewVisualModelDependencyInfo } from "./ViewVisualModelDependencyInfo";
 import { WorkingTimeCalculator } from "../WorkingTime/WorkingTimeCalculator";
 import { DateRange } from "../WorkingTime/DateRange";
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { DataObject, GanttDataObjectNames } from "../Entities/DataObject";
 import { Dependency } from "../Entities/Dependency";
 import { Resource } from "../Entities/Resource";

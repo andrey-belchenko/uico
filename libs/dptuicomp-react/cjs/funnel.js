@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,7 +8,7 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 "use client";
@@ -43,7 +43,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.TooltipBorder = exports.Tooltip = exports.Title = exports.Subtitle = exports.Size = exports.Shadow = exports.SelectionStyle = exports.Margin = exports.LoadingIndicator = exports.LegendTitleSubtitle = exports.LegendTitle = exports.LegendBorder = exports.Legend = exports.LabelBorder = exports.Label = exports.ItemBorder = exports.Item = exports.HoverStyle = exports.Hatching = exports.FunnelTitleSubtitle = exports.FunnelTitle = exports.Format = exports.Font = exports.Export = exports.Connector = exports.Border = exports.AdaptiveLayout = exports.Funnel = void 0;
 const React = __importStar(require("react"));
 const react_1 = require("react");
-const funnel_1 = __importDefault(require("devextreme/viz/funnel"));
+const funnel_1 = __importDefault(require("dptuicomp/viz/funnel"));
 const component_1 = require("./core/component");
 const nested_option_1 = __importDefault(require("./core/nested-option"));
 const Funnel = (0, react_1.memo)((0, react_1.forwardRef)((props, ref) => {

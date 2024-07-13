@@ -4,7 +4,7 @@
 * Build date: Tue Jun 11 2024
 *
 * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
-* Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+* Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
 */
 import {
     UserDefinedElement,
@@ -78,8 +78,8 @@ export {
 export type PieChartAnnotationLocation = 'center' | 'edge';
 export type PieChartLegendHoverMode = 'none' | 'allArgumentPoints';
 /**
- * @deprecated Use ShiftLabelOverlap from 'devextreme/common/charts' instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Use ShiftLabelOverlap from 'dptuicomp/common/charts' instead
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type PieChartLabelOverlap = ShiftLabelOverlap;
 export type PieChartSegmentDirection = 'anticlockwise' | 'clockwise';
@@ -178,7 +178,7 @@ export type LegendItem = PieChartLegendItem;
 
 /**
  * @deprecated Use LegendItem instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface PieChartLegendItem extends BaseLegendItem {
     /**
@@ -201,7 +201,7 @@ export interface PieChartLegendItem extends BaseLegendItem {
 
 /**
  * Specifies properties for the series of the PieChart UI component.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface PieChartSeries extends dxPieChartSeriesTypesCommonPieChartSeries {
     /**
@@ -216,7 +216,7 @@ export interface PieChartSeries extends dxPieChartSeriesTypesCommonPieChartSerie
 /**
  * 
  * @deprecated 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPieChartOptions extends BaseChartOptions<dxPieChart> {
     /**
@@ -308,7 +308,7 @@ export interface dxPieChartOptions extends BaseChartOptions<dxPieChart> {
 
 /**
  * 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPieChartAnnotationConfig extends dxPieChartCommonAnnotationConfig {
     /**
@@ -319,7 +319,7 @@ export interface dxPieChartAnnotationConfig extends dxPieChartCommonAnnotationCo
 
 /**
  * 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPieChartCommonAnnotationConfig extends BaseWidgetAnnotationConfig {
     /**
@@ -393,7 +393,7 @@ export default class dxPieChart extends BaseChart<dxPieChartOptions> {
 
 /**
  * This section lists the objects that define properties to be used to configure series of particular types.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPieChartSeriesTypes {
     /**
@@ -410,7 +410,7 @@ export interface dxPieChartSeriesTypes {
     PieSeries?: any;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxPieChartSeriesTypesCommonPieChartSeries {
     /**
@@ -696,7 +696,7 @@ export interface dxPieChartSeriesTypesCommonPieChartSeries {
 
 /**
  * This section describes the Point object, which represents a series point.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface piePointObject extends basePointObject {
     /**
@@ -719,7 +719,7 @@ export interface piePointObject extends basePointObject {
 
 /**
  * This section describes the Series object, which represents a series.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface pieChartSeriesObject extends baseSeriesObject {
   /**
@@ -740,7 +740,7 @@ export type Properties = dxPieChartOptions;
 
 /**
  * @deprecated use Properties instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type Options = dxPieChartOptions;
 
@@ -748,13 +748,13 @@ export type Options = dxPieChartOptions;
 
 /**
  * @deprecated Use AdaptiveLayout instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPieChartAdaptiveLayout = AdaptiveLayout;
 
 /**
  * @deprecated Use Legend instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxPieChartLegend = Legend;
 

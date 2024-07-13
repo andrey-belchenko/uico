@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,15 +8,15 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxPivotGridFieldChooser, { Properties } from "devextreme/ui/pivot_grid_field_chooser";
+import dxPivotGridFieldChooser, { Properties } from "dptuicomp/ui/pivot_grid_field_chooser";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ContentReadyEvent, ContextMenuPreparingEvent, DisposingEvent, InitializedEvent } from "devextreme/ui/pivot_grid_field_chooser";
-import type { HeaderFilterSearchConfig } from "devextreme/common/grids";
+import type { ContentReadyEvent, ContextMenuPreparingEvent, DisposingEvent, InitializedEvent } from "dptuicomp/ui/pivot_grid_field_chooser";
+import type { HeaderFilterSearchConfig } from "dptuicomp/common/grids";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -87,5 +87,5 @@ declare const _componentTexts: React.MemoExoticComponent<(props: ITextsProps) =>
 declare const Texts: typeof _componentTexts & IElementDescriptor;
 export default PivotGridFieldChooser;
 export { PivotGridFieldChooser, IPivotGridFieldChooserOptions, PivotGridFieldChooserRef, HeaderFilter, IHeaderFilterProps, HeaderFilterTexts, IHeaderFilterTextsProps, PivotGridFieldChooserTexts, IPivotGridFieldChooserTextsProps, Search, ISearchProps, Texts, ITextsProps };
-import type * as PivotGridFieldChooserTypes from 'devextreme/ui/pivot_grid_field_chooser_types';
+import type * as PivotGridFieldChooserTypes from 'dptuicomp/ui/pivot_grid_field_chooser_types';
 export { PivotGridFieldChooserTypes };

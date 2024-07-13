@@ -4,7 +4,7 @@
 * Build date: Tue Jun 11 2024
 *
 * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
-* Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+* Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
 */
 import {
     UserDefinedElement,
@@ -80,7 +80,7 @@ import Widget from './widget/ui.widget';
 
 /**
  * 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface CellInfo<TRowData = any, TKey = any> {
     /**
@@ -859,7 +859,7 @@ export type ColumnEditCellTemplateData<TRowData = any, TKey = any> = {
 };
 
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type ColumnHeaderCellTemplateData<TRowData = any, TKey = any> = {
     readonly component: dxTreeList<TRowData, TKey>;
@@ -1027,7 +1027,7 @@ export type dxTreeListOptions<TRowData = any, TKey = any> = Omit<GridBaseOptions
 
 /**
  * @deprecated Use Editing instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxTreeListEditing<TRowData = any, TKey = any> = Editing<TRowData, TKey>;
 
@@ -1055,7 +1055,7 @@ export interface Editing<TRowData = any, TKey = any> extends EditingBase<TRowDat
 
 /**
  * @deprecated Use EditingTexts instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxTreeListEditingTexts = EditingTexts;
 
@@ -1071,7 +1071,7 @@ export type EditingTexts = EditingTextsBase & {
 
 /**
  * @deprecated Use Paging instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxTreeListPaging = Paging;
 
@@ -1087,7 +1087,7 @@ export type Paging = PagingBase & {
 
 /**
  * @deprecated Use Scrolling instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxTreeListScrolling = Scrolling;
 
@@ -1103,7 +1103,7 @@ export interface Scrolling extends ScrollingBase {
 
 /**
  * @deprecated Use Selection instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxTreeListSelection = Selection;
 
@@ -1271,17 +1271,17 @@ export default class dxTreeList<TRowData = any, TKey = any> extends Widget<dxTre
 
 type DefaultToolbarItemName = 'addRowButton' | 'applyFilterButton' | 'columnChooserButton' | 'revertButton' | 'saveButton' | 'searchPanel';
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxTreeListToolbar = Toolbar;
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxTreeListToolbarItem = ToolbarItem;
 
 /**
  * Configures toolbar items.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface ToolbarItem extends dxToolbarItem {
     /**
@@ -1316,7 +1316,7 @@ export type Column<TRowData = any, TKey = any> = dxTreeListColumn<TRowData, TKey
 
 /**
  * @deprecated Use the Column type instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxTreeListColumn<TRowData = any, TKey = any> extends ColumnBase<TRowData> {
     /**
@@ -1349,7 +1349,7 @@ export type ColumnButton<TRowData = any, TKey = any> = dxTreeListColumnButton<TR
 
 /**
  * @deprecated Use the TreeList's ColumnButton type instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxTreeListColumnButton<TRowData = any, TKey = any> extends ColumnButtonBase {
     /**
@@ -1376,7 +1376,7 @@ export interface dxTreeListColumnButton<TRowData = any, TKey = any> extends Colu
 
 /**
  * @deprecated Use Node instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxTreeListNode<TRowData = any, TKey = any> = Node<TRowData, TKey>;
 
@@ -1416,7 +1416,7 @@ export type Node<TRowData = any, TKey = any> = {
 
 /**
  * @deprecated Use Row instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxTreeListRowObject<TRowData = any, TKey = any> = Row<TRowData, TKey>;
 
@@ -1536,7 +1536,7 @@ export type Properties<TRowData = any, TKey = any> = dxTreeListOptions<TRowData,
 
 /**
  * @deprecated use Properties instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type Options<TRowData = any, TKey = any> = dxTreeListOptions<TRowData, TKey>;
 

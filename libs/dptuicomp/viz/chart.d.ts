@@ -4,7 +4,7 @@
 * Build date: Tue Jun 11 2024
 *
 * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
-* Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+* Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
 */
 import {
     UserDefinedElement,
@@ -88,7 +88,7 @@ import {
 
 /**
  * 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface SeriesInteractionInfo {
     /**
@@ -305,7 +305,7 @@ export type ZoomStartEvent = Cancelable & NativeEventInfo<dxChart, MouseEvent | 
 
 /**
  * This section describes the Label object, which represents a point label.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface baseLabelObject {
     /**
@@ -340,7 +340,7 @@ export interface baseLabelObject {
 
 /**
  * This section describes the Point object, which represents a series point.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface basePointObject {
     /**
@@ -411,7 +411,7 @@ export interface basePointObject {
 
 /**
  * This section describes the Series object, which represents a series.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface baseSeriesObject {
     /**
@@ -498,7 +498,7 @@ export interface baseSeriesObject {
 
 /**
  * This section describes the Axis object. This object represents a chart axis.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface chartAxisObject {
     /**
@@ -513,7 +513,7 @@ export interface chartAxisObject {
 
 /**
  * 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface chartPointAggregationInfoObject {
     /**
@@ -536,7 +536,7 @@ export interface chartPointAggregationInfoObject {
 
 /**
  * This section describes the Point object, which represents a series point.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface chartPointObject extends basePointObject {
     /**
@@ -574,7 +574,7 @@ export interface chartPointObject extends basePointObject {
 }
 /**
  * This section describes the Series object, which represents a series.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface chartSeriesObject extends baseSeriesObject {
     /**
@@ -606,7 +606,7 @@ export interface chartSeriesObject extends baseSeriesObject {
 /**
  * 
  * @deprecated 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartOptions extends BaseChartOptions<dxChart> {
     /**
@@ -1782,7 +1782,7 @@ export type Panes = CommonPaneSettings & {
 };
 /**
  * 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type Tooltip = BaseChartTooltip & {
     /**
@@ -2059,7 +2059,7 @@ export default class dxChart extends BaseChart<dxChartOptions> {
 
 /**
  * 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartAnnotationConfig extends dxChartCommonAnnotationConfig {
     /**
@@ -2070,7 +2070,7 @@ export interface dxChartAnnotationConfig extends dxChartCommonAnnotationConfig {
 
 /**
  * 
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartCommonAnnotationConfig extends BaseChartAnnotationConfig {
     /**
@@ -2093,7 +2093,7 @@ export interface dxChartCommonAnnotationConfig extends BaseChartAnnotationConfig
 
 /**
  * This section lists objects that define properties used to configure series of specific types.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypes {
     /**
@@ -2194,7 +2194,7 @@ export interface dxChartSeriesTypes {
     StockSeries?: dxChartSeriesTypesStockSeries;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesAreaSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -2219,7 +2219,7 @@ export interface dxChartSeriesTypesAreaSeries extends dxChartSeriesTypesCommonSe
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesAreaSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -2228,7 +2228,7 @@ export interface dxChartSeriesTypesAreaSeriesAggregation extends dxChartSeriesTy
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesAreaSeriesLabel extends SeriesLabel {
     /**
@@ -2237,7 +2237,7 @@ export interface dxChartSeriesTypesAreaSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesAreaSeriesPoint extends SeriesPoint {
     /**
@@ -2246,7 +2246,7 @@ export interface dxChartSeriesTypesAreaSeriesPoint extends SeriesPoint {
     visible?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesBarSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -2267,7 +2267,7 @@ export interface dxChartSeriesTypesBarSeries extends dxChartSeriesTypesCommonSer
     selectionMode?: 'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesBarSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -2276,7 +2276,7 @@ export interface dxChartSeriesTypesBarSeriesAggregation extends dxChartSeriesTyp
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesBarSeriesLabel extends SeriesLabel {
     /**
@@ -2285,7 +2285,7 @@ export interface dxChartSeriesTypesBarSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesBubbleSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -2306,7 +2306,7 @@ export interface dxChartSeriesTypesBubbleSeries extends dxChartSeriesTypesCommon
     selectionMode?: 'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesBubbleSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -2315,7 +2315,7 @@ export interface dxChartSeriesTypesBubbleSeriesAggregation extends dxChartSeries
     method?: ChartBubbleSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesBubbleSeriesLabel extends SeriesLabel {
     /**
@@ -2324,7 +2324,7 @@ export interface dxChartSeriesTypesBubbleSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCandleStickSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -2357,7 +2357,7 @@ export interface dxChartSeriesTypesCandleStickSeries extends dxChartSeriesTypesC
     selectionStyle?: dxChartSeriesTypesCandleStickSeriesSelectionStyle;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCandleStickSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -2366,7 +2366,7 @@ export interface dxChartSeriesTypesCandleStickSeriesAggregation extends dxChartS
     method?: ChartFinancialSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCandleStickSeriesHoverStyle extends dxChartSeriesTypesCommonSeriesHoverStyle {
     /**
@@ -2375,7 +2375,7 @@ export interface dxChartSeriesTypesCandleStickSeriesHoverStyle extends dxChartSe
     hatching?: dxChartSeriesTypesCandleStickSeriesHoverStyleHatching;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCandleStickSeriesHoverStyleHatching extends dxChartSeriesTypesCommonSeriesHoverStyleHatching {
     /**
@@ -2384,7 +2384,7 @@ export interface dxChartSeriesTypesCandleStickSeriesHoverStyleHatching extends d
     direction?: HatchDirection;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCandleStickSeriesLabel extends SeriesLabel {
     /**
@@ -2393,7 +2393,7 @@ export interface dxChartSeriesTypesCandleStickSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCandleStickSeriesSelectionStyle extends dxChartSeriesTypesCommonSeriesSelectionStyle {
     /**
@@ -2402,7 +2402,7 @@ export interface dxChartSeriesTypesCandleStickSeriesSelectionStyle extends dxCha
     hatching?: dxChartSeriesTypesCandleStickSeriesSelectionStyleHatching;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCandleStickSeriesSelectionStyleHatching extends dxChartSeriesTypesCommonSeriesSelectionStyleHatching {
     /**
@@ -2411,7 +2411,7 @@ export interface dxChartSeriesTypesCandleStickSeriesSelectionStyleHatching exten
     direction?: HatchDirection;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCommonSeries {
     /**
@@ -2610,7 +2610,7 @@ export interface dxChartSeriesTypesCommonSeries {
     width?: number;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -2627,7 +2627,7 @@ export interface dxChartSeriesTypesCommonSeriesAggregation {
     method?: ChartSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCommonSeriesBorder {
     /**
@@ -2648,7 +2648,7 @@ export interface dxChartSeriesTypesCommonSeriesBorder {
     width?: number;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCommonSeriesHoverStyle {
     /**
@@ -2677,7 +2677,7 @@ export interface dxChartSeriesTypesCommonSeriesHoverStyle {
     highlight?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCommonSeriesHoverStyleBorder {
     /**
@@ -2698,7 +2698,7 @@ export interface dxChartSeriesTypesCommonSeriesHoverStyleBorder {
     width?: number;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCommonSeriesHoverStyleHatching {
     /**
@@ -2720,7 +2720,7 @@ export interface dxChartSeriesTypesCommonSeriesHoverStyleHatching {
 }
 
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCommonSeriesSelectionStyle {
     /**
@@ -2749,7 +2749,7 @@ export interface dxChartSeriesTypesCommonSeriesSelectionStyle {
     highlight?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCommonSeriesSelectionStyleBorder {
     /**
@@ -2770,7 +2770,7 @@ export interface dxChartSeriesTypesCommonSeriesSelectionStyleBorder {
     width?: number;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesCommonSeriesSelectionStyleHatching {
     /**
@@ -2791,7 +2791,7 @@ export interface dxChartSeriesTypesCommonSeriesSelectionStyleHatching {
     width?: number;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedAreaSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -2816,7 +2816,7 @@ export interface dxChartSeriesTypesFullStackedAreaSeries extends dxChartSeriesTy
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedAreaSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -2825,7 +2825,7 @@ export interface dxChartSeriesTypesFullStackedAreaSeriesAggregation extends dxCh
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedAreaSeriesLabel extends SeriesLabel {
     /**
@@ -2834,7 +2834,7 @@ export interface dxChartSeriesTypesFullStackedAreaSeriesLabel extends SeriesLabe
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedAreaSeriesPoint extends SeriesPoint {
     /**
@@ -2843,7 +2843,7 @@ export interface dxChartSeriesTypesFullStackedAreaSeriesPoint extends SeriesPoin
     visible?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedBarSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -2864,7 +2864,7 @@ export interface dxChartSeriesTypesFullStackedBarSeries extends dxChartSeriesTyp
     selectionMode?: 'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedBarSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -2873,7 +2873,7 @@ export interface dxChartSeriesTypesFullStackedBarSeriesAggregation extends dxCha
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedBarSeriesLabel extends SeriesLabel {
     /**
@@ -2886,7 +2886,7 @@ export interface dxChartSeriesTypesFullStackedBarSeriesLabel extends SeriesLabel
     position?: RelativePosition;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedLineSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -2907,7 +2907,7 @@ export interface dxChartSeriesTypesFullStackedLineSeries extends dxChartSeriesTy
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedLineSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -2916,7 +2916,7 @@ export interface dxChartSeriesTypesFullStackedLineSeriesAggregation extends dxCh
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedLineSeriesLabel extends SeriesLabel {
     /**
@@ -2925,7 +2925,7 @@ export interface dxChartSeriesTypesFullStackedLineSeriesLabel extends SeriesLabe
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedSplineAreaSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -2950,7 +2950,7 @@ export interface dxChartSeriesTypesFullStackedSplineAreaSeries extends dxChartSe
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedSplineAreaSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -2959,7 +2959,7 @@ export interface dxChartSeriesTypesFullStackedSplineAreaSeriesAggregation extend
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedSplineAreaSeriesLabel extends SeriesLabel {
     /**
@@ -2968,7 +2968,7 @@ export interface dxChartSeriesTypesFullStackedSplineAreaSeriesLabel extends Seri
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedSplineAreaSeriesPoint extends SeriesPoint {
     /**
@@ -2977,7 +2977,7 @@ export interface dxChartSeriesTypesFullStackedSplineAreaSeriesPoint extends Seri
     visible?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedSplineSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -2998,7 +2998,7 @@ export interface dxChartSeriesTypesFullStackedSplineSeries extends dxChartSeries
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedSplineSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3007,7 +3007,7 @@ export interface dxChartSeriesTypesFullStackedSplineSeriesAggregation extends dx
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesFullStackedSplineSeriesLabel extends SeriesLabel {
     /**
@@ -3016,7 +3016,7 @@ export interface dxChartSeriesTypesFullStackedSplineSeriesLabel extends SeriesLa
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesLineSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3037,7 +3037,7 @@ export interface dxChartSeriesTypesLineSeries extends dxChartSeriesTypesCommonSe
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesLineSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3046,7 +3046,7 @@ export interface dxChartSeriesTypesLineSeriesAggregation extends dxChartSeriesTy
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesLineSeriesLabel extends SeriesLabel {
     /**
@@ -3055,7 +3055,7 @@ export interface dxChartSeriesTypesLineSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesRangeAreaSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3080,7 +3080,7 @@ export interface dxChartSeriesTypesRangeAreaSeries extends dxChartSeriesTypesCom
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesRangeAreaSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3089,7 +3089,7 @@ export interface dxChartSeriesTypesRangeAreaSeriesAggregation extends dxChartSer
     method?: ChartRangeSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesRangeAreaSeriesLabel extends SeriesLabel {
     /**
@@ -3098,7 +3098,7 @@ export interface dxChartSeriesTypesRangeAreaSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesRangeAreaSeriesPoint extends SeriesPoint {
     /**
@@ -3107,7 +3107,7 @@ export interface dxChartSeriesTypesRangeAreaSeriesPoint extends SeriesPoint {
     visible?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesRangeBarSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3128,7 +3128,7 @@ export interface dxChartSeriesTypesRangeBarSeries extends dxChartSeriesTypesComm
     selectionMode?: 'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesRangeBarSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3137,7 +3137,7 @@ export interface dxChartSeriesTypesRangeBarSeriesAggregation extends dxChartSeri
     method?: ChartRangeSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesRangeBarSeriesLabel extends SeriesLabel {
     /**
@@ -3146,7 +3146,7 @@ export interface dxChartSeriesTypesRangeBarSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesScatterSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3159,7 +3159,7 @@ export interface dxChartSeriesTypesScatterSeries extends dxChartSeriesTypesCommo
     label?: dxChartSeriesTypesScatterSeriesLabel;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesScatterSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3168,7 +3168,7 @@ export interface dxChartSeriesTypesScatterSeriesAggregation extends dxChartSerie
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesScatterSeriesLabel extends SeriesLabel {
     /**
@@ -3177,7 +3177,7 @@ export interface dxChartSeriesTypesScatterSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesSplineAreaSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3202,7 +3202,7 @@ export interface dxChartSeriesTypesSplineAreaSeries extends dxChartSeriesTypesCo
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesSplineAreaSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3211,7 +3211,7 @@ export interface dxChartSeriesTypesSplineAreaSeriesAggregation extends dxChartSe
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesSplineAreaSeriesLabel extends SeriesLabel {
     /**
@@ -3220,7 +3220,7 @@ export interface dxChartSeriesTypesSplineAreaSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesSplineAreaSeriesPoint extends SeriesPoint {
     /**
@@ -3229,7 +3229,7 @@ export interface dxChartSeriesTypesSplineAreaSeriesPoint extends SeriesPoint {
     visible?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesSplineSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3250,7 +3250,7 @@ export interface dxChartSeriesTypesSplineSeries extends dxChartSeriesTypesCommon
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesSplineSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3259,7 +3259,7 @@ export interface dxChartSeriesTypesSplineSeriesAggregation extends dxChartSeries
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesSplineSeriesLabel extends SeriesLabel {
     /**
@@ -3268,7 +3268,7 @@ export interface dxChartSeriesTypesSplineSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedAreaSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3293,7 +3293,7 @@ export interface dxChartSeriesTypesStackedAreaSeries extends dxChartSeriesTypesC
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedAreaSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3302,7 +3302,7 @@ export interface dxChartSeriesTypesStackedAreaSeriesAggregation extends dxChartS
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedAreaSeriesLabel extends SeriesLabel {
     /**
@@ -3311,7 +3311,7 @@ export interface dxChartSeriesTypesStackedAreaSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedAreaSeriesPoint extends SeriesPoint {
     /**
@@ -3320,7 +3320,7 @@ export interface dxChartSeriesTypesStackedAreaSeriesPoint extends SeriesPoint {
     visible?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedBarSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3341,7 +3341,7 @@ export interface dxChartSeriesTypesStackedBarSeries extends dxChartSeriesTypesCo
     selectionMode?: 'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedBarSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3350,7 +3350,7 @@ export interface dxChartSeriesTypesStackedBarSeriesAggregation extends dxChartSe
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedBarSeriesLabel extends SeriesLabel {
     /**
@@ -3363,7 +3363,7 @@ export interface dxChartSeriesTypesStackedBarSeriesLabel extends SeriesLabel {
     position?: RelativePosition;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedLineSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3384,7 +3384,7 @@ export interface dxChartSeriesTypesStackedLineSeries extends dxChartSeriesTypesC
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedLineSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3393,7 +3393,7 @@ export interface dxChartSeriesTypesStackedLineSeriesAggregation extends dxChartS
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedLineSeriesLabel extends SeriesLabel {
     /**
@@ -3402,7 +3402,7 @@ export interface dxChartSeriesTypesStackedLineSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedSplineAreaSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3427,7 +3427,7 @@ export interface dxChartSeriesTypesStackedSplineAreaSeries extends dxChartSeries
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedSplineAreaSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3436,7 +3436,7 @@ export interface dxChartSeriesTypesStackedSplineAreaSeriesAggregation extends dx
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedSplineAreaSeriesLabel extends SeriesLabel {
     /**
@@ -3445,7 +3445,7 @@ export interface dxChartSeriesTypesStackedSplineAreaSeriesLabel extends SeriesLa
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedSplineAreaSeriesPoint extends SeriesPoint {
     /**
@@ -3454,7 +3454,7 @@ export interface dxChartSeriesTypesStackedSplineAreaSeriesPoint extends SeriesPo
     visible?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedSplineSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3475,7 +3475,7 @@ export interface dxChartSeriesTypesStackedSplineSeries extends dxChartSeriesType
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedSplineSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3484,7 +3484,7 @@ export interface dxChartSeriesTypesStackedSplineSeriesAggregation extends dxChar
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStackedSplineSeriesLabel extends SeriesLabel {
     /**
@@ -3493,7 +3493,7 @@ export interface dxChartSeriesTypesStackedSplineSeriesLabel extends SeriesLabel 
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStepAreaSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3530,7 +3530,7 @@ export interface dxChartSeriesTypesStepAreaSeries extends dxChartSeriesTypesComm
     selectionStyle?: dxChartSeriesTypesStepAreaSeriesSelectionStyle;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStepAreaSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3539,7 +3539,7 @@ export interface dxChartSeriesTypesStepAreaSeriesAggregation extends dxChartSeri
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStepAreaSeriesBorder extends dxChartSeriesTypesCommonSeriesBorder {
     /**
@@ -3548,7 +3548,7 @@ export interface dxChartSeriesTypesStepAreaSeriesBorder extends dxChartSeriesTyp
     visible?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStepAreaSeriesHoverStyle extends dxChartSeriesTypesCommonSeriesHoverStyle {
     /**
@@ -3557,7 +3557,7 @@ export interface dxChartSeriesTypesStepAreaSeriesHoverStyle extends dxChartSerie
     border?: dxChartSeriesTypesStepAreaSeriesHoverStyleBorder;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStepAreaSeriesHoverStyleBorder extends dxChartSeriesTypesCommonSeriesHoverStyleBorder {
     /**
@@ -3566,7 +3566,7 @@ export interface dxChartSeriesTypesStepAreaSeriesHoverStyleBorder extends dxChar
     visible?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStepAreaSeriesLabel extends SeriesLabel {
     /**
@@ -3575,7 +3575,7 @@ export interface dxChartSeriesTypesStepAreaSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStepAreaSeriesPoint extends SeriesPoint {
     /**
@@ -3584,7 +3584,7 @@ export interface dxChartSeriesTypesStepAreaSeriesPoint extends SeriesPoint {
     visible?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStepAreaSeriesSelectionStyle extends dxChartSeriesTypesCommonSeriesSelectionStyle {
     /**
@@ -3593,7 +3593,7 @@ export interface dxChartSeriesTypesStepAreaSeriesSelectionStyle extends dxChartS
     border?: dxChartSeriesTypesStepAreaSeriesSelectionStyleBorder;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStepAreaSeriesSelectionStyleBorder extends dxChartSeriesTypesCommonSeriesSelectionStyleBorder {
     /**
@@ -3602,7 +3602,7 @@ export interface dxChartSeriesTypesStepAreaSeriesSelectionStyleBorder extends dx
     visible?: boolean;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStepLineSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3623,7 +3623,7 @@ export interface dxChartSeriesTypesStepLineSeries extends dxChartSeriesTypesComm
     selectionMode?: 'includePoints' | 'excludePoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStepLineSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3632,7 +3632,7 @@ export interface dxChartSeriesTypesStepLineSeriesAggregation extends dxChartSeri
     method?: ChartSingleValueSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStepLineSeriesLabel extends SeriesLabel {
     /**
@@ -3641,7 +3641,7 @@ export interface dxChartSeriesTypesStepLineSeriesLabel extends SeriesLabel {
     customizeText?: ((pointInfo: any) => string);
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStockSeries extends dxChartSeriesTypesCommonSeries {
     /**
@@ -3666,7 +3666,7 @@ export interface dxChartSeriesTypesStockSeries extends dxChartSeriesTypesCommonS
     selectionMode?: 'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none';
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStockSeriesAggregation extends dxChartSeriesTypesCommonSeriesAggregation {
     /**
@@ -3675,7 +3675,7 @@ export interface dxChartSeriesTypesStockSeriesAggregation extends dxChartSeriesT
     method?: ChartFinancialSeriesAggregationMethod;
 }
 /**
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface dxChartSeriesTypesStockSeriesLabel extends SeriesLabel {
     /**
@@ -3688,7 +3688,7 @@ export type Properties = dxChartOptions;
 
 /**
  * @deprecated use Properties instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type Options = dxChartOptions;
 
@@ -3696,181 +3696,181 @@ export type Options = dxChartOptions;
 
     /**
      * @deprecated Use ArgumentAxis instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartArgumentAxis = ArgumentAxis;
 
     /**
      * @deprecated Use ArgumentAxisConstantLines instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartArgumentAxisConstantLines = ArgumentAxisConstantLines;
 
     /**
      * @deprecated Use ArgumentAxisConstantLinesLabel instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartArgumentAxisConstantLinesLabel = ArgumentAxisConstantLinesLabel;
 
     /**
      * @deprecated Use ArgumentAxisConstantLineStyle instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartArgumentAxisConstantLineStyle = ArgumentAxisConstantLineStyle;
 
     /**
      * @deprecated Use ArgumentAxisConstantLineStyleLabel instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartArgumentAxisConstantLineStyleLabel = ArgumentAxisConstantLineStyleLabel;
 
     /**
      * @deprecated Use ArgumentAxisLabel instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartArgumentAxisLabel = ArgumentAxisLabel;
 
     /**
      * @deprecated Use ArgumentAxisStrips instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartArgumentAxisStrips = ArgumentAxisStrips;
 
     /**
      * @deprecated Use ArgumentAxisStripsLabel instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartArgumentAxisStripsLabel = ArgumentAxisStripsLabel;
 
     /**
      * @deprecated Use ArgumentAxisTitle instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartArgumentAxisTitle = ArgumentAxisTitle;
 
     /**
      * @deprecated Use CommonAxisSettings instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartCommonAxisSettings = CommonAxisSettings;
 
     /**
      * @deprecated Use CommonAxisSettingsConstantLineStyle instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartCommonAxisSettingsConstantLineStyle = CommonAxisSettingsConstantLineStyle;
 
     /**
      * @deprecated Use CommonAxisSettingsConstantLineStyleLabel instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartCommonAxisSettingsConstantLineStyleLabel = CommonAxisSettingsConstantLineStyleLabel;
 
     /**
      * @deprecated Use CommonAxisSettingsLabel instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartCommonAxisSettingsLabel = CommonAxisSettingsLabel;
 
     /**
      * @deprecated Use CommonAxisSettingsStripStyle instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartCommonAxisSettingsStripStyle = CommonAxisSettingsStripStyle;
 
     /**
      * @deprecated Use CommonAxisSettingsStripStyleLabel instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartCommonAxisSettingsStripStyleLabel = CommonAxisSettingsStripStyleLabel;
 
     /**
      * @deprecated Use CommonAxisSettingsTitle instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartCommonAxisSettingsTitle = CommonAxisSettingsTitle;
 
     /**
      * @deprecated Use CommonPaneSettings instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartCommonPaneSettings = CommonPaneSettings;
 
     /**
      * @deprecated Use CommonSeriesSettings instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartCommonSeriesSettings = CommonSeriesSettings;
 
     /**
      * @deprecated Use Legend instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartLegend = Legend;
 
     /**
      * @deprecated Use Panes instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartPanes = Panes;
 
     /**
      * @deprecated Use Tooltip instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartTooltip = Tooltip;
 
     /**
      * @deprecated Use ValueAxis instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartValueAxis = ValueAxis;
 
     /**
      * @deprecated Use ValueAxisConstantLines instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartValueAxisConstantLines = ValueAxisConstantLines;
 
     /**
      * @deprecated Use ValueAxisConstantLinesLabel instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartValueAxisConstantLinesLabel = ValueAxisConstantLinesLabel;
 
     /**
      * @deprecated Use ValueAxisConstantLineStyle instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartValueAxisConstantLineStyle = ValueAxisConstantLineStyle;
 
     /**
      * @deprecated Use ValueAxisConstantLineStyleLabel instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartValueAxisConstantLineStyleLabel = ValueAxisConstantLineStyleLabel;
 
     /**
      * @deprecated Use ValueAxisLabel instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartValueAxisLabel = ValueAxisLabel;
 
     /**
      * @deprecated Use ValueAxisStrips instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartValueAxisStrips = ValueAxisStrips;
 
     /**
      * @deprecated Use ValueAxisStripsLabel instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartValueAxisStripsLabel = ValueAxisStripsLabel;
 
     /**
      * @deprecated Use ValueAxisTitle instead
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     export type dxChartValueAxisTitle = ValueAxisTitle;
 
@@ -3880,12 +3880,12 @@ export type Options = dxChartOptions;
 
 /**
  * @deprecated Use SeriesPoint from common/charts instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxChartSeriesTypesCommonSeriesPoint = SeriesPoint;
 /**
  * @deprecated Use SeriesLabel from common/charts instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export type dxChartSeriesTypesCommonSeriesLabel = SeriesLabel;
 

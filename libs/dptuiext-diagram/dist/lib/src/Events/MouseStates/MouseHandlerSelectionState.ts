@@ -1,6 +1,6 @@
 import { DiagramMouseEvent, MouseButton } from "../Event";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { Selection } from "../../Selection/Selection";
 import { MouseHandler } from "../MouseHandler";
 import { MouseHandlerCancellableState } from "./MouseHandlerStateBase";

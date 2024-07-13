@@ -1,5 +1,5 @@
 import { EventDispatcher } from "../../Utils";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { IVisualizersListener } from "../EventManager";
 
 export class ResizeInfoVisualizer {

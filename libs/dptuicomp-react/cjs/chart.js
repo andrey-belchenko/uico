@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,7 +8,7 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 "use client";
@@ -44,7 +44,7 @@ exports.Label = exports.Image = exports.HoverStyle = exports.HorizontalLineLabel
 exports.ZoomAndPan = exports.Width = exports.WholeRange = exports.VisualRange = exports.VerticalLine = exports.ValueErrorBar = exports.ValueAxis = exports.Url = exports.TooltipBorder = exports.Tooltip = exports.Title = exports.TickInterval = exports.Tick = exports.Subtitle = exports.StripStyleLabel = exports.StripStyle = exports.StripLabel = exports.Strip = exports.Size = exports.Shadow = exports.SeriesTemplate = exports.SeriesBorder = exports.Series = exports.SelectionStyle = exports.ScrollBar = exports.Reduction = exports.PointSelectionStyle = exports.PointImage = exports.PointHoverStyle = exports.PointBorder = exports.Point = exports.PaneBorder = exports.Pane = exports.MinVisualRangeLength = exports.MinorTickInterval = exports.MinorTick = exports.MinorGrid = exports.Margin = exports.LoadingIndicator = exports.Length = exports.LegendTitleSubtitle = exports.LegendTitle = exports.Legend = void 0;
 const React = __importStar(require("react"));
 const react_1 = require("react");
-const chart_1 = __importDefault(require("devextreme/viz/chart"));
+const chart_1 = __importDefault(require("dptuicomp/viz/chart"));
 const component_1 = require("./core/component");
 const nested_option_1 = __importDefault(require("./core/nested-option"));
 const Chart = (0, react_1.memo)((0, react_1.forwardRef)((props, ref) => {

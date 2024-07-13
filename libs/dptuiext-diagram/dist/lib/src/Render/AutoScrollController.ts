@@ -1,7 +1,7 @@
 import { IScrollView } from "./ScrollView";
 import { svgNS } from "./RenderHelper";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { CanvasViewManager } from "./CanvasViewManager";
 import { IDOMManipulator } from "./DOMManipulator";
 import { EventUtils } from "../Utils";

@@ -2,7 +2,7 @@ const merge = require('webpack-merge');
 const webpack = require('webpack');
 const common = require('./webpack.common.js');
 const fs = require("fs");
-const eula = "https://www.devexpress.com/Support/EULAs";
+const eula = "https://www.dptuiext.com/Support/EULAs";
 
 module.exports = merge(common, {
   entry: {

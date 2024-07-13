@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,19 +8,19 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxChart, { Properties } from "devextreme/viz/chart";
+import dxChart, { Properties } from "dptuicomp/viz/chart";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ArgumentAxisClickEvent, DisposingEvent, DoneEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LegendClickEvent, PointClickEvent, SeriesClickEvent, TooltipHiddenEvent, TooltipShownEvent, ZoomEndEvent, ZoomStartEvent, chartPointAggregationInfoObject, chartSeriesObject, dxChartAnnotationConfig, chartPointObject } from "devextreme/viz/chart";
-import type { Font as ChartsFont, ScaleBreak, ChartsColor, LegendItem } from "devextreme/common/charts";
-import type { template } from "devextreme/core/templates/template";
-import type { ChartSeries } from "devextreme/viz/common";
-import type * as CommonChartTypes from "devextreme/common/charts";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { ArgumentAxisClickEvent, DisposingEvent, DoneEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LegendClickEvent, PointClickEvent, SeriesClickEvent, TooltipHiddenEvent, TooltipShownEvent, ZoomEndEvent, ZoomStartEvent, chartPointAggregationInfoObject, chartSeriesObject, dxChartAnnotationConfig, chartPointObject } from "dptuicomp/viz/chart";
+import type { Font as ChartsFont, ScaleBreak, ChartsColor, LegendItem } from "dptuicomp/common/charts";
+import type { template } from "dptuicomp/core/templates/template";
+import type { ChartSeries } from "dptuicomp/viz/common";
+import type * as CommonChartTypes from "dptuicomp/common/charts";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -2267,5 +2267,5 @@ declare const _componentZoomAndPan: React.MemoExoticComponent<(props: IZoomAndPa
 declare const ZoomAndPan: typeof _componentZoomAndPan & IElementDescriptor;
 export default Chart;
 export { Chart, IChartOptions, ChartRef, AdaptiveLayout, IAdaptiveLayoutProps, Aggregation, IAggregationProps, AggregationInterval, IAggregationIntervalProps, Animation, IAnimationProps, Annotation, IAnnotationProps, AnnotationBorder, IAnnotationBorderProps, AnnotationImage, IAnnotationImageProps, ArgumentAxis, IArgumentAxisProps, ArgumentFormat, IArgumentFormatProps, AxisConstantLineStyle, IAxisConstantLineStyleProps, AxisConstantLineStyleLabel, IAxisConstantLineStyleLabelProps, AxisLabel, IAxisLabelProps, AxisTitle, IAxisTitleProps, BackgroundColor, IBackgroundColorProps, Border, IBorderProps, Break, IBreakProps, BreakStyle, IBreakStyleProps, ChartTitle, IChartTitleProps, ChartTitleSubtitle, IChartTitleSubtitleProps, Color, IColorProps, CommonAnnotationSettings, ICommonAnnotationSettingsProps, CommonAxisSettings, ICommonAxisSettingsProps, CommonAxisSettingsConstantLineStyle, ICommonAxisSettingsConstantLineStyleProps, CommonAxisSettingsConstantLineStyleLabel, ICommonAxisSettingsConstantLineStyleLabelProps, CommonAxisSettingsLabel, ICommonAxisSettingsLabelProps, CommonAxisSettingsTitle, ICommonAxisSettingsTitleProps, CommonPaneSettings, ICommonPaneSettingsProps, CommonSeriesSettings, ICommonSeriesSettingsProps, CommonSeriesSettingsHoverStyle, ICommonSeriesSettingsHoverStyleProps, CommonSeriesSettingsLabel, ICommonSeriesSettingsLabelProps, CommonSeriesSettingsSelectionStyle, ICommonSeriesSettingsSelectionStyleProps, Connector, IConnectorProps, ConstantLine, IConstantLineProps, ConstantLineLabel, IConstantLineLabelProps, ConstantLineStyle, IConstantLineStyleProps, Crosshair, ICrosshairProps, DataPrepareSettings, IDataPrepareSettingsProps, DragBoxStyle, IDragBoxStyleProps, Export, IExportProps, Font, IFontProps, Format, IFormatProps, Grid, IGridProps, Hatching, IHatchingProps, Height, IHeightProps, HorizontalLine, IHorizontalLineProps, HorizontalLineLabel, IHorizontalLineLabelProps, HoverStyle, IHoverStyleProps, Image, IImageProps, Label, ILabelProps, Legend, ILegendProps, LegendTitle, ILegendTitleProps, LegendTitleSubtitle, ILegendTitleSubtitleProps, Length, ILengthProps, LoadingIndicator, ILoadingIndicatorProps, Margin, IMarginProps, MinorGrid, IMinorGridProps, MinorTick, IMinorTickProps, MinorTickInterval, IMinorTickIntervalProps, MinVisualRangeLength, IMinVisualRangeLengthProps, Pane, IPaneProps, PaneBorder, IPaneBorderProps, Point, IPointProps, PointBorder, IPointBorderProps, PointHoverStyle, IPointHoverStyleProps, PointImage, IPointImageProps, PointSelectionStyle, IPointSelectionStyleProps, Reduction, IReductionProps, ScrollBar, IScrollBarProps, SelectionStyle, ISelectionStyleProps, Series, ISeriesProps, SeriesBorder, ISeriesBorderProps, SeriesTemplate, ISeriesTemplateProps, Shadow, IShadowProps, Size, ISizeProps, Strip, IStripProps, StripLabel, IStripLabelProps, StripStyle, IStripStyleProps, StripStyleLabel, IStripStyleLabelProps, Subtitle, ISubtitleProps, Tick, ITickProps, TickInterval, ITickIntervalProps, Title, ITitleProps, Tooltip, ITooltipProps, TooltipBorder, ITooltipBorderProps, Url, IUrlProps, ValueAxis, IValueAxisProps, ValueErrorBar, IValueErrorBarProps, VerticalLine, IVerticalLineProps, VisualRange, IVisualRangeProps, WholeRange, IWholeRangeProps, Width, IWidthProps, ZoomAndPan, IZoomAndPanProps };
-import type * as ChartTypes from 'devextreme/viz/chart_types';
+import type * as ChartTypes from 'dptuicomp/viz/chart_types';
 export { ChartTypes };

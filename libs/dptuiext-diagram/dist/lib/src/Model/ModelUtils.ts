@@ -1,10 +1,10 @@
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
-import { Metrics } from "@devexpress/utils/lib/geometry/metrics";
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Vector } from "@devexpress/utils/lib/geometry/vector";
-import { MathUtils } from "@devexpress/utils/lib/utils/math";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
+import { Metrics } from "@dptuiext/utils/lib/geometry/metrics";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Vector } from "@dptuiext/utils/lib/geometry/vector";
+import { MathUtils } from "@dptuiext/utils/lib/utils/math";
 
 import { DiagramUnit } from "../Enums";
 import { AddConnectionHistoryItem, SetConnectionPointIndexHistoryItem } from "../History/Common/AddConnectionHistoryItem";

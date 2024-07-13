@@ -4,12 +4,12 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.viewFunction = exports.ScrollableSimulated = void 0;
 var _inferno = require("inferno");
-var _inferno2 = require("@devextreme/runtime/inferno");
+var _inferno2 = require("@dptuicomp/runtime/inferno");
 require("../../../../events/gesture/emitter.gesture.scroll");
 var _subscribe_to_event = require("../../../utils/subscribe_to_event");
 var _animated_scrollbar = require("../scrollbar/animated_scrollbar");

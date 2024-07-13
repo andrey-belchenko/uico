@@ -1,5 +1,5 @@
 import { DataObject } from "../Entities/DataObject";
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { GanttJsonUtils } from "../Utils/GanttJsonUtils";
 
 export abstract class CollectionBase<T extends DataObject> {

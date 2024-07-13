@@ -1,4 +1,4 @@
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { ValidationControllerSettings } from "../../View/Settings/InitSettings/ValidationControllerSettings";
 import { ValidationSettings } from "../../View/Settings/ValidationSettings";
 import { DateUtils } from "../../View/Utils/DateUtils";

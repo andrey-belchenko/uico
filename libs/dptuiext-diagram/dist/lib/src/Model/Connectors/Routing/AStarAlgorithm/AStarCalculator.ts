@@ -1,4 +1,4 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { IAStarContext } from "./AStarContext";
 
 export class AStarCalculator {

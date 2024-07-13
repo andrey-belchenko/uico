@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,14 +8,14 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxSortable, { Properties } from "devextreme/ui/sortable";
+import dxSortable, { Properties } from "dptuicomp/ui/sortable";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { AddEvent, DisposingEvent, DragChangeEvent, DragEndEvent, DragMoveEvent, DragStartEvent, InitializedEvent, RemoveEvent, ReorderEvent } from "devextreme/ui/sortable";
+import type { AddEvent, DisposingEvent, DragChangeEvent, DragEndEvent, DragMoveEvent, DragStartEvent, InitializedEvent, RemoveEvent, ReorderEvent } from "dptuicomp/ui/sortable";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -48,5 +48,5 @@ declare const _componentCursorOffset: React.MemoExoticComponent<(props: ICursorO
 declare const CursorOffset: typeof _componentCursorOffset & IElementDescriptor;
 export default Sortable;
 export { Sortable, ISortableOptions, SortableRef, CursorOffset, ICursorOffsetProps };
-import type * as SortableTypes from 'devextreme/ui/sortable_types';
+import type * as SortableTypes from 'dptuicomp/ui/sortable_types';
 export { SortableTypes };

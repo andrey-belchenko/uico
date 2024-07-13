@@ -1,5 +1,5 @@
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
-import { EvtUtils } from "@devexpress/utils/lib/utils/evt";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
+import { EvtUtils } from "@dptuiext/utils/lib/utils/evt";
 import { TaskEditController } from "../../Edit/TaskEditController";
 import { TaskAreaEventSource } from "../../Helpers/Enums";
 import { GridLayoutCalculator } from "../../Helpers/GridLayoutCalculator";

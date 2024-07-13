@@ -3,7 +3,7 @@ import { DiagramModelOperation } from "../../../ModelOperationSettings";
 import { RequestedEntity, PermissionRequestEventArgs } from "./RequestedEntity";
 import { RequestOperationEventArgs } from "../PermissionsProvider";
 import { INativeShape } from "../../../Api/INativeItem";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { IApiController } from "../../../Api/ApiController";
 
 export class AddShapeRequestedEntity extends RequestedEntity {

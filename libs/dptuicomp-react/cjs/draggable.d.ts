@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,14 +8,14 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxDraggable, { Properties } from "devextreme/ui/draggable";
+import dxDraggable, { Properties } from "dptuicomp/ui/draggable";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { DisposingEvent, DragEndEvent, DragMoveEvent, DragStartEvent, InitializedEvent } from "devextreme/ui/draggable";
+import type { DisposingEvent, DragEndEvent, DragMoveEvent, DragStartEvent, InitializedEvent } from "dptuicomp/ui/draggable";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -44,5 +44,5 @@ declare const _componentCursorOffset: React.MemoExoticComponent<(props: ICursorO
 declare const CursorOffset: typeof _componentCursorOffset & IElementDescriptor;
 export default Draggable;
 export { Draggable, IDraggableOptions, DraggableRef, CursorOffset, ICursorOffsetProps };
-import type * as DraggableTypes from 'devextreme/ui/draggable_types';
+import type * as DraggableTypes from 'dptuicomp/ui/draggable_types';
 export { DraggableTypes };

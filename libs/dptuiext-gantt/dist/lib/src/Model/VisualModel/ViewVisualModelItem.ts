@@ -1,8 +1,8 @@
 import { Task } from "../Entities/Task";
 import { ResourceCollection } from "../Collections/ResourceCollection";
 import { ViewVisualModelDependencyInfo } from "./ViewVisualModelDependencyInfo";
-import { isDefined } from "@devexpress/utils/lib/utils/common";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 export class ViewVisualModelItem {
     task: Task;

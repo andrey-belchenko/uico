@@ -1,6 +1,6 @@
-import { ColorUtils } from "@devexpress/utils/lib/utils/color";
+import { ColorUtils } from "@dptuiext/utils/lib/utils/color";
 import { isColorProperty } from "../Utils/Svg";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
 
 export abstract class StyleBase {
     constructor() {

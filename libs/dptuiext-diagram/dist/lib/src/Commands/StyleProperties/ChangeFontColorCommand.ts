@@ -1,5 +1,5 @@
 import { ChangeStyleTextPropertyCommand } from "./ChangeStyleTextPropertyCommand";
-import { ColorUtils } from "@devexpress/utils/lib/utils/color";
+import { ColorUtils } from "@dptuiext/utils/lib/utils/color";
 
 export class ChangeFontColorCommand extends ChangeStyleTextPropertyCommand {
     processParameter(parameter: string): string {

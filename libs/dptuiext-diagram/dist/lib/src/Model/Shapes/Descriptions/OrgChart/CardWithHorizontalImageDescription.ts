@@ -1,7 +1,7 @@
 import { ShapeDefaultDimension } from "../ShapeDescription";
 import { ShapeTypes } from "../../ShapeTypes";
 import { CardBaseDescription } from "./CardBaseDescription";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 abstract class CardWithHorizontalImageDescription extends CardBaseDescription {
     constructor() {

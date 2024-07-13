@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,21 +8,21 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxLookup, { Properties } from "devextreme/ui/lookup";
+import dxLookup, { Properties } from "dptuicomp/ui/lookup";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ClosedEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, OpenedEvent, PageLoadingEvent, PullRefreshEvent, ScrollEvent, ValueChangedEvent } from "devextreme/ui/lookup";
-import type { ContentReadyEvent as PopoverContentReadyEvent, DisposingEvent as PopoverDisposingEvent, InitializedEvent as PopoverInitializedEvent, HiddenEvent, HidingEvent, OptionChangedEvent, ShowingEvent, ShownEvent, TitleRenderedEvent } from "devextreme/ui/popover";
-import type { AnimationConfig, AnimationState } from "devextreme/animation/fx";
-import type { event } from "devextreme/events/index";
-import type { template } from "devextreme/core/templates/template";
-import type { PositionConfig } from "devextreme/animation/position";
-import type { dxPopupToolbarItem } from "devextreme/ui/popup";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
+import type { ClosedEvent, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, OpenedEvent, PageLoadingEvent, PullRefreshEvent, ScrollEvent, ValueChangedEvent } from "dptuicomp/ui/lookup";
+import type { ContentReadyEvent as PopoverContentReadyEvent, DisposingEvent as PopoverDisposingEvent, InitializedEvent as PopoverInitializedEvent, HiddenEvent, HidingEvent, OptionChangedEvent, ShowingEvent, ShownEvent, TitleRenderedEvent } from "dptuicomp/ui/popover";
+import type { AnimationConfig, AnimationState } from "dptuicomp/animation/fx";
+import type { event } from "dptuicomp/events/index";
+import type { template } from "dptuicomp/core/templates/template";
+import type { PositionConfig } from "dptuicomp/animation/position";
+import type { dxPopupToolbarItem } from "dptuicomp/ui/popup";
+import type { CollectionWidgetItem } from "dptuicomp/ui/collection/ui.collection_widget.base";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -276,5 +276,5 @@ declare const _componentToolbarItem: React.MemoExoticComponent<(props: IToolbarI
 declare const ToolbarItem: typeof _componentToolbarItem & IElementDescriptor;
 export default Lookup;
 export { Lookup, ILookupOptions, LookupRef, Animation, IAnimationProps, At, IAtProps, BoundaryOffset, IBoundaryOffsetProps, Collision, ICollisionProps, DropDownOptions, IDropDownOptionsProps, From, IFromProps, Hide, IHideProps, HideEvent, IHideEventProps, Item, IItemProps, My, IMyProps, Offset, IOffsetProps, Position, IPositionProps, Show, IShowProps, ShowEvent, IShowEventProps, To, IToProps, ToolbarItem, IToolbarItemProps };
-import type * as LookupTypes from 'devextreme/ui/lookup_types';
+import type * as LookupTypes from 'dptuicomp/ui/lookup_types';
 export { LookupTypes };

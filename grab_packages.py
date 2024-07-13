@@ -84,11 +84,16 @@ def replace_text_in_files(dir_path, old_text, new_text):
     for foldername, subfolders, filenames in os.walk(dir_path):
         for filename in filenames:
             file_path = os.path.join(foldername, filename)
-            with open(file_path, 'r', encoding='utf-8') as file:
-                filedata = file.read()
-            filedata = filedata.replace(old_text, new_text)
-            with open(file_path, 'w', encoding='utf-8') as file:
-                file.write(filedata)
+            try:
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    filedata = file.read()
+                if old_text in filedata:
+                    filedata = filedata.replace(old_text, new_text)
+                    with open(file_path, 'w', encoding='utf-8') as file:
+                        file.write(filedata)
+                    print(file_path)
+            except:
+                pass
 
 packages = [
     "devextreme-quill",

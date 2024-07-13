@@ -1,1 +1,1 @@
-declare module 'devextreme-quill';
+declare module 'dptuicomp-quill';

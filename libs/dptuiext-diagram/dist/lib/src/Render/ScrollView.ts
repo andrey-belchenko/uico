@@ -1,7 +1,7 @@
 import { EventDispatcher } from "../Utils";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
 import { RenderHelper } from "./RenderHelper";
 
 export class NativeScrollView implements IScrollView {

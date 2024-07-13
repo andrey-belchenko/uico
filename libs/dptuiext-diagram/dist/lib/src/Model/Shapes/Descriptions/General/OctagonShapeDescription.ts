@@ -4,8 +4,8 @@ import { PathPrimitive, PathPrimitiveLineToCommand, PathPrimitiveMoveToCommand, 
 import { ShapeTypes } from "../../ShapeTypes";
 import { PolygonShapeDescription } from "./PolygonShapeDescription";
 import { GeometryUtils } from "../../../../Utils";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 export class OctagonShapeDescription extends PolygonShapeDescription {
     get key(): string { return ShapeTypes.Octagon; }

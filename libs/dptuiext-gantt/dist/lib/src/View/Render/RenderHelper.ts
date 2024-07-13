@@ -14,7 +14,7 @@ import { TaskAreaManager } from "../Events/TaskAreaManager";
 import { TaskAreaRender } from "./TaskAreaRender";
 import { TaskRender } from "./TaskRender";
 import { MainElementsRender } from "./MainElementsRender";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { DateRange } from "../../Model/WorkingTime/DateRange";
 import { TaskTitlePosition, ViewType } from "../Helpers/Enums";
 import { ViewVisualModel } from "../../Model/VisualModel/VisualModel";

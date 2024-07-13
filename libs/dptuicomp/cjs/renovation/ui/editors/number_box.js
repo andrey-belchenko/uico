@@ -4,12 +4,12 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.viewFunction = exports.NumberBoxPropsType = exports.NumberBoxProps = exports.NumberBox = void 0;
 var _inferno = require("inferno");
-var _inferno2 = require("@devextreme/runtime/inferno");
+var _inferno2 = require("@dptuicomp/runtime/inferno");
 var _number_box = _interopRequireDefault(require("../../../ui/number_box"));
 var _dom_component_wrapper = require("../common/dom_component_wrapper");
 var _editor = require("./common/editor");

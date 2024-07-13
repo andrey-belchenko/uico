@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.default = void 0;
@@ -16,7 +16,7 @@ var _translator = require("../../../animation/translator");
 var _devices = _interopRequireDefault(require("../../../core/devices"));
 var _resizable = _interopRequireDefault(require("../../resizable"));
 var _position = require("../../../core/utils/position");
-var _devextremeQuill = _interopRequireDefault(require("devextreme-quill"));
+var _dptuicompQuill = _interopRequireDefault(require("dptuicomp-quill"));
 var _base = _interopRequireDefault(require("./base"));
 var _size = require("../../../core/utils/size");
 
@@ -162,7 +162,7 @@ class ResizingModule extends _base.default {
     _deleteImage() {
         if (this._isAllowedTarget(this._$target)) {
             var _Quill$find;
-            null === (_Quill$find = _devextremeQuill.default.find(this._$target)) || void 0 === _Quill$find || _Quill$find.deleteAt(0)
+            null === (_Quill$find = _dptuicompQuill.default.find(this._$target)) || void 0 === _Quill$find || _Quill$find.deleteAt(0)
         }
     }
     option(option, value) {

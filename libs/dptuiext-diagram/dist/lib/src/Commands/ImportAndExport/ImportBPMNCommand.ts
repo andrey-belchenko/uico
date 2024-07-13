@@ -2,7 +2,7 @@ import { SimpleCommandState } from "../CommandStates";
 import { BPMNImporter, BPMNNode } from "../../ImportAndExport/BPMNImporter";
 import { ModelUtils } from "../../Model/ModelUtils";
 import { AddShapeHistoryItem } from "../../History/Common/AddShapeHistoryItem";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { ItemKey } from "../../Model/DiagramItem";
 import { Connector, ConnectorPosition } from "../../Model/Connectors/Connector";
 import { AddConnectorHistoryItem } from "../../History/Common/AddConnectorHistoryItem";

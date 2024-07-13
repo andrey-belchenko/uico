@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,7 +8,7 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 "use client";
@@ -43,7 +43,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.ValidationRule = exports.StringLengthRule = exports.RequiredRule = exports.RangeRule = exports.PatternRule = exports.NumericRule = exports.EmailRule = exports.CustomRule = exports.CompareRule = exports.AsyncRule = exports.Adapter = exports.Validator = void 0;
 const React = __importStar(require("react"));
 const react_1 = require("react");
-const validator_1 = __importDefault(require("devextreme/ui/validator"));
+const validator_1 = __importDefault(require("dptuicomp/ui/validator"));
 const extension_component_1 = require("./core/extension-component");
 const nested_option_1 = __importDefault(require("./core/nested-option"));
 const _componentValidator = (0, react_1.memo)((0, react_1.forwardRef)((props, ref) => {

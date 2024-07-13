@@ -3,7 +3,7 @@ import { ShapeTypes } from "../../ShapeTypes";
 import { Shape } from "../../Shape";
 import { SvgPrimitive } from "../../../../Render/Primitives/Primitive";
 import { PathPrimitive, PathPrimitiveMoveToCommand, PathPrimitiveLineToCommand, PathPrimitiveClosePathCommand, PathPrimitiveQuadraticCurveToCommand } from "../../../../Render/Primitives/PathPrimitive";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 import { ConnectionPointSide } from "../../../DiagramItem";
 import { Style } from "../../../Style";
 import { ConnectionPoint } from "../../../ConnectionPoint";

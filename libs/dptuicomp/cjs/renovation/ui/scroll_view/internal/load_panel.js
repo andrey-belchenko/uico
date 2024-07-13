@@ -4,12 +4,12 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.viewFunction = exports.ScrollViewLoadPanel = void 0;
 var _inferno = require("inferno");
-var _inferno2 = require("@devextreme/runtime/inferno");
+var _inferno2 = require("@dptuicomp/runtime/inferno");
 var _type = require("../../../../core/utils/type");
 var _message = _interopRequireDefault(require("../../../../localization/message"));
 var _load_panel = require("../../overlays/load_panel");

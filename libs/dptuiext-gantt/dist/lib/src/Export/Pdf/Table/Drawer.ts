@@ -1,4 +1,4 @@
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { IGanttTableExportInfo, PdfPageTableNames } from "../Interfaces";
 import { EllipsisHelper } from "./Ellipsis";
 import { TableOptions } from "./TableOptions";

@@ -1,7 +1,7 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Segment } from "@devexpress/utils/lib/geometry/segment";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Vector } from "@devexpress/utils/lib/geometry/vector";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Segment } from "@dptuiext/utils/lib/geometry/segment";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Vector } from "@dptuiext/utils/lib/geometry/vector";
 
 import { ConnectionPointSide, DiagramItem } from "../../../DiagramItem";
 import { ConnectorRenderPoint } from "../../ConnectorRenderPoint";

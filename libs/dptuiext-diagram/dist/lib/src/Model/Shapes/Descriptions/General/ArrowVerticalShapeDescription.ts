@@ -1,10 +1,10 @@
 import { ShapeDescription, ShapeDefaultDimension, ShapeTextPadding } from "../ShapeDescription";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { ShapeParameter, ShapeParameters } from "../../ShapeParameters";
 import { Shape } from "../../Shape";
 import { ConnectionPointSide } from "../../../DiagramItem";
 import { ConnectionPoint } from "../../../ConnectionPoint";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 
 export const ArrowVerticalTriangleHeightParameterName = "th";
 export const ArrowVerticalLineWidthParameterName = "lw";

@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 export const FIXED_CONTAINER_CLASS = "dx-scheduler-fixed-appointments";
 export const REDUCED_APPOINTMENT_CLASS = "dx-scheduler-appointment-reduced";

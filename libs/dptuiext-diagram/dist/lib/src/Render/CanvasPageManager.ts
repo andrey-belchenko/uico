@@ -5,18 +5,18 @@ import { PathPrimitiveMoveToCommand, PathPrimitiveLineToCommand, PathPrimitive, 
 import { PatternPrimitive } from "./Primitives/PatternPrimitive";
 import { ClipPathPrimitive } from "./Primitives/ClipPathPrimitive";
 import { CanvasManagerBase } from "./CanvasManagerBase";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Offsets } from "@devexpress/utils/lib/geometry/offsets";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Offsets } from "@dptuiext/utils/lib/geometry/offsets";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { IModelSizeListener, IModelChangesListener } from "../Model/ModelManipulator";
 import { ItemChange } from "../Model/ModelChange";
 import { IViewChangesListener, AutoZoomMode } from "../Settings";
 import { ICanvasViewListener } from "./CanvasViewManager";
 import { RenderUtils } from "./Utils";
 import { DOMManipulator } from "./DOMManipulator";
-import { ColorUtils } from "@devexpress/utils/lib/utils/color";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
+import { ColorUtils } from "@dptuiext/utils/lib/utils/color";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
 
 const GRID_PAGES_LINEWIDTH = 2;
 

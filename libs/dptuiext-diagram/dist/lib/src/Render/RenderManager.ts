@@ -1,14 +1,14 @@
 import { IEventManager } from "../Events/EventManager";
 import { DiagramMouseEvent, MouseEventSource, MouseButton, MouseEventElementType, DiagramWheelEvent, IMouseOperationsListener, DiagramContextMenuEvent, DiagramMouseEventTouch } from "../Events/Event";
-import { EvtUtils } from "@devexpress/utils/lib/utils/evt";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Offsets } from "@devexpress/utils/lib/geometry/offsets";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { EvtUtils } from "@dptuiext/utils/lib/utils/evt";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Offsets } from "@dptuiext/utils/lib/geometry/offsets";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 
-import { KeyUtils } from "@devexpress/utils/lib/utils/key";
-import { Browser } from "@devexpress/utils/lib/browser";
+import { KeyUtils } from "@dptuiext/utils/lib/utils/key";
+import { Browser } from "@dptuiext/utils/lib/browser";
 import { RenderUtils, raiseEvent } from "./Utils";
 import { CanvasItemsManager } from "./CanvasItemsManager";
 import { IScrollView, NativeScrollView } from "./ScrollView";

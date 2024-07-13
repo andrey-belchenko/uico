@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,12 +8,12 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxValidator, { Properties } from "devextreme/ui/validator";
+import dxValidator, { Properties } from "dptuicomp/ui/validator";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
 type IValidatorOptions = React.PropsWithChildren<Properties & IHtmlOptions>;
 interface ValidatorRef {
@@ -149,5 +149,5 @@ declare const _componentValidationRule: React.MemoExoticComponent<(props: IValid
 declare const ValidationRule: typeof _componentValidationRule & IElementDescriptor;
 export default Validator;
 export { Validator, IValidatorOptions, ValidatorRef, Adapter, IAdapterProps, AsyncRule, IAsyncRuleProps, CompareRule, ICompareRuleProps, CustomRule, ICustomRuleProps, EmailRule, IEmailRuleProps, NumericRule, INumericRuleProps, PatternRule, IPatternRuleProps, RangeRule, IRangeRuleProps, RequiredRule, IRequiredRuleProps, StringLengthRule, IStringLengthRuleProps, ValidationRule, IValidationRuleProps };
-import type * as ValidatorTypes from 'devextreme/ui/validator_types';
+import type * as ValidatorTypes from 'dptuicomp/ui/validator_types';
 export { ValidatorTypes };

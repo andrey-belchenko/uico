@@ -1,9 +1,9 @@
-import { Browser } from "@devexpress/utils/lib/browser";
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
-import { EvtUtils } from "@devexpress/utils/lib/utils/evt";
-import { KeyUtils, ModifierKey } from "@devexpress/utils/lib/utils/key";
+import { Browser } from "@dptuiext/utils/lib/browser";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
+import { EvtUtils } from "@dptuiext/utils/lib/utils/evt";
+import { KeyUtils, ModifierKey } from "@dptuiext/utils/lib/utils/key";
 import { TaskAreaEventArgs } from "../TaskAreaEventArgs";
 import { ITaskAreaEventsListener } from "../TaskAreaEventsListener";
 import { TaskAreaDomHelper } from "./TaskAreaDomHelper";

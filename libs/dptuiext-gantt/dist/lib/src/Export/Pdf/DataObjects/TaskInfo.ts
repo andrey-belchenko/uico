@@ -1,4 +1,4 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { TaskTitlePosition } from "../../../View/Helpers/Enums";
 import { Color } from "../Table/Color";
 import { StyleDef } from "../Table/StyleDef";

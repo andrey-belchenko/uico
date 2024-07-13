@@ -1,7 +1,7 @@
 import { SvgPrimitive } from "./Primitives/Primitive";
 import { TextFloodFilterPrimitive } from "./Primitives/TextFilterPrimitive";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
 import { DOMManipulator } from "./DOMManipulator";
 
 export const PAGE_BG_TEXTFLOOR_FILTER_IDPREFIX = "page-text-flood";

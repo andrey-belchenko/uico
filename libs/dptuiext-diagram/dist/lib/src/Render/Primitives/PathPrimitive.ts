@@ -2,7 +2,7 @@ import { svgNS } from "../RenderHelper";
 import { SvgPrimitive } from "./Primitive";
 import { Style } from "../../Model/Style";
 import { ITextMeasurer } from "../Measurer/ITextMeasurer";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { PrimitiveObject } from "./PrimitiveObject";
 
 export class PathPrimitive extends SvgPrimitive<SVGPathElement> {

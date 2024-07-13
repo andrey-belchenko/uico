@@ -4,11 +4,11 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.default = void 0;
-var _devextremeQuill = _interopRequireDefault(require("devextreme-quill"));
+var _dptuicompQuill = _interopRequireDefault(require("dptuicomp-quill"));
 var _events_engine = _interopRequireDefault(require("../../../events/core/events_engine"));
 var _index = require("../../../events/utils/index");
 var _iterator = require("../../../core/utils/iterator");
@@ -22,7 +22,7 @@ function _interopRequireDefault(obj) {
     }
 }
 let DropImageModule = _base.default;
-if (_devextremeQuill.default) {
+if (_dptuicompQuill.default) {
     DropImageModule = class extends _base.default {
         constructor(quill, options) {
             super(quill, options);

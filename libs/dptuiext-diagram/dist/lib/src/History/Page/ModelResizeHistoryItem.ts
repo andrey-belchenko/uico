@@ -1,7 +1,7 @@
 import { HistoryItem } from "../HistoryItem";
 import { ModelManipulator } from "../../Model/ModelManipulator";
-import { Offsets } from "@devexpress/utils/lib/geometry/offsets";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Offsets } from "@dptuiext/utils/lib/geometry/offsets";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 export class ModelResizeHistoryItem extends HistoryItem {
     offset: Offsets;

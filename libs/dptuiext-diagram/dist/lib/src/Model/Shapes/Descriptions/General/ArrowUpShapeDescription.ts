@@ -2,7 +2,7 @@ import { SvgPrimitive } from "../../../../Render/Primitives/Primitive";
 import { Shape } from "../../Shape";
 import { PathPrimitive, PathPrimitiveLineToCommand, PathPrimitiveMoveToCommand, PathPrimitiveClosePathCommand } from "../../../../Render/Primitives/PathPrimitive";
 import { ShapeParameterPoint } from "../../ShapeParameterPoint";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { ArrowVerticalShapeDescription, ArrowVerticalTriangleHeightParameterName, ArrowVerticalLineWidthParameterName } from "./ArrowVerticalShapeDescription";
 import { ShapeParameters } from "../../ShapeParameters";
 import { ShapeTypes } from "../../ShapeTypes";

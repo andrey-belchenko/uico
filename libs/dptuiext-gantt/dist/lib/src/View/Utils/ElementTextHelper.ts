@@ -1,4 +1,4 @@
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
 import { ViewVisualModelItem } from "../../Model/VisualModel/ViewVisualModelItem";
 import { ViewType } from "../Helpers/Enums";
 import { DateUtils } from "./DateUtils";

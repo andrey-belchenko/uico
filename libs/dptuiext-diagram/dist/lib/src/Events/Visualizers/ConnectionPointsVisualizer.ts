@@ -1,6 +1,6 @@
 import { EventDispatcher } from "../../Utils";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { IVisualizersListener } from "../EventManager";
 import { ItemKey, ConnectionPointSide } from "../../Model/DiagramItem";
 

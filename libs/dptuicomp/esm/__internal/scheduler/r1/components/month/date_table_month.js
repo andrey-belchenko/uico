@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
@@ -16,7 +16,7 @@ import {
 import {
     createReRenderEffect,
     InfernoWrapperComponent
-} from "@devextreme/runtime/inferno";
+} from "@dptuicomp/runtime/inferno";
 import {
     getTemplate
 } from "../../../../core/r1/utils/index";

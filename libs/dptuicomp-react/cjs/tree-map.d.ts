@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,17 +8,17 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxTreeMap, { Properties } from "devextreme/viz/tree_map";
+import dxTreeMap, { Properties } from "dptuicomp/viz/tree_map";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ClickEvent, DisposingEvent, DrawnEvent, DrillEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, NodesInitializedEvent, NodesRenderingEvent, dxTreeMapNode } from "devextreme/viz/tree_map";
-import type { Font as ChartsFont } from "devextreme/common/charts";
-import type { template } from "devextreme/core/templates/template";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { ClickEvent, DisposingEvent, DrawnEvent, DrillEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, NodesInitializedEvent, NodesRenderingEvent, dxTreeMapNode } from "dptuicomp/viz/tree_map";
+import type { Font as ChartsFont } from "dptuicomp/common/charts";
+import type { template } from "dptuicomp/core/templates/template";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -320,5 +320,5 @@ declare const _componentTreeMapborder: React.MemoExoticComponent<(props: ITreeMa
 declare const TreeMapborder: typeof _componentTreeMapborder & IElementDescriptor;
 export default TreeMap;
 export { TreeMap, ITreeMapOptions, TreeMapRef, Border, IBorderProps, Colorizer, IColorizerProps, Export, IExportProps, Font, IFontProps, Format, IFormatProps, Group, IGroupProps, GroupLabel, IGroupLabelProps, HoverStyle, IHoverStyleProps, Label, ILabelProps, LoadingIndicator, ILoadingIndicatorProps, Margin, IMarginProps, SelectionStyle, ISelectionStyleProps, Shadow, IShadowProps, Size, ISizeProps, Subtitle, ISubtitleProps, Tile, ITileProps, TileLabel, ITileLabelProps, Title, ITitleProps, Tooltip, ITooltipProps, TooltipBorder, ITooltipBorderProps, TreeMapborder, ITreeMapborderProps };
-import type * as TreeMapTypes from 'devextreme/viz/tree_map_types';
+import type * as TreeMapTypes from 'dptuicomp/viz/tree_map_types';
 export { TreeMapTypes };

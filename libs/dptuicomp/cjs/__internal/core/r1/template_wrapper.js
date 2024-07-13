@@ -4,14 +4,14 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.buildTemplateArgs = exports.TemplateWrapper = void 0;
-var _inferno = require("@devextreme/runtime/inferno");
+var _inferno = require("@dptuicomp/runtime/inferno");
 var _dom_adapter = _interopRequireDefault(require("../../../core/dom_adapter"));
 var _element = require("../../../core/element");
 var _renderer = _interopRequireDefault(require("../../../core/renderer"));

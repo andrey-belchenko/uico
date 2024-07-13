@@ -1,5 +1,5 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { EvtUtils } from "@devexpress/utils/lib/utils/evt";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { EvtUtils } from "@dptuiext/utils/lib/utils/evt";
 import { TaskAreaEventSource } from "../../Helpers/Enums";
 import { TaskAreaDomHelper } from "./TaskAreaDomHelper";
 import { TaskAreaStateEventNames } from "./TaskAreaStateEventNames";

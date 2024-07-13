@@ -2,10 +2,10 @@ import { MouseHandlerCancellableState } from "./MouseHandlerStateBase";
 import { DiagramMouseEvent, MouseButton, DiagramKeyboardEvent } from "../Event";
 import { MouseHandler } from "../MouseHandler";
 import { History } from "../../History/History";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { ItemKey } from "../../Model/DiagramItem";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
-import { ModifierKey } from "@devexpress/utils/lib/utils/key";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
+import { ModifierKey } from "@dptuiext/utils/lib/utils/key";
 
 export abstract class MouseHandlerDraggingState extends MouseHandlerCancellableState {
     protected modified: boolean;

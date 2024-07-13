@@ -4,12 +4,12 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.viewFunction = exports.OUT_BOUNDS_ACCELERATION = exports.MIN_VELOCITY_LIMIT = exports.BOUNCE_MIN_VELOCITY_LIMIT = exports.BOUNCE_ACCELERATION_SUM = exports.AnimatedScrollbar = exports.ACCELERATION = void 0;
 var _inferno = require("inferno");
-var _inferno2 = require("@devextreme/runtime/inferno");
+var _inferno2 = require("@dptuicomp/runtime/inferno");
 var _scrollbar = require("./scrollbar");
 var _frame = require("../../../../animation/frame");
 var _simulated_strategy_props = require("../common/simulated_strategy_props");

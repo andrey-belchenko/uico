@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,15 +8,15 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from 'react';
-import * as events from 'devextreme/events';
+import * as events from 'dptuicomp/events';
 import { useContext, useImperativeHandle, forwardRef, useRef, useLayoutEffect, useCallback, useState, } from 'react';
-import { requestAnimationFrame } from 'devextreme/animation/frame';
-import { deferUpdate } from 'devextreme/core/utils/common';
-import config from 'devextreme/core/config';
+import { requestAnimationFrame } from 'dptuicomp/animation/frame';
+import { deferUpdate } from 'dptuicomp/core/utils/common';
+import config from 'dptuicomp/core/config';
 import { createPortal } from 'react-dom';
 import { RemovalLockerContext, RestoreTreeContext } from './helpers';
 import { OptionsManager, scheduleGuards, unscheduleGuards } from './options-manager';
@@ -25,7 +25,7 @@ import { buildConfigTree } from './configuration/react/tree';
 import { TemplateManager } from './template-manager';
 const DX_REMOVE_EVENT = 'dxremove';
 config({
-    buyNowLink: 'https://go.devexpress.com/Licensing_Installer_Watermark_DevExtremeReact.aspx',
+    buyNowLink: 'https://go.dptuiext.com/Licensing_Installer_Watermark_DevExtremeReact.aspx',
 });
 const ComponentBase = forwardRef((props, ref) => {
     const { templateProps = [], defaults = {}, expectedChildren = {}, isPortalComponent = false, useRequestAnimationFrameFlag = false, subscribableOptions = [], WidgetClass, independentEvents = [], renderChildren, beforeCreateWidget = () => undefined, afterCreateWidget = () => undefined, } = props;

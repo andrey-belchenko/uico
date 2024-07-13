@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,24 +8,24 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxGantt, { Properties } from "devextreme/ui/gantt";
+import dxGantt, { Properties } from "dptuicomp/ui/gantt";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ContentReadyEvent, ContextMenuPreparingEvent, CustomCommandEvent, DependencyDeletedEvent, DependencyDeletingEvent, DependencyInsertedEvent, DependencyInsertingEvent, DisposingEvent, InitializedEvent, ResourceAssignedEvent, ResourceAssigningEvent, ResourceDeletedEvent, ResourceDeletingEvent, ResourceInsertedEvent, ResourceInsertingEvent, ResourceManagerDialogShowingEvent, ResourceUnassignedEvent, ResourceUnassigningEvent, ScaleCellPreparedEvent, TaskClickEvent, TaskDblClickEvent, TaskDeletedEvent, TaskDeletingEvent, TaskEditDialogShowingEvent, TaskInsertedEvent, TaskInsertingEvent, TaskMovingEvent, TaskUpdatedEvent, TaskUpdatingEvent, dxGanttContextMenuItem, dxGanttFilterRowOperationDescriptions, dxGanttHeaderFilterTexts, dxGanttToolbarItem } from "devextreme/ui/gantt";
-import type { dxTreeListColumn, dxTreeListRowObject } from "devextreme/ui/tree_list";
-import type { template } from "devextreme/core/templates/template";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
-import type { ColumnHeaderFilterSearchConfig, HeaderFilterSearchConfig } from "devextreme/common/grids";
-import type { dxContextMenuItem } from "devextreme/ui/context_menu";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type dxTreeList from "devextreme/ui/tree_list";
-import type DataSource from "devextreme/data/data_source";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { ContentReadyEvent, ContextMenuPreparingEvent, CustomCommandEvent, DependencyDeletedEvent, DependencyDeletingEvent, DependencyInsertedEvent, DependencyInsertingEvent, DisposingEvent, InitializedEvent, ResourceAssignedEvent, ResourceAssigningEvent, ResourceDeletedEvent, ResourceDeletingEvent, ResourceInsertedEvent, ResourceInsertingEvent, ResourceManagerDialogShowingEvent, ResourceUnassignedEvent, ResourceUnassigningEvent, ScaleCellPreparedEvent, TaskClickEvent, TaskDblClickEvent, TaskDeletedEvent, TaskDeletingEvent, TaskEditDialogShowingEvent, TaskInsertedEvent, TaskInsertingEvent, TaskMovingEvent, TaskUpdatedEvent, TaskUpdatingEvent, dxGanttContextMenuItem, dxGanttFilterRowOperationDescriptions, dxGanttHeaderFilterTexts, dxGanttToolbarItem } from "dptuicomp/ui/gantt";
+import type { dxTreeListColumn, dxTreeListRowObject } from "dptuicomp/ui/tree_list";
+import type { template } from "dptuicomp/core/templates/template";
+import type { DataSourceOptions } from "dptuicomp/data/data_source";
+import type { Store } from "dptuicomp/data/store";
+import type { ColumnHeaderFilterSearchConfig, HeaderFilterSearchConfig } from "dptuicomp/common/grids";
+import type { dxContextMenuItem } from "dptuicomp/ui/context_menu";
+import type { CollectionWidgetItem } from "dptuicomp/ui/collection/ui.collection_widget.base";
+import type dxTreeList from "dptuicomp/ui/tree_list";
+import type DataSource from "dptuicomp/data/data_source";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -437,5 +437,5 @@ declare const _componentValidation: React.MemoExoticComponent<(props: IValidatio
 declare const Validation: typeof _componentValidation & IElementDescriptor;
 export default Gantt;
 export { Gantt, IGanttOptions, GanttRef, Column, IColumnProps, ColumnHeaderFilter, IColumnHeaderFilterProps, ColumnHeaderFilterSearch, IColumnHeaderFilterSearchProps, ContextMenu, IContextMenuProps, ContextMenuItem, IContextMenuItemProps, Dependencies, IDependenciesProps, Editing, IEditingProps, FilterRow, IFilterRowProps, Format, IFormatProps, GanttHeaderFilter, IGanttHeaderFilterProps, GanttHeaderFilterSearch, IGanttHeaderFilterSearchProps, HeaderFilter, IHeaderFilterProps, Item, IItemProps, OperationDescriptions, IOperationDescriptionsProps, ResourceAssignments, IResourceAssignmentsProps, Resources, IResourcesProps, ScaleTypeRange, IScaleTypeRangeProps, Search, ISearchProps, Sorting, ISortingProps, StripLine, IStripLineProps, Tasks, ITasksProps, Texts, ITextsProps, Toolbar, IToolbarProps, ToolbarItem, IToolbarItemProps, Validation, IValidationProps };
-import type * as GanttTypes from 'devextreme/ui/gantt_types';
+import type * as GanttTypes from 'dptuicomp/ui/gantt_types';
 export { GanttTypes };

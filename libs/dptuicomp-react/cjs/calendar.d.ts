@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,14 +8,14 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxCalendar, { Properties } from "devextreme/ui/calendar";
+import dxCalendar, { Properties } from "dptuicomp/ui/calendar";
 import { IHtmlOptions } from "./core/component";
-import type { DisposingEvent, InitializedEvent, ValueChangedEvent } from "devextreme/ui/calendar";
+import type { DisposingEvent, InitializedEvent, ValueChangedEvent } from "dptuicomp/ui/calendar";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -40,5 +40,5 @@ declare const Calendar: (props: React.PropsWithChildren<ICalendarOptions> & {
 }) => ReactElement | null;
 export default Calendar;
 export { Calendar, ICalendarOptions, CalendarRef };
-import type * as CalendarTypes from 'devextreme/ui/calendar_types';
+import type * as CalendarTypes from 'dptuicomp/ui/calendar_types';
 export { CalendarTypes };

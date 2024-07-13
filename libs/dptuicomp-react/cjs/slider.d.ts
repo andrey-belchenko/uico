@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,15 +8,15 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxSlider, { Properties } from "devextreme/ui/slider";
+import dxSlider, { Properties } from "dptuicomp/ui/slider";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "devextreme/ui/slider";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "dptuicomp/ui/slider";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -63,5 +63,5 @@ declare const _componentTooltip: React.MemoExoticComponent<(props: ITooltipProps
 declare const Tooltip: typeof _componentTooltip & IElementDescriptor;
 export default Slider;
 export { Slider, ISliderOptions, SliderRef, Format, IFormatProps, Label, ILabelProps, Tooltip, ITooltipProps };
-import type * as SliderTypes from 'devextreme/ui/slider_types';
+import type * as SliderTypes from 'dptuicomp/ui/slider_types';
 export { SliderTypes };

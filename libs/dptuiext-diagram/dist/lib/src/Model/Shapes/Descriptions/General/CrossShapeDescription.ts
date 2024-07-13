@@ -1,13 +1,13 @@
 import { ShapeDescription, ShapeTextPadding } from "../ShapeDescription";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { SvgPrimitive } from "../../../../Render/Primitives/Primitive";
 import { ShapeParameter, ShapeParameters } from "../../ShapeParameters";
 import { Shape } from "../../Shape";
 import { ShapeParameterPoint } from "../../ShapeParameterPoint";
 import { PathPrimitive, PathPrimitiveLineToCommand, PathPrimitiveMoveToCommand, PathPrimitiveClosePathCommand } from "../../../../Render/Primitives/PathPrimitive";
 import { ShapeTypes } from "../../ShapeTypes";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 export const CrossHorizontalWidthParameterName = "chw";
 export const CrossVerticalWidthParameterName = "cvw";

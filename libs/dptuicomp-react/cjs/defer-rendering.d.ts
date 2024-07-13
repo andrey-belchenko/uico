@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,16 +8,16 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxDeferRendering, { Properties } from "devextreme/ui/defer_rendering";
+import dxDeferRendering, { Properties } from "dptuicomp/ui/defer_rendering";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ContentReadyEvent, DisposingEvent, InitializedEvent, RenderedEvent, ShownEvent } from "devextreme/ui/defer_rendering";
-import type { AnimationConfig, AnimationState } from "devextreme/animation/fx";
-import type { PositionConfig } from "devextreme/animation/position";
+import type { ContentReadyEvent, DisposingEvent, InitializedEvent, RenderedEvent, ShownEvent } from "dptuicomp/ui/defer_rendering";
+import type { AnimationConfig, AnimationState } from "dptuicomp/animation/fx";
+import type { PositionConfig } from "dptuicomp/animation/position";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -125,5 +125,5 @@ declare const _componentTo: React.MemoExoticComponent<(props: IToProps) => React
 declare const To: typeof _componentTo & IElementDescriptor;
 export default DeferRendering;
 export { DeferRendering, IDeferRenderingOptions, DeferRenderingRef, Animation, IAnimationProps, At, IAtProps, BoundaryOffset, IBoundaryOffsetProps, Collision, ICollisionProps, From, IFromProps, My, IMyProps, Offset, IOffsetProps, Position, IPositionProps, To, IToProps };
-import type * as DeferRenderingTypes from 'devextreme/ui/defer_rendering_types';
+import type * as DeferRenderingTypes from 'dptuicomp/ui/defer_rendering_types';
 export { DeferRenderingTypes };

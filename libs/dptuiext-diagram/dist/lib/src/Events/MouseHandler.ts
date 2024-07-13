@@ -1,8 +1,8 @@
 import { MouseHandlerStateBase } from "./MouseStates/MouseHandlerStateBase";
 import { MouseHandlerDefaultState } from "./MouseStates/MouseHandlerDefaultState";
 import { DiagramMouseEvent, DiagramWheelEvent, DiagramKeyboardEvent, DiagramEvent, MouseButton, MouseEventElementType } from "./Event";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { IEventManager, IVisualizersListener, IConnectionChangeOperationParams } from "./EventManager";
 import { DiagramDraggingEvent } from "../Render/Toolbox/Toolbox";
 import { ModelUtils } from "../Model/ModelUtils";
@@ -27,7 +27,7 @@ import { Connector } from "../Model/Connectors/Connector";
 import { ConnectionTargetInfo } from "./Visualizers/ConnectionTargetVisualizer";
 import { ContainerTargetInfo } from "./Visualizers/ContainerTargetVisualizer";
 import { DiagramModelOperation } from "../ModelOperationSettings";
-import { KeyCode, ModifierKey } from "@devexpress/utils/lib/utils/key";
+import { KeyCode, ModifierKey } from "@dptuiext/utils/lib/utils/key";
 import { EventUtils } from "../Utils";
 
 export class MouseHandler implements IReadOnlyChangesListener, IVisualizersListener {

@@ -1,4 +1,4 @@
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 import { EventDispatcher } from "../../Utils";
 import { IVisualizersListener } from "../EventManager";
 import { TargetVisualizerBase } from "./TargetVisualizerBase";

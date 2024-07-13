@@ -1,4 +1,4 @@
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { ViewType } from "../Helpers/Enums";
 
 export class ViewTypeRangeSettings {

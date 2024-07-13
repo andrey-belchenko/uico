@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,17 +8,17 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxBarGauge, { Properties } from "devextreme/viz/bar_gauge";
+import dxBarGauge, { Properties } from "dptuicomp/viz/bar_gauge";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent, BarGaugeBarInfo, BarGaugeLegendItem } from "devextreme/viz/bar_gauge";
-import type { Font as ChartsFont } from "devextreme/common/charts";
-import type { template } from "devextreme/core/templates/template";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent, BarGaugeBarInfo, BarGaugeLegendItem } from "dptuicomp/viz/bar_gauge";
+import type { Font as ChartsFont } from "dptuicomp/common/charts";
+import type { template } from "dptuicomp/core/templates/template";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -377,5 +377,5 @@ declare const _componentTooltipBorder: React.MemoExoticComponent<(props: IToolti
 declare const TooltipBorder: typeof _componentTooltipBorder & IElementDescriptor;
 export default BarGauge;
 export { BarGauge, IBarGaugeOptions, BarGaugeRef, Animation, IAnimationProps, BarGaugeTitle, IBarGaugeTitleProps, BarGaugeTitleSubtitle, IBarGaugeTitleSubtitleProps, Border, IBorderProps, Export, IExportProps, Font, IFontProps, Format, IFormatProps, Geometry, IGeometryProps, ItemTextFormat, IItemTextFormatProps, Label, ILabelProps, Legend, ILegendProps, LegendBorder, ILegendBorderProps, LegendTitle, ILegendTitleProps, LegendTitleSubtitle, ILegendTitleSubtitleProps, LoadingIndicator, ILoadingIndicatorProps, Margin, IMarginProps, Shadow, IShadowProps, Size, ISizeProps, Subtitle, ISubtitleProps, Title, ITitleProps, Tooltip, ITooltipProps, TooltipBorder, ITooltipBorderProps };
-import type * as BarGaugeTypes from 'devextreme/viz/bar_gauge_types';
+import type * as BarGaugeTypes from 'dptuicomp/viz/bar_gauge_types';
 export { BarGaugeTypes };

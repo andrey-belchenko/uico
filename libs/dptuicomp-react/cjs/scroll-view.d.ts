@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,14 +8,14 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxScrollView, { Properties } from "devextreme/ui/scroll_view";
+import dxScrollView, { Properties } from "dptuicomp/ui/scroll_view";
 import { IHtmlOptions } from "./core/component";
-import type { DisposingEvent, InitializedEvent, PullDownEvent, ReachBottomEvent, ScrollEvent, UpdatedEvent } from "devextreme/ui/scroll_view";
+import type { DisposingEvent, InitializedEvent, PullDownEvent, ReachBottomEvent, ScrollEvent, UpdatedEvent } from "dptuicomp/ui/scroll_view";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -36,5 +36,5 @@ declare const ScrollView: (props: React.PropsWithChildren<IScrollViewOptions> & 
 }) => ReactElement | null;
 export default ScrollView;
 export { ScrollView, IScrollViewOptions, ScrollViewRef };
-import type * as ScrollViewTypes from 'devextreme/ui/scroll_view_types';
+import type * as ScrollViewTypes from 'dptuicomp/ui/scroll_view_types';
 export { ScrollViewTypes };

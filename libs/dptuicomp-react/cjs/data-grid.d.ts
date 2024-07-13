@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,35 +8,35 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
-export { ExplicitTypes } from "devextreme/ui/data_grid";
+export { ExplicitTypes } from "dptuicomp/ui/data_grid";
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxDataGrid, { Properties } from "devextreme/ui/data_grid";
+import dxDataGrid, { Properties } from "dptuicomp/ui/data_grid";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { dxDataGridColumn, AdaptiveDetailRowPreparingEvent, CellClickEvent, CellDblClickEvent, CellPreparedEvent, ContentReadyEvent, ContextMenuPreparingEvent, DataErrorOccurredEvent, DisposingEvent, EditCanceledEvent, EditCancelingEvent, EditingStartEvent, EditorPreparedEvent, EditorPreparingEvent, ExportingEvent, FocusedCellChangingEvent, FocusedRowChangingEvent, InitializedEvent, InitNewRowEvent, KeyDownEvent, RowClickEvent, RowCollapsedEvent, RowCollapsingEvent, RowDblClickEvent, RowExpandedEvent, RowExpandingEvent, RowInsertedEvent, RowInsertingEvent, RowPreparedEvent, RowRemovedEvent, RowRemovingEvent, RowUpdatedEvent, RowUpdatingEvent, RowValidatingEvent, SavedEvent, SavingEvent, ToolbarPreparingEvent, dxDataGridRowObject, ColumnButtonClickEvent, dxDataGridColumnButton, dxDataGridToolbarItem } from "devextreme/ui/data_grid";
-import type { DataChange, ColumnHeaderFilterSearchConfig, ColumnChooserSearchConfig, ColumnChooserSelectionConfig, HeaderFilterSearchConfig, GridBase } from "devextreme/common/grids";
-import type { ContentReadyEvent as FilterBuilderContentReadyEvent, DisposingEvent as FilterBuilderDisposingEvent, EditorPreparedEvent as FilterBuilderEditorPreparedEvent, EditorPreparingEvent as FilterBuilderEditorPreparingEvent, InitializedEvent as FilterBuilderInitializedEvent, dxFilterBuilderField, dxFilterBuilderCustomOperation, OptionChangedEvent, ValueChangedEvent } from "devextreme/ui/filter_builder";
-import type { ContentReadyEvent as FormContentReadyEvent, DisposingEvent as FormDisposingEvent, InitializedEvent as FormInitializedEvent, dxFormSimpleItem, dxFormOptions, OptionChangedEvent as FormOptionChangedEvent, dxFormGroupItem, dxFormTabbedItem, dxFormEmptyItem, dxFormButtonItem, EditorEnterKeyEvent, FieldDataChangedEvent } from "devextreme/ui/form";
-import type { AnimationConfig, AnimationState } from "devextreme/animation/fx";
-import type { template } from "devextreme/core/templates/template";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
-import type { PositionConfig } from "devextreme/animation/position";
-import type { dxPopupOptions, dxPopupToolbarItem } from "devextreme/ui/popup";
-import type { event, EventInfo } from "devextreme/events/index";
-import type { Component } from "devextreme/core/component";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type dxOverlay from "devextreme/ui/overlay";
-import type DOMComponent from "devextreme/core/dom_component";
-import type dxPopup from "devextreme/ui/popup";
-import type dxForm from "devextreme/ui/form";
-import type dxSortable from "devextreme/ui/sortable";
-import type dxDraggable from "devextreme/ui/draggable";
-import type * as LocalizationTypes from "devextreme/localization";
-import type * as CommonTypes from "devextreme/common";
+import type { dxDataGridColumn, AdaptiveDetailRowPreparingEvent, CellClickEvent, CellDblClickEvent, CellPreparedEvent, ContentReadyEvent, ContextMenuPreparingEvent, DataErrorOccurredEvent, DisposingEvent, EditCanceledEvent, EditCancelingEvent, EditingStartEvent, EditorPreparedEvent, EditorPreparingEvent, ExportingEvent, FocusedCellChangingEvent, FocusedRowChangingEvent, InitializedEvent, InitNewRowEvent, KeyDownEvent, RowClickEvent, RowCollapsedEvent, RowCollapsingEvent, RowDblClickEvent, RowExpandedEvent, RowExpandingEvent, RowInsertedEvent, RowInsertingEvent, RowPreparedEvent, RowRemovedEvent, RowRemovingEvent, RowUpdatedEvent, RowUpdatingEvent, RowValidatingEvent, SavedEvent, SavingEvent, ToolbarPreparingEvent, dxDataGridRowObject, ColumnButtonClickEvent, dxDataGridColumnButton, dxDataGridToolbarItem } from "dptuicomp/ui/data_grid";
+import type { DataChange, ColumnHeaderFilterSearchConfig, ColumnChooserSearchConfig, ColumnChooserSelectionConfig, HeaderFilterSearchConfig, GridBase } from "dptuicomp/common/grids";
+import type { ContentReadyEvent as FilterBuilderContentReadyEvent, DisposingEvent as FilterBuilderDisposingEvent, EditorPreparedEvent as FilterBuilderEditorPreparedEvent, EditorPreparingEvent as FilterBuilderEditorPreparingEvent, InitializedEvent as FilterBuilderInitializedEvent, dxFilterBuilderField, dxFilterBuilderCustomOperation, OptionChangedEvent, ValueChangedEvent } from "dptuicomp/ui/filter_builder";
+import type { ContentReadyEvent as FormContentReadyEvent, DisposingEvent as FormDisposingEvent, InitializedEvent as FormInitializedEvent, dxFormSimpleItem, dxFormOptions, OptionChangedEvent as FormOptionChangedEvent, dxFormGroupItem, dxFormTabbedItem, dxFormEmptyItem, dxFormButtonItem, EditorEnterKeyEvent, FieldDataChangedEvent } from "dptuicomp/ui/form";
+import type { AnimationConfig, AnimationState } from "dptuicomp/animation/fx";
+import type { template } from "dptuicomp/core/templates/template";
+import type { DataSourceOptions } from "dptuicomp/data/data_source";
+import type { Store } from "dptuicomp/data/store";
+import type { PositionConfig } from "dptuicomp/animation/position";
+import type { dxPopupOptions, dxPopupToolbarItem } from "dptuicomp/ui/popup";
+import type { event, EventInfo } from "dptuicomp/events/index";
+import type { Component } from "dptuicomp/core/component";
+import type { CollectionWidgetItem } from "dptuicomp/ui/collection/ui.collection_widget.base";
+import type dxOverlay from "dptuicomp/ui/overlay";
+import type DOMComponent from "dptuicomp/core/dom_component";
+import type dxPopup from "dptuicomp/ui/popup";
+import type dxForm from "dptuicomp/ui/form";
+import type dxSortable from "dptuicomp/ui/sortable";
+import type dxDraggable from "dptuicomp/ui/draggable";
+import type * as LocalizationTypes from "dptuicomp/localization";
+import type * as CommonTypes from "dptuicomp/common";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -113,7 +113,7 @@ interface DataGridRef<TRowData = any, TKey = any> {
     instance: () => dxDataGrid<TRowData, TKey>;
 }
 declare const DataGrid: <TRowData = any, TKey = any>(props: ReplaceFieldTypes<Properties<TRowData, TKey>, IDataGridOptionsNarrowedEvents<TRowData, TKey>> & IHtmlOptions & {
-    dataSource?: import("../../devextreme/artifacts/npm/devextreme/data/data_source").DataSourceLike<TRowData, TKey> | null | undefined;
+    dataSource?: import("../../dptuicomp/artifacts/npm/dptuicomp/data/data_source").DataSourceLike<TRowData, TKey> | null | undefined;
     dataRowRender?: ((...params: any) => React.ReactNode) | undefined;
     dataRowComponent?: React.ComponentType<any> | undefined;
     rowRender?: ((...params: any) => React.ReactNode) | undefined;
@@ -1873,5 +1873,5 @@ declare const _componentValueFormat: React.MemoExoticComponent<(props: IValueFor
 declare const ValueFormat: typeof _componentValueFormat & IElementDescriptor;
 export default DataGrid;
 export { DataGrid, IDataGridOptions, DataGridRef, Animation, IAnimationProps, AsyncRule, IAsyncRuleProps, At, IAtProps, BoundaryOffset, IBoundaryOffsetProps, Button, IButtonProps, Change, IChangeProps, ColCountByScreen, IColCountByScreenProps, Collision, ICollisionProps, Column, IColumnProps, ColumnChooser, IColumnChooserProps, ColumnChooserSearch, IColumnChooserSearchProps, ColumnChooserSelection, IColumnChooserSelectionProps, ColumnFixing, IColumnFixingProps, ColumnFixingTexts, IColumnFixingTextsProps, ColumnHeaderFilter, IColumnHeaderFilterProps, ColumnHeaderFilterSearch, IColumnHeaderFilterSearchProps, ColumnLookup, IColumnLookupProps, CompareRule, ICompareRuleProps, CursorOffset, ICursorOffsetProps, CustomOperation, ICustomOperationProps, CustomRule, ICustomRuleProps, DataGridHeaderFilter, IDataGridHeaderFilterProps, DataGridHeaderFilterSearch, IDataGridHeaderFilterSearchProps, DataGridHeaderFilterTexts, IDataGridHeaderFilterTextsProps, DataGridSelection, IDataGridSelectionProps, Editing, IEditingProps, EditingTexts, IEditingTextsProps, EmailRule, IEmailRuleProps, Export, IExportProps, ExportTexts, IExportTextsProps, Field, IFieldProps, FieldLookup, IFieldLookupProps, FilterBuilder, IFilterBuilderProps, FilterBuilderPopup, IFilterBuilderPopupProps, FilterOperationDescriptions, IFilterOperationDescriptionsProps, FilterPanel, IFilterPanelProps, FilterPanelTexts, IFilterPanelTextsProps, FilterRow, IFilterRowProps, Form, IFormProps, Format, IFormatProps, FormItem, IFormItemProps, From, IFromProps, Grouping, IGroupingProps, GroupingTexts, IGroupingTextsProps, GroupItem, IGroupItemProps, GroupOperationDescriptions, IGroupOperationDescriptionsProps, GroupPanel, IGroupPanelProps, HeaderFilter, IHeaderFilterProps, Hide, IHideProps, Item, IItemProps, KeyboardNavigation, IKeyboardNavigationProps, Label, ILabelProps, LoadPanel, ILoadPanelProps, Lookup, ILookupProps, MasterDetail, IMasterDetailProps, My, IMyProps, NumericRule, INumericRuleProps, Offset, IOffsetProps, OperationDescriptions, IOperationDescriptionsProps, Pager, IPagerProps, Paging, IPagingProps, PatternRule, IPatternRuleProps, Popup, IPopupProps, Position, IPositionProps, RangeRule, IRangeRuleProps, RemoteOperations, IRemoteOperationsProps, RequiredRule, IRequiredRuleProps, RowDragging, IRowDraggingProps, Scrolling, IScrollingProps, Search, ISearchProps, SearchPanel, ISearchPanelProps, Selection, ISelectionProps, Show, IShowProps, SortByGroupSummaryInfo, ISortByGroupSummaryInfoProps, Sorting, ISortingProps, StateStoring, IStateStoringProps, StringLengthRule, IStringLengthRuleProps, Summary, ISummaryProps, SummaryTexts, ISummaryTextsProps, Texts, ITextsProps, To, IToProps, Toolbar, IToolbarProps, ToolbarItem, IToolbarItemProps, TotalItem, ITotalItemProps, ValidationRule, IValidationRuleProps, ValueFormat, IValueFormatProps };
-import type * as DataGridTypes from 'devextreme/ui/data_grid_types';
+import type * as DataGridTypes from 'dptuicomp/ui/data_grid_types';
 export { DataGridTypes };

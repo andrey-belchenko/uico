@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
@@ -14,10 +14,10 @@ import {
 } from "inferno";
 import {
     InfernoWrapperComponent
-} from "@devextreme/runtime/inferno";
+} from "@dptuicomp/runtime/inferno";
 import {
     normalizeStyles
-} from "@devextreme/runtime/inferno";
+} from "@dptuicomp/runtime/inferno";
 import {
     Widget
 } from "../common/widget";
@@ -33,7 +33,7 @@ export const viewFunction = viewModel => createComponentVNode(2, Widget, {
 });
 import {
     createReRenderEffect
-} from "@devextreme/runtime/inferno";
+} from "@dptuicomp/runtime/inferno";
 export class Box extends InfernoWrapperComponent {
     constructor(props) {
         super(props);

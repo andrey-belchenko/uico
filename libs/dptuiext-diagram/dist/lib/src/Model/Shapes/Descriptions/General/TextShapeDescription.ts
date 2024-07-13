@@ -1,6 +1,6 @@
 import { ShapeDescription, ShapeDefaultDimension } from "../ShapeDescription";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { Shape } from "../../Shape";
 import { SvgPrimitive } from "../../../../Render/Primitives/Primitive";
 import { ShapeTypes } from "../../ShapeTypes";

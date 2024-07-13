@@ -1,7 +1,7 @@
 import { Shape } from "../Shapes/Shape";
 import { DiagramItem } from "../DiagramItem";
 import { EventDispatcher } from "../../Utils";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { ModelOperationSettings, DiagramModelOperation } from "../../ModelOperationSettings";
 import { Connector, ConnectorPosition } from "../Connectors/Connector";
 import { RequestedEntity } from "./Entities/RequestedEntity";
@@ -22,7 +22,7 @@ import { ISelectionChangesListener, Selection } from "../../Selection/Selection"
 import { IMoveShapeInfo, MoveShapeRequestedEntity } from "./Entities/MoveShape";
 import { IModelChangesListener } from "../ModelManipulator";
 import { ItemChange } from "../ModelChange";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 export class PermissionsProvider implements ISelectionChangesListener, IModelChangesListener {
     apiController: IApiController;

@@ -1,4 +1,4 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { PasteSelectionCommandBase } from "./PasteSelectionCommandBase";
 import { DiagramItem } from "../../Model/DiagramItem";
 

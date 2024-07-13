@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,18 +8,18 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxPopover, { Properties } from "devextreme/ui/popover";
+import dxPopover, { Properties } from "dptuicomp/ui/popover";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { PositionConfig } from "devextreme/animation/position";
-import type { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ShowingEvent, ShownEvent, TitleRenderedEvent } from "devextreme/ui/popover";
-import type { AnimationConfig, AnimationState } from "devextreme/animation/fx";
-import type { template } from "devextreme/core/templates/template";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
+import type { PositionConfig } from "dptuicomp/animation/position";
+import type { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ShowingEvent, ShownEvent, TitleRenderedEvent } from "dptuicomp/ui/popover";
+import type { AnimationConfig, AnimationState } from "dptuicomp/animation/fx";
+import type { template } from "dptuicomp/core/templates/template";
+import type { CollectionWidgetItem } from "dptuicomp/ui/collection/ui.collection_widget.base";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -196,5 +196,5 @@ declare const _componentToolbarItem: React.MemoExoticComponent<(props: IToolbarI
 declare const ToolbarItem: typeof _componentToolbarItem & IElementDescriptor;
 export default Popover;
 export { Popover, IPopoverOptions, PopoverRef, Animation, IAnimationProps, At, IAtProps, BoundaryOffset, IBoundaryOffsetProps, Collision, ICollisionProps, From, IFromProps, Hide, IHideProps, HideEvent, IHideEventProps, My, IMyProps, Offset, IOffsetProps, Position, IPositionProps, Show, IShowProps, ShowEvent, IShowEventProps, To, IToProps, ToolbarItem, IToolbarItemProps };
-import type * as PopoverTypes from 'devextreme/ui/popover_types';
+import type * as PopoverTypes from 'dptuicomp/ui/popover_types';
 export { PopoverTypes };

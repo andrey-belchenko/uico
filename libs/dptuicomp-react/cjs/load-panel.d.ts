@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,16 +8,16 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxLoadPanel, { Properties } from "devextreme/ui/load_panel";
+import dxLoadPanel, { Properties } from "dptuicomp/ui/load_panel";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { PositionConfig } from "devextreme/animation/position";
-import type { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ShowingEvent, ShownEvent } from "devextreme/ui/load_panel";
-import type { AnimationConfig, AnimationState } from "devextreme/animation/fx";
+import type { PositionConfig } from "dptuicomp/animation/position";
+import type { ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ShowingEvent, ShownEvent } from "dptuicomp/ui/load_panel";
+import type { AnimationConfig, AnimationState } from "dptuicomp/animation/fx";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -152,5 +152,5 @@ declare const _componentTo: React.MemoExoticComponent<(props: IToProps) => React
 declare const To: typeof _componentTo & IElementDescriptor;
 export default LoadPanel;
 export { LoadPanel, ILoadPanelOptions, LoadPanelRef, Animation, IAnimationProps, At, IAtProps, BoundaryOffset, IBoundaryOffsetProps, Collision, ICollisionProps, From, IFromProps, Hide, IHideProps, My, IMyProps, Offset, IOffsetProps, Position, IPositionProps, Show, IShowProps, To, IToProps };
-import type * as LoadPanelTypes from 'devextreme/ui/load_panel_types';
+import type * as LoadPanelTypes from 'dptuicomp/ui/load_panel_types';
 export { LoadPanelTypes };

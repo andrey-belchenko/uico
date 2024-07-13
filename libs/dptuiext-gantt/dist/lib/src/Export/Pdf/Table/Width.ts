@@ -1,6 +1,6 @@
 import { PredefinedStyles } from "./PredefinedStyles";
 import { IPdfTableValueProvider } from "./IPdfTableDataProvider";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
 
 export class Width implements IPdfTableValueProvider {
     protected _widthInternal: number|string;

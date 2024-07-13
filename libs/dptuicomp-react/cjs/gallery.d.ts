@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,17 +8,17 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
-export { ExplicitTypes } from "devextreme/ui/gallery";
+export { ExplicitTypes } from "dptuicomp/ui/gallery";
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxGallery, { Properties } from "devextreme/ui/gallery";
+import dxGallery, { Properties } from "dptuicomp/ui/gallery";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { dxGalleryItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent } from "devextreme/ui/gallery";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { template } from "devextreme/core/templates/template";
+import type { dxGalleryItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent } from "dptuicomp/ui/gallery";
+import type { CollectionWidgetItem } from "dptuicomp/ui/collection/ui.collection_widget.base";
+import type { template } from "dptuicomp/core/templates/template";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -46,7 +46,7 @@ interface GalleryRef<TItem = any, TKey = any> {
     instance: () => dxGallery<TItem, TKey>;
 }
 declare const Gallery: <TItem = any, TKey = any>(props: ReplaceFieldTypes<Properties<TItem, TKey>, IGalleryOptionsNarrowedEvents<TItem, TKey>> & IHtmlOptions & {
-    dataSource?: import("../../devextreme/artifacts/npm/devextreme/data/data_source").DataSourceLike<TItem, TKey> | null | undefined;
+    dataSource?: import("../../dptuicomp/artifacts/npm/dptuicomp/data/data_source").DataSourceLike<TItem, TKey> | null | undefined;
     itemRender?: ((...params: any) => React.ReactNode) | undefined;
     itemComponent?: React.ComponentType<any> | undefined;
     defaultItems?: any[] | undefined;
@@ -74,5 +74,5 @@ declare const _componentItem: React.MemoExoticComponent<(props: IItemProps) => R
 declare const Item: typeof _componentItem & IElementDescriptor;
 export default Gallery;
 export { Gallery, IGalleryOptions, GalleryRef, Item, IItemProps };
-import type * as GalleryTypes from 'devextreme/ui/gallery_types';
+import type * as GalleryTypes from 'dptuicomp/ui/gallery_types';
 export { GalleryTypes };

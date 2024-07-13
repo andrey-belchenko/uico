@@ -6,8 +6,8 @@ import { PolygonShapeDescription } from "./PolygonShapeDescription";
 import { ConnectionPointSide } from "../../../DiagramItem";
 import { ConnectionPoint } from "../../../ConnectionPoint";
 import { GeometryUtils } from "../../../../Utils";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 export class PentagonShapeDescription extends PolygonShapeDescription {
     private defaultRatio: number;

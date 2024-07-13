@@ -1,4 +1,4 @@
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { CommandManager } from "../../../Commands/CommandManager";
 import { ModelManipulator } from "../../../Model/Manipulators/ModelManipulator";
 import { ValidationController } from "../../../Model/Validation/ValidationController";

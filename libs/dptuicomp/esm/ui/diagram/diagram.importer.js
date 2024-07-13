@@ -4,13 +4,13 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 import Errors from "../widget/ui.errors";
-import DiagramDefault, * as Diagram from "devexpress-diagram";
+import DiagramDefault, * as Diagram from "dptuiext-diagram";
 export function getDiagram() {
     if (!DiagramDefault) {
-        throw Errors.Error("E1041", "devexpress-diagram")
+        throw Errors.Error("E1041", "dptuiext-diagram")
     }
     return Diagram
 }

@@ -1,8 +1,8 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { isDefined } from "@devexpress/utils/lib/utils/common";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
-import { EvtUtils } from "@devexpress/utils/lib/utils/evt";
-import { KeyCode, ModifierKey } from "@devexpress/utils/lib/utils/key";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
+import { EvtUtils } from "@dptuiext/utils/lib/utils/evt";
+import { KeyCode, ModifierKey } from "@dptuiext/utils/lib/utils/key";
 import { TaskEditController } from "../Edit/TaskEditController";
 import { GanttView } from "../GanttView";
 import { RenderHelper } from "../Render/RenderHelper";

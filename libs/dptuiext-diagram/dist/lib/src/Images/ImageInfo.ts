@@ -1,4 +1,4 @@
-import { Base64Utils } from "@devexpress/utils/lib/utils/base64";
+import { Base64Utils } from "@dptuiext/utils/lib/utils/base64";
 
 export class ImageInfo {
     private static transparentWhiteImage1_1: string = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAANSURBVBhXY/j///9/AAn7A/0FQ0XKAAAAAElFTkSuQmCC";

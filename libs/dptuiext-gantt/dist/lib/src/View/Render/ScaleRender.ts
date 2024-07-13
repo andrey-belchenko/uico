@@ -1,4 +1,4 @@
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
 import { ModelChangesDispatcher } from "../../Model/Dispatchers/ModelChangesDispatcher";
 import { DateRange } from "../../Model/WorkingTime/DateRange";
 import { ViewType } from "../Helpers/Enums";

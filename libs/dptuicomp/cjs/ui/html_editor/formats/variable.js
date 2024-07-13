@@ -4,11 +4,11 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.default = void 0;
-var _devextremeQuill = _interopRequireDefault(require("devextreme-quill"));
+var _dptuicompQuill = _interopRequireDefault(require("dptuicomp-quill"));
 var _common = require("../../../core/utils/common");
 var _extend = require("../../../core/utils/extend");
 
@@ -18,8 +18,8 @@ function _interopRequireDefault(obj) {
     }
 }
 let Variable = {};
-if (_devextremeQuill.default) {
-    const Embed = _devextremeQuill.default.import("blots/embed");
+if (_dptuicompQuill.default) {
+    const Embed = _dptuicompQuill.default.import("blots/embed");
     const VARIABLE_CLASS = "dx-variable";
     Variable = class extends Embed {
         static create(data) {

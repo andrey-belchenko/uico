@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 Object.defineProperty(exports, "__esModule", {
@@ -69,7 +69,7 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 const FORMAT = 1;
 const RTM_MIN_PATCH_VERSION = 3;
 const KEY_SPLITTER = ".";
-const BUY_NOW_LINK = "https://go.devexpress.com/Licensing_Installer_Watermark_DevExtremeJQuery.aspx";
+const BUY_NOW_LINK = "https://go.dptuiext.com/Licensing_Installer_Watermark_DevExtremeJQuery.aspx";
 const GENERAL_ERROR = {
     kind: _types.TokenKind.corrupted,
     error: "general"

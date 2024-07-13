@@ -1,9 +1,9 @@
-import { Browser } from "@devexpress/utils/lib/browser";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
-import { EvtUtils } from "@devexpress/utils/lib/utils/evt";
+import { Browser } from "@dptuiext/utils/lib/browser";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
+import { EvtUtils } from "@dptuiext/utils/lib/utils/evt";
 import { ITaskAreaEventsListener } from "./TaskAreaEventsListener";
 import { TaskAreaStateController } from "./States/StateController";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 export const TOUCH_ACTION_NONE = "dx-gantt-touch-action";
 

@@ -1,6 +1,6 @@
 import { SimpleCommandState } from "../CommandStates";
 import { CanvasItemsManager } from "../../Render/CanvasItemsManager";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { CanvasExportManager } from "../../Render/CanvasExportManager";
 import { ExportImportCommandBase } from "./ExportImportCommandBase";
 import { DiagramControl } from "../../Diagram";

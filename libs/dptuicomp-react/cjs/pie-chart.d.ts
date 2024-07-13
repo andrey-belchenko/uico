@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,17 +8,17 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxPieChart, { Properties } from "devextreme/viz/pie_chart";
+import dxPieChart, { Properties } from "dptuicomp/viz/pie_chart";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { DisposingEvent, DoneEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LegendClickEvent, PointClickEvent, TooltipHiddenEvent, TooltipShownEvent, dxPieChartAnnotationConfig, dxPieChartCommonAnnotationConfig, PieChartLegendItem, PieChartSeries } from "devextreme/viz/pie_chart";
-import type { Font as ChartsFont, ChartsColor } from "devextreme/common/charts";
-import type { template } from "devextreme/core/templates/template";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { DisposingEvent, DoneEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LegendClickEvent, PointClickEvent, TooltipHiddenEvent, TooltipShownEvent, dxPieChartAnnotationConfig, dxPieChartCommonAnnotationConfig, PieChartLegendItem, PieChartSeries } from "dptuicomp/viz/pie_chart";
+import type { Font as ChartsFont, ChartsColor } from "dptuicomp/common/charts";
+import type { template } from "dptuicomp/core/templates/template";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -753,5 +753,5 @@ declare const _componentTooltipBorder: React.MemoExoticComponent<(props: IToolti
 declare const TooltipBorder: typeof _componentTooltipBorder & IElementDescriptor;
 export default PieChart;
 export { PieChart, IPieChartOptions, PieChartRef, AdaptiveLayout, IAdaptiveLayoutProps, Animation, IAnimationProps, Annotation, IAnnotationProps, AnnotationBorder, IAnnotationBorderProps, ArgumentFormat, IArgumentFormatProps, Border, IBorderProps, Color, IColorProps, CommonAnnotationSettings, ICommonAnnotationSettingsProps, CommonSeriesSettings, ICommonSeriesSettingsProps, Connector, IConnectorProps, Export, IExportProps, Font, IFontProps, Format, IFormatProps, Hatching, IHatchingProps, HoverStyle, IHoverStyleProps, Image, IImageProps, Label, ILabelProps, Legend, ILegendProps, LegendTitle, ILegendTitleProps, LegendTitleSubtitle, ILegendTitleSubtitleProps, LoadingIndicator, ILoadingIndicatorProps, Margin, IMarginProps, PieChartTitle, IPieChartTitleProps, PieChartTitleSubtitle, IPieChartTitleSubtitleProps, SelectionStyle, ISelectionStyleProps, Series, ISeriesProps, SeriesBorder, ISeriesBorderProps, SeriesTemplate, ISeriesTemplateProps, Shadow, IShadowProps, Size, ISizeProps, SmallValuesGrouping, ISmallValuesGroupingProps, Subtitle, ISubtitleProps, Title, ITitleProps, Tooltip, ITooltipProps, TooltipBorder, ITooltipBorderProps };
-import type * as PieChartTypes from 'devextreme/viz/pie_chart_types';
+import type * as PieChartTypes from 'dptuicomp/viz/pie_chart_types';
 export { PieChartTypes };

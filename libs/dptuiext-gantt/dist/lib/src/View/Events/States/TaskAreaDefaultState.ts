@@ -1,4 +1,4 @@
-import { EvtUtils } from "@devexpress/utils/lib/utils/evt";
+import { EvtUtils } from "@dptuiext/utils/lib/utils/evt";
 import { TaskAreaDomHelper } from "./TaskAreaDomHelper";
 import { TaskAreaStateBase } from "./TaskAreaStateBase";
 import { TaskAreaStateEventNames } from "./TaskAreaStateEventNames";

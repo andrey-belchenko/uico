@@ -1,9 +1,9 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 import { SvgPrimitive } from "../../../../Render/Primitives/Primitive";
 import { RectanglePrimitive } from "../../../../Render/Primitives/RectaglePrimitive";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 import { Shape } from "../../Shape";
 import { ShapeTypes } from "../../ShapeTypes";
 import { ShapeDefaultDimension } from "../ShapeDescription";

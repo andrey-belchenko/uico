@@ -8,8 +8,8 @@ import { ImportConnectorHistoryItem } from "../../History/Common/ImportConnector
 import { ModelUtils } from "../../Model/ModelUtils";
 import { SetSelectionHistoryItem } from "../../History/Common/SetSelectionHistoryItem";
 import { DiagramItem } from "../../Model/DiagramItem";
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
 import { DiagramModel } from "../../Model/Model";
 
 export abstract class PasteSelectionCommandBase extends ClipboardCommand {

@@ -1,11 +1,11 @@
 import { ShapeDescription, ShapeDefaultDimension } from "../ShapeDescription";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { SvgPrimitive } from "../../../../Render/Primitives/Primitive";
 import { Shape } from "../../Shape";
 import { EllipsePrimitive } from "../../../../Render/Primitives/EllipsePrimitive";
 import { ShapeTypes } from "../../ShapeTypes";
 import { GeometryUtils } from "../../../../Utils";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 
 export class EllipseShapeDescription extends ShapeDescription {
     constructor(hasDefaultText?: boolean) {

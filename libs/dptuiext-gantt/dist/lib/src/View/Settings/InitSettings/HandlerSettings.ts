@@ -1,5 +1,5 @@
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { IHistory } from "../../../Model/History/IHistory";
 import { ViewVisualModel } from "../../../Model/VisualModel/VisualModel";
 import { TaskEditController } from "../../Edit/TaskEditController";

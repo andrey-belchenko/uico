@@ -1,5 +1,5 @@
 import { StyleBase } from "../../Model/Style";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
 
 export abstract class PrimitiveObject {
     constructor(

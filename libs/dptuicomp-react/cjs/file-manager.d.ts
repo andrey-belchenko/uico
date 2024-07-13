@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,14 +8,14 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxFileManager, { Properties } from "devextreme/ui/file_manager";
+import dxFileManager, { Properties } from "dptuicomp/ui/file_manager";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ContentReadyEvent, ContextMenuItemClickEvent, ContextMenuShowingEvent, DirectoryCreatedEvent, DirectoryCreatingEvent, DisposingEvent, ErrorOccurredEvent, FileUploadedEvent, FileUploadingEvent, InitializedEvent, ItemCopiedEvent, ItemCopyingEvent, ItemDeletedEvent, ItemDeletingEvent, ItemDownloadingEvent, ItemMovedEvent, ItemMovingEvent, ItemRenamedEvent, ItemRenamingEvent, SelectedFileOpenedEvent, ToolbarItemClickEvent, dxFileManagerContextMenuItem, dxFileManagerDetailsColumn, dxFileManagerToolbarItem } from "devextreme/ui/file_manager";
+import type { ContentReadyEvent, ContextMenuItemClickEvent, ContextMenuShowingEvent, DirectoryCreatedEvent, DirectoryCreatingEvent, DisposingEvent, ErrorOccurredEvent, FileUploadedEvent, FileUploadingEvent, InitializedEvent, ItemCopiedEvent, ItemCopyingEvent, ItemDeletedEvent, ItemDeletingEvent, ItemDownloadingEvent, ItemMovedEvent, ItemMovingEvent, ItemRenamedEvent, ItemRenamingEvent, SelectedFileOpenedEvent, ToolbarItemClickEvent, dxFileManagerContextMenuItem, dxFileManagerDetailsColumn, dxFileManagerToolbarItem } from "dptuicomp/ui/file_manager";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -179,5 +179,5 @@ declare const _componentUpload: React.MemoExoticComponent<(props: IUploadProps) 
 declare const Upload: typeof _componentUpload & IElementDescriptor;
 export default FileManager;
 export { FileManager, IFileManagerOptions, FileManagerRef, Column, IColumnProps, ContextMenu, IContextMenuProps, ContextMenuItem, IContextMenuItemProps, Details, IDetailsProps, FileSelectionItem, IFileSelectionItemProps, Item, IItemProps, ItemView, IItemViewProps, Notifications, INotificationsProps, Permissions, IPermissionsProps, Toolbar, IToolbarProps, ToolbarItem, IToolbarItemProps, Upload, IUploadProps };
-import type * as FileManagerTypes from 'devextreme/ui/file_manager_types';
+import type * as FileManagerTypes from 'dptuicomp/ui/file_manager_types';
 export { FileManagerTypes };

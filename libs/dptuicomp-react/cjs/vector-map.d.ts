@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,19 +8,19 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxVectorMap, { Properties } from "devextreme/viz/vector_map";
+import dxVectorMap, { Properties } from "dptuicomp/viz/vector_map";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ClickEvent, DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent, dxVectorMapAnnotationConfig, MapLayerElement, VectorMapLegendItem } from "devextreme/viz/vector_map";
-import type { Font as ChartsFont } from "devextreme/common/charts";
-import type { template } from "devextreme/core/templates/template";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
-import type DataSource from "devextreme/data/data_source";
+import type { ClickEvent, DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent, dxVectorMapAnnotationConfig, MapLayerElement, VectorMapLegendItem } from "dptuicomp/viz/vector_map";
+import type { Font as ChartsFont } from "dptuicomp/common/charts";
+import type { template } from "dptuicomp/core/templates/template";
+import type { DataSourceOptions } from "dptuicomp/data/data_source";
+import type { Store } from "dptuicomp/data/store";
+import type DataSource from "dptuicomp/data/data_source";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -521,5 +521,5 @@ declare const _componentVectorMapTitleSubtitle: React.MemoExoticComponent<(props
 declare const VectorMapTitleSubtitle: typeof _componentVectorMapTitleSubtitle & IElementDescriptor;
 export default VectorMap;
 export { VectorMap, IVectorMapOptions, VectorMapRef, Annotation, IAnnotationProps, AnnotationBorder, IAnnotationBorderProps, Background, IBackgroundProps, Border, IBorderProps, CommonAnnotationSettings, ICommonAnnotationSettingsProps, ControlBar, IControlBarProps, Export, IExportProps, Font, IFontProps, Image, IImageProps, Label, ILabelProps, Layer, ILayerProps, Legend, ILegendProps, LegendTitle, ILegendTitleProps, LegendTitleSubtitle, ILegendTitleSubtitleProps, LoadingIndicator, ILoadingIndicatorProps, Margin, IMarginProps, Projection, IProjectionProps, Shadow, IShadowProps, Size, ISizeProps, Source, ISourceProps, Subtitle, ISubtitleProps, Title, ITitleProps, Tooltip, ITooltipProps, TooltipBorder, ITooltipBorderProps, VectorMapTitle, IVectorMapTitleProps, VectorMapTitleSubtitle, IVectorMapTitleSubtitleProps };
-import type * as VectorMapTypes from 'devextreme/viz/vector_map_types';
+import type * as VectorMapTypes from 'dptuicomp/viz/vector_map_types';
 export { VectorMapTypes };

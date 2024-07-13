@@ -1,5 +1,5 @@
 import { GeometryUtils } from "../../Utils";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { PathPrimitiveCommand, PathPrimitiveMoveToCommand, PathPrimitiveLineToCommand, PathPrimitiveClosePathCommand, PathPrimitive } from "../../Render/Primitives/PathPrimitive";
 import { Style } from "../Style";
 

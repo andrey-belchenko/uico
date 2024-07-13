@@ -1,4 +1,4 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 
 export class ConnectorRenderPoint extends Point {
     constructor(x: number, y: number, public pointIndex: number = -1, public skipped: boolean = false) {

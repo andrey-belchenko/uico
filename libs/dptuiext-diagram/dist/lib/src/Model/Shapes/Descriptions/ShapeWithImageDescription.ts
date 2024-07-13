@@ -1,10 +1,10 @@
 import { ShapeDescription } from "./ShapeDescription";
 import { SvgPrimitive } from "../../../Render/Primitives/Primitive";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { Shape } from "../Shape";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
 import { ImagePrimitive } from "../../../Render/Primitives/ImagePrimitive";
 import { RectanglePrimitive } from "../../../Render/Primitives/RectaglePrimitive";
 import { GroupPrimitive } from "../../../Render/Primitives/GroupPrimitive";

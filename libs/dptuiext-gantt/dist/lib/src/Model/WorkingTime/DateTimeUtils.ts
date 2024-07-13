@@ -1,6 +1,6 @@
 import { Time } from "./Time";
 import { TimeRange } from "./TimeRange";
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { DateRange } from "./DateRange";
 import { Month } from "./Month";
 import { DayOfWeek } from "./DayOfWeek";

@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,13 +8,13 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 "use client";
 import * as React from "react";
 import { memo, forwardRef, useImperativeHandle, useRef, useMemo } from "react";
-import dxFileUploader from "devextreme/ui/file_uploader";
+import dxFileUploader from "dptuicomp/ui/file_uploader";
 import { Component as BaseComponent } from "./core/component";
 const FileUploader = memo(forwardRef((props, ref) => {
     const baseRef = useRef(null);

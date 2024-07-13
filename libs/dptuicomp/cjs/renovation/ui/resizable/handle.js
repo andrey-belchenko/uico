@@ -4,14 +4,14 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.ResizableHandleProps = exports.ResizableHandle = void 0;
 exports.defaultOptions = defaultOptions;
 exports.viewFunction = void 0;
 var _inferno = require("inferno");
-var _inferno2 = require("@devextreme/runtime/inferno");
+var _inferno2 = require("@dptuicomp/runtime/inferno");
 var _drag = require("../../../events/drag");
 var _index = require("../../../events/utils/index");
 var _events_engine = _interopRequireDefault(require("../../../events/core/events_engine"));

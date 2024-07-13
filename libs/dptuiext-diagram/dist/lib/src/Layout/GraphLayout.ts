@@ -1,6 +1,6 @@
 import { ItemKey } from "../Model/DiagramItem";
 import { GeometryUtils } from "../Utils";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 import { NodeLayout, EdgeLayout } from "./NodeLayout";
 
 export class GraphLayout {

@@ -1,5 +1,5 @@
 import { ChangePagePropertyCommand } from "./ChangePagePropertyCommand";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { ChangePageSizeHistoryItem } from "../../History/Page/ChangePageSizeHistoryItem";
 import { HistoryItem } from "../../History/HistoryItem";
 import { SimpleCommandBase } from "../SimpleCommandBase";

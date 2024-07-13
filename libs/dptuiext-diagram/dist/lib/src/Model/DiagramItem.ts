@@ -1,6 +1,6 @@
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Metrics } from "@devexpress/utils/lib/geometry/metrics";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Metrics } from "@dptuiext/utils/lib/geometry/metrics";
 import { Connector } from "./Connectors/Connector";
 import { SvgPrimitive } from "../Render/Primitives/Primitive";
 import { ObjectUtils } from "../Utils";

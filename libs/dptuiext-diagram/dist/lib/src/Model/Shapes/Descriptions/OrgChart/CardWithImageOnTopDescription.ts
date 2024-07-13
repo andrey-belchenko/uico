@@ -1,8 +1,8 @@
 import { ShapeDefaultDimension } from "../ShapeDescription";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { ShapeTypes } from "../../ShapeTypes";
 import { CardBaseDescription } from "./CardBaseDescription";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
 
 export class CardWithImageOnTopDescription extends CardBaseDescription {
     constructor() {

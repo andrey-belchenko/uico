@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,7 +8,7 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 "use client";
@@ -43,7 +43,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.CheckBox = void 0;
 const React = __importStar(require("react"));
 const react_1 = require("react");
-const check_box_1 = __importDefault(require("devextreme/ui/check_box"));
+const check_box_1 = __importDefault(require("dptuicomp/ui/check_box"));
 const component_1 = require("./core/component");
 const CheckBox = (0, react_1.memo)((0, react_1.forwardRef)((props, ref) => {
     const baseRef = (0, react_1.useRef)(null);

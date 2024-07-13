@@ -1,7 +1,7 @@
 import { MouseHandler } from "../MouseHandler";
 import { DiagramMouseEvent, DiagramWheelEvent, DiagramKeyboardEvent } from "../Event";
 import { DiagramDraggingEvent } from "../../Render/Toolbox/Toolbox";
-import { KeyCode } from "@devexpress/utils/lib/utils/key";
+import { KeyCode } from "@dptuiext/utils/lib/utils/key";
 import { ConnectionPointInfo } from "../Visualizers/ConnectionPointsVisualizer";
 import { ConnectionTargetInfo } from "../Visualizers/ConnectionTargetVisualizer";
 

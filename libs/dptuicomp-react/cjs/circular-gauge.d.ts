@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,17 +8,17 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxCircularGauge, { Properties } from "devextreme/viz/circular_gauge";
+import dxCircularGauge, { Properties } from "dptuicomp/viz/circular_gauge";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent } from "devextreme/viz/circular_gauge";
-import type { Font as ChartsFont, ChartsColor } from "devextreme/common/charts";
-import type { template } from "devextreme/core/templates/template";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent } from "dptuicomp/viz/circular_gauge";
+import type { Font as ChartsFont, ChartsColor } from "dptuicomp/common/charts";
+import type { template } from "dptuicomp/core/templates/template";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -389,5 +389,5 @@ declare const _componentValueIndicator: React.MemoExoticComponent<(props: IValue
 declare const ValueIndicator: typeof _componentValueIndicator & IElementDescriptor;
 export default CircularGauge;
 export { CircularGauge, ICircularGaugeOptions, CircularGaugeRef, Animation, IAnimationProps, BackgroundColor, IBackgroundColorProps, Border, IBorderProps, Color, IColorProps, Export, IExportProps, Font, IFontProps, Format, IFormatProps, Geometry, IGeometryProps, Label, ILabelProps, LoadingIndicator, ILoadingIndicatorProps, Margin, IMarginProps, MinorTick, IMinorTickProps, Range, IRangeProps, RangeContainer, IRangeContainerProps, Scale, IScaleProps, Shadow, IShadowProps, Size, ISizeProps, Subtitle, ISubtitleProps, SubvalueIndicator, ISubvalueIndicatorProps, Text, ITextProps, Tick, ITickProps, Title, ITitleProps, Tooltip, ITooltipProps, ValueIndicator, IValueIndicatorProps };
-import type * as CircularGaugeTypes from 'devextreme/viz/circular_gauge_types';
+import type * as CircularGaugeTypes from 'dptuicomp/viz/circular_gauge_types';
 export { CircularGaugeTypes };

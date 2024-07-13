@@ -1,14 +1,14 @@
 import { DiagramModel } from "../Model/Model";
 import { Shape } from "../Model/Shapes/Shape";
 import { ObjectUtils } from "../Utils";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { ShapeDescriptionManager } from "../Model/Shapes/Descriptions/ShapeDescriptionManager";
 import { Connector } from "../Model/Connectors/Connector";
 import { ImageInfo } from "../Images/ImageInfo";
 import { ImporterBase } from "./ImporterBase";
 import { ImportUtils } from "./ImportUtils";
-import { ColorUtils } from "@devexpress/utils/lib/utils/color";
+import { ColorUtils } from "@dptuiext/utils/lib/utils/color";
 import { ConnectorRenderPointsContext } from "../Model/Connectors/Routing/ConnectorRenderPointsContext";
 
 export class Importer extends ImporterBase {

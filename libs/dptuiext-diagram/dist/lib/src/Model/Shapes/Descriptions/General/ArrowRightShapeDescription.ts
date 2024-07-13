@@ -3,7 +3,7 @@ import { Shape } from "../../Shape";
 import { PathPrimitive, PathPrimitiveLineToCommand, PathPrimitiveMoveToCommand, PathPrimitiveClosePathCommand } from "../../../../Render/Primitives/PathPrimitive";
 import { ArrowHorizontalShapeDescription, ArrowVerticalTriangleWidthParameterName, ArrowVerticalLineHeightParameterName } from "./ArrowHorizontalShapeDescription";
 import { ShapeParameterPoint } from "../../ShapeParameterPoint";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { ShapeParameters } from "../../ShapeParameters";
 import { ShapeTypes } from "../../ShapeTypes";
 import { ConnectionPointSide } from "../../../DiagramItem";

@@ -1,4 +1,4 @@
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { Dependency } from "../../Model/Entities/Dependency";
 import { Resource } from "../../Model/Entities/Resource";
 import { Task } from "../../Model/Entities/Task";

@@ -1,7 +1,7 @@
 import { HistoryItem } from "../HistoryItem";
 import { ModelManipulator } from "../../Model/ModelManipulator";
 import { IViewController } from "../../ViewController";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 
 export class ScrollIntoViewOnRedoHistoryItem extends HistoryItem {
     constructor(protected view: IViewController, protected rectangle: Rectangle) {

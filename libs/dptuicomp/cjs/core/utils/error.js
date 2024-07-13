@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.default = _default;
@@ -12,7 +12,7 @@ var _extend = require("./extend");
 var _console = require("./console");
 var _string = require("./string");
 var _version = require("../version");
-const ERROR_URL = "https://js.devexpress.com/error/" + _version.version.split(".").slice(0, 2).join("_") + "/";
+const ERROR_URL = "https://js.dptuiext.com/error/" + _version.version.split(".").slice(0, 2).join("_") + "/";
 
 function _default(baseErrors, errors) {
     const exports = {

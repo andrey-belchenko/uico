@@ -1,4 +1,4 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { DiagramMouseEvent } from "../Event";
 import { MouseHandlerDraggingState } from "./MouseHandlerDraggingState";
 import { ModelUtils } from "../../Model/ModelUtils";

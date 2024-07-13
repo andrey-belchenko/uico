@@ -17,7 +17,7 @@ import { TextLeftAlignCommand, TextCenterAlignCommand, TextRightAlignCommand } f
 import { ChangeConnectorEndLineEndingCommand, ChangeConnectorStartLineEndingCommand } from "./Properties/ChangeConnectorLineEndingCommand";
 import { ChangeConnectorLineOptionCommand } from "./Properties/ChangeConnectorLineOptionCommand";
 import { SelectAllCommand } from "./Common/SelectAllCommand";
-import { ModifierKey, KeyCode } from "@devexpress/utils/lib/utils/key";
+import { ModifierKey, KeyCode } from "@dptuiext/utils/lib/utils/key";
 import { AutoLayoutTreeVerticalCommand } from "./AutoLayout/AutoLayoutTreeVerticalCommand";
 import { ChangeSnapToGridCommand } from "./Page/ChangeSnapToGridCommand";
 import { ChangeGridSizeCommand, ChangeGridSizeItemsCommand } from "./Page/ChangeGridSizeCommand";

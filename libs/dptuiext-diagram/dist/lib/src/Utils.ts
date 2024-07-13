@@ -1,15 +1,15 @@
 import "es6-object-assign/auto";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { SearchUtils } from "@devexpress/utils/lib/utils/search";
-import { Metrics } from "@devexpress/utils/lib/geometry/metrics";
-import { MathUtils } from "@devexpress/utils/lib/utils/math";
-import { Vector } from "@devexpress/utils/lib/geometry/vector";
-import { Segment } from "@devexpress/utils/lib/geometry/segment";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { SearchUtils } from "@dptuiext/utils/lib/utils/search";
+import { Metrics } from "@dptuiext/utils/lib/geometry/metrics";
+import { MathUtils } from "@dptuiext/utils/lib/utils/math";
+import { Vector } from "@dptuiext/utils/lib/geometry/vector";
+import { Segment } from "@dptuiext/utils/lib/geometry/segment";
 import { TextAlignment } from "./Model/Style";
-import { Browser } from "@devexpress/utils/lib/browser";
-import { EvtUtils } from "@devexpress/utils/lib/utils/evt";
+import { Browser } from "@dptuiext/utils/lib/browser";
+import { EvtUtils } from "@dptuiext/utils/lib/utils/evt";
 import { ConnectorRenderPoint } from "./Model/Connectors/ConnectorRenderPoint";
 
 export class LineEquation {

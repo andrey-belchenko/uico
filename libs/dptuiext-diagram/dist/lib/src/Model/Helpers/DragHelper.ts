@@ -1,4 +1,4 @@
-import { Vector } from "@devexpress/utils/lib/geometry/vector";
+import { Vector } from "@dptuiext/utils/lib/geometry/vector";
 import { ChangeConnectorPointsHistoryItem } from "../../History/Common/ChangeConnectorPointsHistoryItem";
 import { History } from "../../History/History";
 import { Connector } from "../Connectors/Connector";
@@ -6,7 +6,7 @@ import { ConnectorRenderPointsContext } from "../Connectors/Routing/ConnectorRen
 import { DiagramItem } from "../DiagramItem";
 import { ModelUtils } from "../ModelUtils";
 import { DiagramModel } from "../Model";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { Shape } from "../Shapes/Shape";
 import { ConnectorRenderPoint } from "../Connectors/ConnectorRenderPoint";
 import { IPermissionsProvider } from "../Permissions/PermissionsProvider";

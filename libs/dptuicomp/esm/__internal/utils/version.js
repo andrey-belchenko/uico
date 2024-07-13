@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 import errors from "../../core/errors";
 const MAX_MINOR_VERSION = 2;
@@ -63,7 +63,7 @@ export function assertedVersionsCompatible(currentVersion) {
     const mismatchingVersions = assertedVersions.filter((assertedVersion => !versionsEqual(parseVersion(assertedVersion.version), currentVersion)));
     if (mismatchingVersions.length) {
         errors.log("W0023", stringifyVersionList([{
-            packageName: "devextreme",
+            packageName: "dptuicomp",
             version: stringifyVersion(currentVersion)
         }, ...mismatchingVersions]));
         return false

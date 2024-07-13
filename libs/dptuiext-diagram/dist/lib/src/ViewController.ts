@@ -1,5 +1,5 @@
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { DiagramSettings, AutoZoomMode, IZoomChangesListener } from "./Settings";
 import { ICanvasViewListener } from "./Render/CanvasViewManager";
 import { IBarManager } from "./UI/BarManager";

@@ -1,11 +1,11 @@
 import { SortedQueues } from "./SortedQueues";
 import { UniqueAStarNodePositions } from "./UniqueAStarNodePositions";
 import { AStarNode } from "./AStarNode";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { RoutingGrid } from "../RoutingGrid";
 import { ConnectorProhibitedSegments } from "../ConnectorProhibitedSegments";
 import { IAStarMetrics, RightAngleTurnDirection } from "./AStarMetrics";
-import { Segment } from "@devexpress/utils/lib/geometry/segment";
+import { Segment } from "@dptuiext/utils/lib/geometry/segment";
 import { RightAngleConnectorRoutingMathOperations } from "../Strategy/RightAngleConnectorRoutingMathOperations";
 import { IConnectorRoutingContext } from "../Strategy/RightAngleConnectorRoutingContext";
 import { DiagramItem } from "../../../DiagramItem";

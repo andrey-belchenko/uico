@@ -4,11 +4,11 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.default = void 0;
-var _devextremeQuill = _interopRequireDefault(require("devextreme-quill"));
+var _dptuicompQuill = _interopRequireDefault(require("dptuicomp-quill"));
 var _base = _interopRequireDefault(require("./base"));
 var _events_engine = _interopRequireDefault(require("../../../events/core/events_engine"));
 var _index = require("../../../events/utils/index");
@@ -21,7 +21,7 @@ function _interopRequireDefault(obj) {
 const MODULE_NAMESPACE = "dxHtmlEditorImageCursor";
 const clickEvent = (0, _index.addNamespace)("dxclick", MODULE_NAMESPACE);
 let ImageCursorModule = _base.default;
-if (_devextremeQuill.default) {
+if (_dptuicompQuill.default) {
     ImageCursorModule = class extends _base.default {
         constructor(quill, options) {
             super(quill, options);

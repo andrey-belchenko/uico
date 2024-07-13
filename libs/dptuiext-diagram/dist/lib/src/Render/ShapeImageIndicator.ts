@@ -1,9 +1,9 @@
 import { EllipsePrimitive } from "./Primitives/EllipsePrimitive";
 import { PathPrimitive, PathPrimitiveMoveToCommand, PathPrimitiveArcToCommand, PathPrimitiveCubicCurveToCommand, PathPrimitiveLineToCommand, PathPrimitiveClosePathCommand } from "./Primitives/PathPrimitive";
 import { GroupPrimitive } from "./Primitives/GroupPrimitive";
-import { Browser } from "@devexpress/utils/lib/browser";
+import { Browser } from "@dptuiext/utils/lib/browser";
 import { RectanglePrimitive } from "./Primitives/RectaglePrimitive";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
 
 export class ShapeImageIndicator {
     private animationRequestId: number;

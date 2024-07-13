@@ -1,5 +1,5 @@
 {
-  "name": "devexpress-diagram",
+  "name": "dptuiext-diagram",
   "version": "2.2.8",
   "description": "DevExpress Diagram Control",
   "main": "dist/dx-diagram.min.js",
@@ -64,15 +64,15 @@
     "type": "git",
     "url": "https://github.com/DevExpress/diagram"
   },
-  "homepage": "https://devexpress.com/",
-  "bugs": "https://www.devexpress.com/support/",
+  "homepage": "https://dptuiext.com/",
+  "bugs": "https://www.dptuiext.com/support/",
   "author": "Developer Express Inc.",
   "license": "SEE LICENSE IN README.md",
   "keywords": [
     "diagram",
     "editor",
-    "devextreme",
-    "devexpress"
+    "dptuicomp",
+    "dptuiext"
   ],
   "pre-commit": "lint-staged"
 }

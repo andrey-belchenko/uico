@@ -2,9 +2,9 @@ import { DiagramControl } from "../Diagram";
 import { MouseHandler } from "./MouseHandler";
 import { DiagramMouseEvent, IMouseOperationsListener, ITextInputOperationListener, DiagramEvent, DiagramKeyboardEvent, DiagramFocusEvent, DiagramClipboardEvent, DiagramWheelEvent, DiagramContextMenuEvent } from "./Event";
 import { EventDispatcher, EventUtils } from "../Utils";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { DiagramItem, ItemKey } from "../Model/DiagramItem";
 import { TextInputHandler } from "./TextInputHandler";
 import { DiagramDraggingEvent, Toolbox } from "../Render/Toolbox/Toolbox";
@@ -15,11 +15,11 @@ import { ContextMenuTouchHandler } from "./ContextMenu/ContextMenuTouchHandler";
 import { VisualizerManager } from "./Visualizers/VisualizersManager";
 import { VisualizerTouchManager } from "./Visualizers/VisualizersTouchManager";
 import { ContextToolboxHandler } from "./ContextToolboxHandler";
-import { Browser } from "@devexpress/utils/lib/browser";
+import { Browser } from "@dptuiext/utils/lib/browser";
 import { ConnectorPosition } from "../Model/Connectors/Connector";
 import { ConnectionTargetInfo } from "./Visualizers/ConnectionTargetVisualizer";
 import { ContainerTargetInfo } from "./Visualizers/ContainerTargetVisualizer";
-import { KeyCode, ModifierKey } from "@devexpress/utils/lib/utils/key";
+import { KeyCode, ModifierKey } from "@dptuiext/utils/lib/utils/key";
 import { IReadOnlyChangesListener } from "../Settings";
 
 export class EventManager implements IEventManager {

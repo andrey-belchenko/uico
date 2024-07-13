@@ -1,6 +1,6 @@
 import { ITextMeasurer, TextOwner } from "../Render/Measurer/ITextMeasurer";
 import { Range } from "../Utils";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { StyleBase } from "../Model/Style";
 import { Data } from "./Data";
 

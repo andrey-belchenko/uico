@@ -6,7 +6,7 @@ import { PathPrimitive, PathPrimitiveMoveToCommand, PathPrimitiveLineToCommand, 
 import { ConnectionPointSide } from "../../../DiagramItem";
 import { ConnectionPoint } from "../../../ConnectionPoint";
 import { ShapeTextPadding } from "../ShapeDescription";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 
 export class ManualOperationShapeDescription extends RectangleShapeDescription {
     static readonly slopeAngle = 81 * Math.PI / 180;

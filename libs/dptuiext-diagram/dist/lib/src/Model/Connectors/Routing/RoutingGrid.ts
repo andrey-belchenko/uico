@@ -1,6 +1,6 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { SearchUtils } from "@devexpress/utils/lib/utils/search";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { SearchUtils } from "@dptuiext/utils/lib/utils/search";
 
 export class RoutingGrid<TPoint extends Point> {
     static create<TPoint extends Point>(points: TPoint[], boundsSet: Rectangle[], createPoint: (x: number, y: number) => TPoint): RoutingGrid<TPoint> {

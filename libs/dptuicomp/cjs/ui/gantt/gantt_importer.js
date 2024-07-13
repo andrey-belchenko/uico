@@ -4,12 +4,12 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.getGanttViewCore = getGanttViewCore;
 var _ui = _interopRequireDefault(require("../widget/ui.errors"));
-var _devexpressGantt = _interopRequireDefault(require("devexpress-gantt"));
+var _dptuiextGantt = _interopRequireDefault(require("dptuiext-gantt"));
 
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
@@ -18,8 +18,8 @@ function _interopRequireDefault(obj) {
 }
 
 function getGanttViewCore() {
-    if (!_devexpressGantt.default) {
-        throw _ui.default.Error("E1041", "devexpress-gantt")
+    if (!_dptuiextGantt.default) {
+        throw _ui.default.Error("E1041", "dptuiext-gantt")
     }
-    return _devexpressGantt.default
+    return _dptuiextGantt.default
 }

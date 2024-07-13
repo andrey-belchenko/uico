@@ -1,10 +1,10 @@
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { DateRange } from "../../Model/WorkingTime/DateRange";
 import { ViewVisualModel } from "../../Model/VisualModel/VisualModel";
 import { Position, ViewType } from "./Enums";
 import { GridElementInfo } from "./GridElementInfo";
 import { EtalonSizeValues } from "./EtalonSizeValues";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { Task } from "../../Model/Entities/Task";
 import { ViewVisualModelDependencyInfo } from "../../Model/VisualModel/ViewVisualModelDependencyInfo";
 import { ViewVisualModelItem } from "../../Model/VisualModel/ViewVisualModelItem";
@@ -13,7 +13,7 @@ import { StripLine } from "../Settings/StripLine";
 import { StripLineSettings } from "../Settings/StripLineSettings";
 import { DependencyType } from "../../Model/Entities/Enums";
 import { ScaleCalculator, ScaleItemInfo } from "./ScaleCalculator";
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 
 export class GridLayoutCalculator {
     public static dxGanttPrefix = "dx-gantt-";

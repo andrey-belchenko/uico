@@ -5,7 +5,7 @@ import { ShapeTypes } from "../../ShapeTypes";
 import { PentagonShapeDescription } from "./PentagonShapeDescription";
 import { ShapeParameters, ShapeParameter } from "../../ShapeParameters";
 import { ShapeParameterPoint } from "../../ShapeParameterPoint";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { ConnectionPointSide } from "../../../DiagramItem";
 import { ConnectionPoint } from "../../../ConnectionPoint";
 

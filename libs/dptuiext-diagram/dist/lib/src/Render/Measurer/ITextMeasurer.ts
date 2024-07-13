@@ -1,5 +1,5 @@
 import { StyleBase } from "../../Model/Style";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { DiagramItem } from "../../Model/DiagramItem";
 import { IDOMManipulator } from "../DOMManipulator";
 import { ITextMeasureResult } from "../../Utils/TextUtils";

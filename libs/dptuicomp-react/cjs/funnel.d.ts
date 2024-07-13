@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,17 +8,17 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxFunnel, { Properties } from "devextreme/viz/funnel";
+import dxFunnel, { Properties } from "dptuicomp/viz/funnel";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, ItemClickEvent, LegendClickEvent, dxFunnelItem, FunnelLegendItem } from "devextreme/viz/funnel";
-import type { Font as ChartsFont } from "devextreme/common/charts";
-import type { template } from "devextreme/core/templates/template";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, ItemClickEvent, LegendClickEvent, dxFunnelItem, FunnelLegendItem } from "dptuicomp/viz/funnel";
+import type { Font as ChartsFont } from "dptuicomp/common/charts";
+import type { template } from "dptuicomp/core/templates/template";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -475,5 +475,5 @@ declare const _componentTooltipBorder: React.MemoExoticComponent<(props: IToolti
 declare const TooltipBorder: typeof _componentTooltipBorder & IElementDescriptor;
 export default Funnel;
 export { Funnel, IFunnelOptions, FunnelRef, AdaptiveLayout, IAdaptiveLayoutProps, Border, IBorderProps, Connector, IConnectorProps, Export, IExportProps, Font, IFontProps, Format, IFormatProps, FunnelTitle, IFunnelTitleProps, FunnelTitleSubtitle, IFunnelTitleSubtitleProps, Hatching, IHatchingProps, HoverStyle, IHoverStyleProps, Item, IItemProps, ItemBorder, IItemBorderProps, Label, ILabelProps, LabelBorder, ILabelBorderProps, Legend, ILegendProps, LegendBorder, ILegendBorderProps, LegendTitle, ILegendTitleProps, LegendTitleSubtitle, ILegendTitleSubtitleProps, LoadingIndicator, ILoadingIndicatorProps, Margin, IMarginProps, SelectionStyle, ISelectionStyleProps, Shadow, IShadowProps, Size, ISizeProps, Subtitle, ISubtitleProps, Title, ITitleProps, Tooltip, ITooltipProps, TooltipBorder, ITooltipBorderProps };
-import type * as FunnelTypes from 'devextreme/viz/funnel_types';
+import type * as FunnelTypes from 'dptuicomp/viz/funnel_types';
 export { FunnelTypes };

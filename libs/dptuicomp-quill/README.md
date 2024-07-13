@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://js.devexpress.com/" title="DevExtreme-Quill">DevExtreme Quill</a>
+  <a href="https://js.dptuiext.com/" title="DevExtreme-Quill">DevExtreme Quill</a>
 </h1>
 
 The **DevExtreme Quill** is a fork of [Quill](https://quilljs.com/), based on the 2.0 branch.
@@ -37,13 +37,13 @@ In comparison with the original library, **DevExtreme Quill** supports basic tab
 
 ## Download
 
-- [npm](https://www.npmjs.com/package/devextreme-quill) - `npm install devextreme-quill`
+- [npm](https://www.npmjs.com/package/dptuicomp-quill) - `npm install dptuicomp-quill`
 - tar - https://github.com/DevExpress/DevExtreme-quill/releases
 
 
 ### CDN
 
-Please refer to the [DevExtreme Distribution Channels Guide](https://js.devexpress.com/Documentation/Guide/Common/Distribution_Channels/CDN/)
+Please refer to the [DevExtreme Distribution Channels Guide](https://js.dptuiext.com/Documentation/Guide/Common/Distribution_Channels/CDN/)
 
 ## License
 

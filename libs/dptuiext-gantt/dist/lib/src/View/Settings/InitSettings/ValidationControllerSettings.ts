@@ -1,4 +1,4 @@
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { IHistory } from "../../../Model/History/IHistory";
 import { ModelManipulator } from "../../../Model/Manipulators/ModelManipulator";
 import { ViewVisualModel } from "../../../Model/VisualModel/VisualModel";

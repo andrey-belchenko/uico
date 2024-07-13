@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,7 +8,7 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 "use strict";
@@ -41,11 +41,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DX_REMOVE_EVENT = exports.ComponentBase = void 0;
 const React = __importStar(require("react"));
-const events = __importStar(require("devextreme/events"));
+const events = __importStar(require("dptuicomp/events"));
 const react_1 = require("react");
-const frame_1 = require("devextreme/animation/frame");
-const common_1 = require("devextreme/core/utils/common");
-const config_1 = __importDefault(require("devextreme/core/config"));
+const frame_1 = require("dptuicomp/animation/frame");
+const common_1 = require("dptuicomp/core/utils/common");
+const config_1 = __importDefault(require("dptuicomp/core/config"));
 const react_dom_1 = require("react-dom");
 const helpers_1 = require("./helpers");
 const options_manager_1 = require("./options-manager");
@@ -55,7 +55,7 @@ const template_manager_1 = require("./template-manager");
 const DX_REMOVE_EVENT = 'dxremove';
 exports.DX_REMOVE_EVENT = DX_REMOVE_EVENT;
 (0, config_1.default)({
-    buyNowLink: 'https://go.devexpress.com/Licensing_Installer_Watermark_DevExtremeReact.aspx',
+    buyNowLink: 'https://go.dptuiext.com/Licensing_Installer_Watermark_DevExtremeReact.aspx',
 });
 const ComponentBase = (0, react_1.forwardRef)((props, ref) => {
     const { templateProps = [], defaults = {}, expectedChildren = {}, isPortalComponent = false, useRequestAnimationFrameFlag = false, subscribableOptions = [], WidgetClass, independentEvents = [], renderChildren, beforeCreateWidget = () => undefined, afterCreateWidget = () => undefined, } = props;

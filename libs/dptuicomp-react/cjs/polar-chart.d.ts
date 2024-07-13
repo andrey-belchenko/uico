@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,18 +8,18 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxPolarChart, { Properties } from "devextreme/viz/polar_chart";
+import dxPolarChart, { Properties } from "dptuicomp/viz/polar_chart";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ArgumentAxisClickEvent, DisposingEvent, DoneEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LegendClickEvent, PointClickEvent, SeriesClickEvent, TooltipHiddenEvent, TooltipShownEvent, ZoomEndEvent, ZoomStartEvent, dxPolarChartAnnotationConfig, dxPolarChartCommonAnnotationConfig, PolarChartSeries } from "devextreme/viz/polar_chart";
-import type { Font as ChartsFont, ChartsColor, LegendItem } from "devextreme/common/charts";
-import type { template } from "devextreme/core/templates/template";
-import type * as CommonChartTypes from "devextreme/common/charts";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { ArgumentAxisClickEvent, DisposingEvent, DoneEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LegendClickEvent, PointClickEvent, SeriesClickEvent, TooltipHiddenEvent, TooltipShownEvent, ZoomEndEvent, ZoomStartEvent, dxPolarChartAnnotationConfig, dxPolarChartCommonAnnotationConfig, PolarChartSeries } from "dptuicomp/viz/polar_chart";
+import type { Font as ChartsFont, ChartsColor, LegendItem } from "dptuicomp/common/charts";
+import type { template } from "dptuicomp/core/templates/template";
+import type * as CommonChartTypes from "dptuicomp/common/charts";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -1619,5 +1619,5 @@ declare const _componentWholeRange: React.MemoExoticComponent<(props: IWholeRang
 declare const WholeRange: typeof _componentWholeRange & IElementDescriptor;
 export default PolarChart;
 export { PolarChart, IPolarChartOptions, PolarChartRef, AdaptiveLayout, IAdaptiveLayoutProps, Animation, IAnimationProps, Annotation, IAnnotationProps, AnnotationBorder, IAnnotationBorderProps, ArgumentAxis, IArgumentAxisProps, ArgumentAxisMinorTick, IArgumentAxisMinorTickProps, ArgumentAxisTick, IArgumentAxisTickProps, ArgumentFormat, IArgumentFormatProps, AxisLabel, IAxisLabelProps, Border, IBorderProps, Color, IColorProps, CommonAnnotationSettings, ICommonAnnotationSettingsProps, CommonAxisSettings, ICommonAxisSettingsProps, CommonAxisSettingsLabel, ICommonAxisSettingsLabelProps, CommonAxisSettingsMinorTick, ICommonAxisSettingsMinorTickProps, CommonAxisSettingsTick, ICommonAxisSettingsTickProps, CommonSeriesSettings, ICommonSeriesSettingsProps, CommonSeriesSettingsHoverStyle, ICommonSeriesSettingsHoverStyleProps, CommonSeriesSettingsLabel, ICommonSeriesSettingsLabelProps, CommonSeriesSettingsSelectionStyle, ICommonSeriesSettingsSelectionStyleProps, Connector, IConnectorProps, ConstantLine, IConstantLineProps, ConstantLineLabel, IConstantLineLabelProps, ConstantLineStyle, IConstantLineStyleProps, ConstantLineStyleLabel, IConstantLineStyleLabelProps, DataPrepareSettings, IDataPrepareSettingsProps, Export, IExportProps, Font, IFontProps, Format, IFormatProps, Grid, IGridProps, Hatching, IHatchingProps, HoverStyle, IHoverStyleProps, Image, IImageProps, Label, ILabelProps, Legend, ILegendProps, LegendTitle, ILegendTitleProps, LegendTitleSubtitle, ILegendTitleSubtitleProps, Length, ILengthProps, LoadingIndicator, ILoadingIndicatorProps, Margin, IMarginProps, MinorGrid, IMinorGridProps, MinorTick, IMinorTickProps, MinorTickInterval, IMinorTickIntervalProps, MinVisualRangeLength, IMinVisualRangeLengthProps, Point, IPointProps, PointBorder, IPointBorderProps, PointHoverStyle, IPointHoverStyleProps, PointSelectionStyle, IPointSelectionStyleProps, PolarChartTitle, IPolarChartTitleProps, PolarChartTitleSubtitle, IPolarChartTitleSubtitleProps, SelectionStyle, ISelectionStyleProps, Series, ISeriesProps, SeriesBorder, ISeriesBorderProps, SeriesTemplate, ISeriesTemplateProps, Shadow, IShadowProps, Size, ISizeProps, Strip, IStripProps, StripLabel, IStripLabelProps, StripStyle, IStripStyleProps, StripStyleLabel, IStripStyleLabelProps, Subtitle, ISubtitleProps, Tick, ITickProps, TickInterval, ITickIntervalProps, Title, ITitleProps, Tooltip, ITooltipProps, TooltipBorder, ITooltipBorderProps, ValueAxis, IValueAxisProps, ValueErrorBar, IValueErrorBarProps, VisualRange, IVisualRangeProps, WholeRange, IWholeRangeProps };
-import type * as PolarChartTypes from 'devextreme/viz/polar_chart_types';
+import type * as PolarChartTypes from 'dptuicomp/viz/polar_chart_types';
 export { PolarChartTypes };

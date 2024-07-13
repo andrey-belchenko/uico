@@ -1,4 +1,4 @@
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 
 export class PdfDataRange {
     constructor(start?: Date | Record<string, any>, endDate?: Date, startIndex?: number, endIndex?: number) {

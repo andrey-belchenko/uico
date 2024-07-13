@@ -10,14 +10,14 @@ import { DiagramItem, ItemKey } from "../../Model/DiagramItem";
 import { ConnectionPointInfo, ConnectionPointsVisualizer } from "./ConnectionPointsVisualizer";
 import { Shape } from "../../Model/Shapes/Shape";
 import { EventDispatcher } from "../../Utils";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Segment } from "@devexpress/utils/lib/geometry/segment";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Segment } from "@dptuiext/utils/lib/geometry/segment";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { CanvasSelectionManager } from "../../Render/CanvasSelectionManager";
 import { ModelUtils } from "../../Model/ModelUtils";
 import { ResizeInfoVisualizer } from "./ResizeInfoVisualizer";
 import { SelectionRectVisualizer } from "./SelectionRectVisualizer";
-import { BatchUpdatableObject } from "@devexpress/utils/lib/class/batch-updatable";
+import { BatchUpdatableObject } from "@dptuiext/utils/lib/class/batch-updatable";
 import { DiagramLocalizationService } from "../../LocalizationService";
 
 export class VisualizerManager extends BatchUpdatableObject implements IReadOnlyChangesListener,

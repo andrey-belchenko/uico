@@ -1,5 +1,5 @@
-import { Browser } from "@devexpress/utils/lib/browser";
-import { EvtUtils } from "@devexpress/utils/lib/utils/evt";
+import { Browser } from "@dptuiext/utils/lib/browser";
+import { EvtUtils } from "@dptuiext/utils/lib/utils/evt";
 import { ITaskAreaContainer } from "../../Interfaces/ITaskAreaContainer";
 
 export class GanttMovingHelper {

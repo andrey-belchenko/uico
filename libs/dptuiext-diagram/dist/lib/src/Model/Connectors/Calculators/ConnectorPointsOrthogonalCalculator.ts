@@ -1,4 +1,4 @@
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 import { ConnectionPointSide } from "../../DiagramItem";
 import { Connector } from "../Connector";
 import { ConnectorPointsCalculatorBase } from "./ConnectorPointsCalculatorBase";

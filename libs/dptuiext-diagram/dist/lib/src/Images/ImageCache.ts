@@ -1,4 +1,4 @@
-import { Base64Utils } from "@devexpress/utils/lib/utils/base64";
+import { Base64Utils } from "@dptuiext/utils/lib/utils/base64";
 import { ImageInfo } from "./ImageInfo";
 import { ImageLoader } from "./ImageLoader";
 import { EventDispatcher } from "../Utils";

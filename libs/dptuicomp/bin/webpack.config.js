@@ -11,8 +11,8 @@ module.exports = {
     },
     output: {
         sourcePrefix: '    ',
-        devtoolModuleFilenameTemplate: 'devextreme:///[resource-path]',
-        devtoolFallbackModuleFilenameTemplate: 'devextreme:///[resource-path]?[hash]'
+        devtoolModuleFilenameTemplate: 'dptuicomp:///[resource-path]',
+        devtoolFallbackModuleFilenameTemplate: 'dptuicomp:///[resource-path]?[hash]'
     },
     externals: {
         // Optional (calling through window to skip error on script load)
@@ -24,24 +24,24 @@ module.exports = {
         'globalize/currency': 'window.Globalize',
         'globalize/date': 'window.Globalize',
         'globalize/message': 'window.Globalize',
-        'devextreme-quill': 'window.DevExpress.Quill',
+        'dptuicomp-quill': 'window.DevExpress.Quill',
         'turndown': 'window.TurndownService',
         'showdown': 'window.showdown',
         'exceljs': 'window.ExcelJS',
         'jspdf': 'window.jspdf.jsPDF',
-        'devexpress-diagram': 'window.DevExpress.diagram',
-        'devexpress-gantt': 'window.DevExpress.Gantt',
+        'dptuiext-diagram': 'window.DevExpress.diagram',
+        'dptuiext-gantt': 'window.DevExpress.Gantt',
         'luxon': 'window.luxon'
     },
     resolve: {
         alias: {
-            // '@devextreme/vdom': require.resolve('@devextreme/vdom/dist/cjs/index.js'),
-            '@devextreme/runtime/common': require.resolve('@devextreme/runtime/cjs/common/index.js'),
-            '@devextreme/runtime/inferno': require.resolve('@devextreme/runtime/cjs/inferno/index.js'),
-            '@devextreme/runtime/declarations': require.resolve('@devextreme/runtime/cjs/declarations/index.js'),
-            '@devextreme/runtime/angular': require.resolve('@devextreme/runtime/cjs/angular/index.js'),
-            '@devextreme/runtime/vue': require.resolve('@devextreme/runtime/cjs/vue/index.js'),
-            '@devextreme/runtime/react': require.resolve('@devextreme/runtime/cjs/react/index.js')
+            // '@dptuicomp/vdom': require.resolve('@dptuicomp/vdom/dist/cjs/index.js'),
+            '@dptuicomp/runtime/common': require.resolve('@dptuicomp/runtime/cjs/common/index.js'),
+            '@dptuicomp/runtime/inferno': require.resolve('@dptuicomp/runtime/cjs/inferno/index.js'),
+            '@dptuicomp/runtime/declarations': require.resolve('@dptuicomp/runtime/cjs/declarations/index.js'),
+            '@dptuicomp/runtime/angular': require.resolve('@dptuicomp/runtime/cjs/angular/index.js'),
+            '@dptuicomp/runtime/vue': require.resolve('@dptuicomp/runtime/cjs/vue/index.js'),
+            '@dptuicomp/runtime/react': require.resolve('@dptuicomp/runtime/cjs/react/index.js')
         }
     },
 };

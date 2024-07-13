@@ -1,7 +1,7 @@
 import { DiagramControl } from "../Diagram";
 import { DiagramCommand } from "../Commands/CommandManager";
 import { IBar, IBarListener } from "./IBar";
-import { BatchUpdatableObject } from "@devexpress/utils/lib/class/batch-updatable";
+import { BatchUpdatableObject } from "@dptuiext/utils/lib/class/batch-updatable";
 import { ISelectionChangesListener, Selection } from "../Selection/Selection";
 
 export class BarManager extends BatchUpdatableObject implements IBarListener, ISelectionChangesListener, IBarManager {

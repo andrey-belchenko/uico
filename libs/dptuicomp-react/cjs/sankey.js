@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,7 +8,7 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 "use client";
@@ -43,7 +43,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.TooltipBorder = exports.Tooltip = exports.Title = exports.Subtitle = exports.Size = exports.Shadow = exports.Sankeyborder = exports.Node = exports.Margin = exports.LoadingIndicator = exports.Link = exports.Label = exports.HoverStyle = exports.Hatching = exports.Format = exports.Font = exports.Export = exports.Border = exports.AdaptiveLayout = exports.Sankey = void 0;
 const React = __importStar(require("react"));
 const react_1 = require("react");
-const sankey_1 = __importDefault(require("devextreme/viz/sankey"));
+const sankey_1 = __importDefault(require("dptuicomp/viz/sankey"));
 const component_1 = require("./core/component");
 const nested_option_1 = __importDefault(require("./core/nested-option"));
 const Sankey = (0, react_1.memo)((0, react_1.forwardRef)((props, ref) => {

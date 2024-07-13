@@ -1,7 +1,7 @@
-import { Offsets } from "@devexpress/utils/lib/geometry/offsets";
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Offsets } from "@dptuiext/utils/lib/geometry/offsets";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 import { Diagnostics } from "../Diagnostics";
 import { CacheImageInfo, ImageCache } from "../Images/ImageCache";

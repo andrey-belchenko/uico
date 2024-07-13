@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.WIDGET_CLASS = exports.SINGLE_COLUMN_ITEM_CONTENT = exports.SIMPLE_ITEM_TYPE = exports.ROOT_SIMPLE_ITEM_CLASS = exports.LAYOUT_MANAGER_ONE_COLUMN = exports.GROUP_COL_COUNT_CLASS = exports.GROUP_COL_COUNT_ATTR = exports.FORM_VALIDATION_SUMMARY = exports.FORM_UNDERLINED_CLASS = exports.FORM_LAYOUT_MANAGER_CLASS = exports.FORM_GROUP_WITH_CAPTION_CLASS = exports.FORM_GROUP_CUSTOM_CAPTION_CLASS = exports.FORM_GROUP_CONTENT_CLASS = exports.FORM_GROUP_CLASS = exports.FORM_GROUP_CAPTION_CLASS = exports.FORM_FIELD_ITEM_COL_CLASS = exports.FORM_CLASS = exports.FIELD_ITEM_TAB_CLASS = exports.FIELD_ITEM_LABEL_CONTENT_CLASS = exports.FIELD_ITEM_LABEL_CLASS = exports.FIELD_ITEM_CONTENT_HAS_TABS_CLASS = exports.FIELD_ITEM_CONTENT_HAS_GROUP_CLASS = exports.FIELD_ITEM_CONTENT_CLASS = exports.FIELD_ITEM_CLASS = void 0;

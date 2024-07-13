@@ -1,13 +1,13 @@
 import { EventDispatcher } from "../../Utils";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { DiagramMouseEvent, DiagramContextMenuEvent, DiagramFocusEvent, DiagramEvent, MouseEventElementType, IMouseOperationsListener, DiagramKeyboardEvent, MouseButton, ITextInputOperationListener } from "../Event";
 import { ItemKey, ConnectionPointSide, DiagramItem } from "../../Model/DiagramItem";
-import { KeyCode } from "@devexpress/utils/lib/utils/key";
+import { KeyCode } from "@dptuiext/utils/lib/utils/key";
 import { IContextToolboxVisibilityChangesListener } from "../ContextToolboxHandler";
-import { BatchUpdatableObject } from "@devexpress/utils/lib/class/batch-updatable";
-import { Browser } from "@devexpress/utils/lib/browser";
+import { BatchUpdatableObject } from "@dptuiext/utils/lib/class/batch-updatable";
+import { Browser } from "@dptuiext/utils/lib/browser";
 import { Shape } from "../../Model/Shapes/Shape";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 export interface IContextMenuVisibilityChangesListener {
     notifyShowContextMenu(eventPoint: Point, modelPoint: Point);

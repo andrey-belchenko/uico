@@ -479,7 +479,7 @@ $icons: (
   @include dx-font-icon(map.get($icons, $name));
 }
 
-@mixin dx-font-icons($font-file: "dxicons", $font-name: "DevExtreme Generic Icons", $font-name-safari: "devextreme_generic_icons", $text-rendering: auto) {
+@mixin dx-font-icons($font-file: "dxicons", $font-name: "DevExtreme Generic Icons", $font-name-safari: "dptuicomp_generic_icons", $text-rendering: auto) {
   @font-face {
     font-family: 'DXIcons';
     src:

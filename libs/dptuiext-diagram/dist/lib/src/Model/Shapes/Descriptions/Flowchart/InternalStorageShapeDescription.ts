@@ -3,8 +3,8 @@ import { ShapeTypes } from "../../ShapeTypes";
 import { ShapeParameters, ShapeParameter } from "../../ShapeParameters";
 import { Shape } from "../../Shape";
 import { ShapeParameterPoint } from "../../ShapeParameterPoint";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { SvgPrimitive } from "../../../../Render/Primitives/Primitive";
 import { PathPrimitive, PathPrimitiveMoveToCommand, PathPrimitiveLineToCommand } from "../../../../Render/Primitives/PathPrimitive";
 

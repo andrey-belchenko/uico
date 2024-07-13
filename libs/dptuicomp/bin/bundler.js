@@ -24,7 +24,7 @@ const createConfig = function(outputFile, mode) {
 
     config.resolve = {
         alias: {
-            'devextreme': sourcesDir
+            'dptuicomp': sourcesDir
         },
         mainFields: ['main']
     };

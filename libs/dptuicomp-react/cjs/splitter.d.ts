@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,17 +8,17 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
-export { ExplicitTypes } from "devextreme/ui/splitter";
+export { ExplicitTypes } from "dptuicomp/ui/splitter";
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxSplitter, { Properties } from "devextreme/ui/splitter";
+import dxSplitter, { Properties } from "dptuicomp/ui/splitter";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { dxSplitterItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemCollapsedEvent, ItemContextMenuEvent, ItemExpandedEvent, ItemRenderedEvent, ResizeEvent, ResizeEndEvent, ResizeStartEvent, dxSplitterOptions } from "devextreme/ui/splitter";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { template } from "devextreme/core/templates/template";
+import type { dxSplitterItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemCollapsedEvent, ItemContextMenuEvent, ItemExpandedEvent, ItemRenderedEvent, ResizeEvent, ResizeEndEvent, ResizeStartEvent, dxSplitterOptions } from "dptuicomp/ui/splitter";
+import type { CollectionWidgetItem } from "dptuicomp/ui/collection/ui.collection_widget.base";
+import type { template } from "dptuicomp/core/templates/template";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -46,7 +46,7 @@ interface SplitterRef<TItem = any, TKey = any> {
     instance: () => dxSplitter<TItem, TKey>;
 }
 declare const Splitter: <TItem = any, TKey = any>(props: ReplaceFieldTypes<Properties<TItem, TKey>, ISplitterOptionsNarrowedEvents<TItem, TKey>> & IHtmlOptions & {
-    dataSource?: import("../../devextreme/artifacts/npm/devextreme/data/data_source").DataSourceLike<TItem, TKey> | null | undefined;
+    dataSource?: import("../../dptuicomp/artifacts/npm/dptuicomp/data/data_source").DataSourceLike<TItem, TKey> | null | undefined;
     itemRender?: ((...params: any) => React.ReactNode) | undefined;
     itemComponent?: React.ComponentType<any> | undefined;
     defaultItems?: dxSplitterItem<any>[] | undefined;
@@ -75,5 +75,5 @@ declare const _componentItem: React.MemoExoticComponent<(props: IItemProps) => R
 declare const Item: typeof _componentItem & IElementDescriptor;
 export default Splitter;
 export { Splitter, ISplitterOptions, SplitterRef, Item, IItemProps };
-import type * as SplitterTypes from 'devextreme/ui/splitter_types';
+import type * as SplitterTypes from 'dptuicomp/ui/splitter_types';
 export { SplitterTypes };

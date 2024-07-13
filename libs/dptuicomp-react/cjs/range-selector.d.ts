@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,19 +8,19 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxRangeSelector, { Properties } from "devextreme/viz/range_selector";
+import dxRangeSelector, { Properties } from "dptuicomp/viz/range_selector";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, ValueChangedEvent } from "devextreme/viz/range_selector";
-import type { chartPointAggregationInfoObject, chartSeriesObject, dxChartCommonSeriesSettings } from "devextreme/viz/chart";
-import type { ChartSeries } from "devextreme/viz/common";
-import type { ChartsColor, Font as ChartsFont, ScaleBreak } from "devextreme/common/charts";
-import type * as CommonChartTypes from "devextreme/common/charts";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, ValueChangedEvent } from "dptuicomp/viz/range_selector";
+import type { chartPointAggregationInfoObject, chartSeriesObject, dxChartCommonSeriesSettings } from "dptuicomp/viz/chart";
+import type { ChartSeries } from "dptuicomp/viz/common";
+import type { ChartsColor, Font as ChartsFont, ScaleBreak } from "dptuicomp/common/charts";
+import type * as CommonChartTypes from "dptuicomp/common/charts";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -1252,5 +1252,5 @@ declare const _componentWidth: React.MemoExoticComponent<(props: IWidthProps) =>
 declare const Width: typeof _componentWidth & IElementDescriptor;
 export default RangeSelector;
 export { RangeSelector, IRangeSelectorOptions, RangeSelectorRef, Aggregation, IAggregationProps, AggregationInterval, IAggregationIntervalProps, ArgumentFormat, IArgumentFormatProps, Background, IBackgroundProps, BackgroundImage, IBackgroundImageProps, Behavior, IBehaviorProps, Border, IBorderProps, Break, IBreakProps, BreakStyle, IBreakStyleProps, Chart, IChartProps, Color, IColorProps, CommonSeriesSettings, ICommonSeriesSettingsProps, CommonSeriesSettingsHoverStyle, ICommonSeriesSettingsHoverStyleProps, CommonSeriesSettingsLabel, ICommonSeriesSettingsLabelProps, CommonSeriesSettingsSelectionStyle, ICommonSeriesSettingsSelectionStyleProps, Connector, IConnectorProps, DataPrepareSettings, IDataPrepareSettingsProps, Export, IExportProps, Font, IFontProps, Format, IFormatProps, Hatching, IHatchingProps, Height, IHeightProps, HoverStyle, IHoverStyleProps, Image, IImageProps, Indent, IIndentProps, Label, ILabelProps, Length, ILengthProps, LoadingIndicator, ILoadingIndicatorProps, Margin, IMarginProps, Marker, IMarkerProps, MarkerLabel, IMarkerLabelProps, MaxRange, IMaxRangeProps, MinorTick, IMinorTickProps, MinorTickInterval, IMinorTickIntervalProps, MinRange, IMinRangeProps, Point, IPointProps, PointBorder, IPointBorderProps, PointHoverStyle, IPointHoverStyleProps, PointImage, IPointImageProps, PointSelectionStyle, IPointSelectionStyleProps, Reduction, IReductionProps, Scale, IScaleProps, ScaleLabel, IScaleLabelProps, SelectionStyle, ISelectionStyleProps, Series, ISeriesProps, SeriesBorder, ISeriesBorderProps, SeriesTemplate, ISeriesTemplateProps, Shutter, IShutterProps, Size, ISizeProps, SliderHandle, ISliderHandleProps, SliderMarker, ISliderMarkerProps, Subtitle, ISubtitleProps, Tick, ITickProps, TickInterval, ITickIntervalProps, Title, ITitleProps, Url, IUrlProps, Value, IValueProps, ValueAxis, IValueAxisProps, ValueErrorBar, IValueErrorBarProps, Width, IWidthProps };
-import type * as RangeSelectorTypes from 'devextreme/viz/range_selector_types';
+import type * as RangeSelectorTypes from 'dptuicomp/viz/range_selector_types';
 export { RangeSelectorTypes };

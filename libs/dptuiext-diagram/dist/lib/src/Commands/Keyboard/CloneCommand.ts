@@ -1,5 +1,5 @@
 import { SimpleCommandState } from "../CommandStates";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 import { ModelUtils } from "../../Model/ModelUtils";
 import { SimpleCommandBase } from "../SimpleCommandBase";
 

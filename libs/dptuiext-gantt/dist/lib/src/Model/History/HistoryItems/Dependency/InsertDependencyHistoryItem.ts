@@ -1,4 +1,4 @@
-import { MathUtils } from "@devexpress/utils/lib/utils/math";
+import { MathUtils } from "@dptuiext/utils/lib/utils/math";
 import { GanttDataObjectNames } from "../../../Entities/DataObject";
 import { DependencyType } from "../../../Entities/Enums";
 import { ModelManipulator } from "../../../Manipulators/ModelManipulator";

@@ -4,11 +4,11 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.default = void 0;
-var _devextremeQuill = _interopRequireDefault(require("devextreme-quill"));
+var _dptuicompQuill = _interopRequireDefault(require("dptuicomp-quill"));
 var _type = require("../../../core/utils/type");
 
 function _interopRequireDefault(obj) {
@@ -17,8 +17,8 @@ function _interopRequireDefault(obj) {
     }
 }
 let ExtImage = {};
-if (_devextremeQuill.default) {
-    const Image = _devextremeQuill.default.import("formats/image");
+if (_dptuicompQuill.default) {
+    const Image = _dptuicompQuill.default.import("formats/image");
     ExtImage = class extends Image {
         static create(data) {
             const SRC = data && data.src || data;

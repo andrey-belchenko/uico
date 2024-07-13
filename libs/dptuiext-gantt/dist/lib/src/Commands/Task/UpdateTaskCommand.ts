@@ -1,4 +1,4 @@
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { ConstraintViolationOption } from "../../Dialogs/DialogEnums";
 import { ConstraintViolationDialogParameters } from "../../Dialogs/DialogParameters/ConstraintViolationDialogParameters";
 import { ITaskUpdateValues } from "../../Model/Entities/ITaskUpdateValues";

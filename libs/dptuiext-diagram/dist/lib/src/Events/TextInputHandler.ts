@@ -2,7 +2,7 @@ import { DiagramControl } from "../Diagram";
 import { DiagramItem } from "../Model/DiagramItem";
 import { ChangeShapeTextHistoryItem } from "../History/Properties/ChangeShapeTextHistoryItem";
 import { DiagramMouseEvent, MouseEventElementType, DiagramKeyboardEvent, DiagramEvent, DiagramFocusEvent } from "./Event";
-import { ModifierKey } from "@devexpress/utils/lib/utils/key";
+import { ModifierKey } from "@dptuiext/utils/lib/utils/key";
 import { Shape } from "../Model/Shapes/Shape";
 import { Connector } from "../Model/Connectors/Connector";
 import { ChangeConnectorTextHistoryItem } from "../History/Properties/ChangeConnectorTextHistoryItem";

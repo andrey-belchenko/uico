@@ -2,7 +2,7 @@ import { MouseHandler } from "../MouseHandler";
 import { DiagramDraggingEvent } from "../../Render/Toolbox/Toolbox";
 import { DiagramMouseEvent, MouseEventElementType } from "../Event";
 import { IShapeDescriptionManager } from "../../Model/Shapes/Descriptions/ShapeDescriptionManager";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { AddShapeHistoryItem } from "../../History/Common/AddShapeHistoryItem";
 import { SetSelectionHistoryItem } from "../../History/Common/SetSelectionHistoryItem";
 import { MouseHandlerDraggingState } from "./MouseHandlerDraggingState";

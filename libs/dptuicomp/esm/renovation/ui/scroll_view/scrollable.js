@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
 import _extends from "@babel/runtime/helpers/esm/extends";
@@ -15,7 +15,7 @@ import {
 } from "inferno";
 import {
     InfernoWrapperComponent
-} from "@devextreme/runtime/inferno";
+} from "@dptuicomp/runtime/inferno";
 import {
     ScrollableNative
 } from "./strategy/native";
@@ -163,7 +163,7 @@ export const viewFunction = viewModel => {
 };
 import {
     createReRenderEffect
-} from "@devextreme/runtime/inferno";
+} from "@dptuicomp/runtime/inferno";
 import {
     createRef as infernoCreateRef
 } from "inferno";

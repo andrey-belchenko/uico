@@ -4,11 +4,11 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.default = void 0;
-var _devextremeQuill = _interopRequireDefault(require("devextreme-quill"));
+var _dptuicompQuill = _interopRequireDefault(require("dptuicomp-quill"));
 var _renderer = _interopRequireDefault(require("../../../core/renderer"));
 var _templates_storage = _interopRequireDefault(require("../utils/templates_storage"));
 
@@ -18,8 +18,8 @@ function _interopRequireDefault(obj) {
     }
 }
 let Mention = {};
-if (_devextremeQuill.default) {
-    const Embed = _devextremeQuill.default.import("blots/embed");
+if (_dptuicompQuill.default) {
+    const Embed = _dptuicompQuill.default.import("blots/embed");
     const MENTION_CLASS = "dx-mention";
     Mention = class Mention extends Embed {
         constructor(scroll, node) {

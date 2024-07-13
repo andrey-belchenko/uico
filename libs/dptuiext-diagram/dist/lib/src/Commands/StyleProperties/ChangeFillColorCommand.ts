@@ -1,5 +1,5 @@
 import { ChangeStylePropertyCommand } from "./ChangeStylePropertyCommand";
-import { ColorUtils } from "@devexpress/utils/lib/utils/color";
+import { ColorUtils } from "@dptuiext/utils/lib/utils/color";
 
 export class ChangeFillColorCommand extends ChangeStylePropertyCommand {
     processParameter(parameter: string): string {

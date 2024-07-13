@@ -4,11 +4,11 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.default = void 0;
-var _devextremeQuill = _interopRequireDefault(require("devextreme-quill"));
+var _dptuicompQuill = _interopRequireDefault(require("dptuicomp-quill"));
 var _renderer = _interopRequireDefault(require("../../../core/renderer"));
 var _base = _interopRequireDefault(require("./base"));
 var _events_engine = _interopRequireDefault(require("../../../events/core/events_engine"));
@@ -31,7 +31,7 @@ const MODULE_NAMESPACE = "dxHtmlEditorTableContextMenu";
 const CONTEXT_MENU_EVENT = (0, _index.addNamespace)("dxcontextmenu", MODULE_NAMESPACE);
 let TableContextMenuModule = _base.default;
 const localize = name => _message.default.format(`dxHtmlEditor-${(0,_inflector.camelize)(name)}`);
-if (_devextremeQuill.default) {
+if (_dptuicompQuill.default) {
     TableContextMenuModule = class extends _base.default {
         constructor(quill, options) {
             super(quill, options);

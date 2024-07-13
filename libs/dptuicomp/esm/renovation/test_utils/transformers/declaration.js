@@ -4,15 +4,15 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 const {
     compileCode: compileCode
-} = require("@devextreme-generator/core");
+} = require("@dptuicomp-generator/core");
 const {
     getTsConfig: getTsConfig
-} = require("@devextreme-generator/build-helpers");
-const generator = require("@devextreme-generator/inferno").default;
+} = require("@dptuicomp-generator/build-helpers");
+const generator = require("@dptuicomp-generator/inferno").default;
 const ts = require("typescript");
 const path = require("path");
 const fs = require("fs");

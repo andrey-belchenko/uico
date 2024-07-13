@@ -1,6 +1,6 @@
 import { DiagramModel } from "../Model/Model";
 import { EventDispatcher } from "../Utils";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 import { InputPosition } from "./InputPosition";
 import { ItemKey, DiagramItem } from "../Model/DiagramItem";
 import { Shape } from "../Model/Shapes/Shape";

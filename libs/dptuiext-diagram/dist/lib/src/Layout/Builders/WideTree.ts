@@ -2,7 +2,7 @@ import { GraphLayout } from "../GraphLayout";
 import { Tree } from "../Tree";
 import { NodeLayout, EdgeLayout, NodeInfo } from "../NodeLayout";
 import { Range } from "../../Utils";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { LayoutBuilder } from "./BaseBuilder";
 import { ConnectionMode, Edge } from "../Structures";
 import { ConnectionPointSide } from "../../Model/DiagramItem";

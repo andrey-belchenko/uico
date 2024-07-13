@@ -4,12 +4,12 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.default = void 0;
 var _renderer = _interopRequireDefault(require("../../../core/renderer"));
-var _devextremeQuill = _interopRequireDefault(require("devextreme-quill"));
+var _dptuicompQuill = _interopRequireDefault(require("dptuicomp-quill"));
 var _data = require("../../../core/utils/data");
 var _type = require("../../../core/utils/type");
 var _extend = require("../../../core/utils/extend");
@@ -25,7 +25,7 @@ function _interopRequireDefault(obj) {
     }
 }
 let MentionModule = _base.default;
-if (_devextremeQuill.default) {
+if (_dptuicompQuill.default) {
     const USER_ACTION = "user";
     const DEFAULT_MARKER = "@";
     const KEYS = {
@@ -44,7 +44,7 @@ if (_devextremeQuill.default) {
     const NAVIGATION_KEYS = [KEYS.ARROW_LEFT, KEYS.ARROW_RIGHT, KEYS.PAGE_UP, KEYS.PAGE_DOWN, KEYS.END, KEYS.HOME];
     const ALLOWED_PREFIX_CHARS = [" ", "\n"];
     const DISABLED_STATE_CLASS = "dx-state-disabled";
-    _devextremeQuill.default.register({
+    _dptuicompQuill.default.register({
         "formats/mention": _mention.default
     }, true);
     MentionModule = class extends _popup.default {
@@ -177,7 +177,7 @@ if (_devextremeQuill.default) {
                 marker: this._activeMentionConfig.marker,
                 keyInTemplateStorage: this.editorInstance.getMentionKeyInTemplateStorage()
             };
-            const Delta = _devextremeQuill.default.import("delta");
+            const Delta = _dptuicompQuill.default.import("delta");
             const startIndex = Math.max(0, caretPosition - markerLength);
             const newDelta = (new Delta).retain(startIndex).delete(textLength).insert({
                 mention: value

@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,17 +8,17 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxSankey, { Properties } from "devextreme/viz/sankey";
+import dxSankey, { Properties } from "dptuicomp/viz/sankey";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LinkClickEvent, NodeClickEvent, dxSankeyNode } from "devextreme/viz/sankey";
-import type { Font as ChartsFont } from "devextreme/common/charts";
-import type { template } from "devextreme/core/templates/template";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, LinkClickEvent, NodeClickEvent, dxSankeyNode } from "dptuicomp/viz/sankey";
+import type { Font as ChartsFont } from "dptuicomp/common/charts";
+import type { template } from "dptuicomp/core/templates/template";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -331,5 +331,5 @@ declare const _componentTooltipBorder: React.MemoExoticComponent<(props: IToolti
 declare const TooltipBorder: typeof _componentTooltipBorder & IElementDescriptor;
 export default Sankey;
 export { Sankey, ISankeyOptions, SankeyRef, AdaptiveLayout, IAdaptiveLayoutProps, Border, IBorderProps, Export, IExportProps, Font, IFontProps, Format, IFormatProps, Hatching, IHatchingProps, HoverStyle, IHoverStyleProps, Label, ILabelProps, Link, ILinkProps, LoadingIndicator, ILoadingIndicatorProps, Margin, IMarginProps, Node, INodeProps, Sankeyborder, ISankeyborderProps, Shadow, IShadowProps, Size, ISizeProps, Subtitle, ISubtitleProps, Title, ITitleProps, Tooltip, ITooltipProps, TooltipBorder, ITooltipBorderProps };
-import type * as SankeyTypes from 'devextreme/viz/sankey_types';
+import type * as SankeyTypes from 'dptuicomp/viz/sankey_types';
 export { SankeyTypes };

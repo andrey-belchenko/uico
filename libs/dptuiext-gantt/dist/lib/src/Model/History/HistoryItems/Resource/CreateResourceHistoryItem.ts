@@ -2,7 +2,7 @@ import { ModelManipulator } from "../../../Manipulators/ModelManipulator";
 import { HistoryItem } from "../HistoryItem";
 import { IDataObjectKeyUpdater } from "../../IInsertedKeyKeeper";
 import { GanttDataObjectNames } from "../../../Entities/DataObject";
-import { MathUtils } from "@devexpress/utils/lib/utils/math";
+import { MathUtils } from "@dptuiext/utils/lib/utils/math";
 
 export class CreateResourceHistoryItem extends HistoryItem {
     text: string;

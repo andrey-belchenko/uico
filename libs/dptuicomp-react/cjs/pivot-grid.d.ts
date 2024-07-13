@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,15 +8,15 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxPivotGrid, { Properties } from "devextreme/ui/pivot_grid";
+import dxPivotGrid, { Properties } from "dptuicomp/ui/pivot_grid";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { CellClickEvent, CellPreparedEvent, ContentReadyEvent, ContextMenuPreparingEvent, DisposingEvent, ExportingEvent, InitializedEvent } from "devextreme/ui/pivot_grid";
-import type { HeaderFilterSearchConfig } from "devextreme/common/grids";
+import type { CellClickEvent, CellPreparedEvent, ContentReadyEvent, ContextMenuPreparingEvent, DisposingEvent, ExportingEvent, InitializedEvent } from "dptuicomp/ui/pivot_grid";
+import type { HeaderFilterSearchConfig } from "dptuicomp/common/grids";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -197,5 +197,5 @@ declare const _componentTexts: React.MemoExoticComponent<(props: ITextsProps) =>
 declare const Texts: typeof _componentTexts & IElementDescriptor;
 export default PivotGrid;
 export { PivotGrid, IPivotGridOptions, PivotGridRef, Export, IExportProps, FieldChooser, IFieldChooserProps, FieldChooserTexts, IFieldChooserTextsProps, FieldPanel, IFieldPanelProps, FieldPanelTexts, IFieldPanelTextsProps, HeaderFilter, IHeaderFilterProps, HeaderFilterTexts, IHeaderFilterTextsProps, LoadPanel, ILoadPanelProps, PivotGridTexts, IPivotGridTextsProps, Scrolling, IScrollingProps, Search, ISearchProps, StateStoring, IStateStoringProps, Texts, ITextsProps };
-import type * as PivotGridTypes from 'devextreme/ui/pivot_grid_types';
+import type * as PivotGridTypes from 'dptuicomp/ui/pivot_grid_types';
 export { PivotGridTypes };

@@ -1,4 +1,4 @@
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { GanttDataObjectNames } from "../../Entities/DataObject";
 import { ITaskUpdateValues } from "../../Entities/ITaskUpdateValues";
 import { Task } from "../../Entities/Task";

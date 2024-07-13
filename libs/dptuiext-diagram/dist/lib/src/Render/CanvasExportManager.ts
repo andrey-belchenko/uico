@@ -1,14 +1,14 @@
 import { IModelChangesListener } from "../Model/ModelManipulator";
 import { ItemChange } from "../Model/ModelChange";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
-import { Browser } from "@devexpress/utils/lib/browser";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
+import { Browser } from "@dptuiext/utils/lib/browser";
 import { RenderUtils } from "./Utils";
 import { CanvasManagerBase } from "./CanvasManagerBase";
 import { ITextMeasurer } from "./Measurer/ITextMeasurer";
 import { svgNS, RenderHelper } from "./RenderHelper";
 import { ExportDOMManipulator } from "./DOMManipulator";
-import { ColorUtils } from "@devexpress/utils/lib/utils/color";
+import { ColorUtils } from "@dptuiext/utils/lib/utils/color";
 
 const EXPORT_IMAGE_QUALITY = 1;
 declare let canvg: any;

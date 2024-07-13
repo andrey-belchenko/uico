@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,18 +8,18 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxFilterBuilder, { Properties } from "devextreme/ui/filter_builder";
+import dxFilterBuilder, { Properties } from "dptuicomp/ui/filter_builder";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ContentReadyEvent, DisposingEvent, EditorPreparedEvent, EditorPreparingEvent, InitializedEvent, ValueChangedEvent, dxFilterBuilderField } from "devextreme/ui/filter_builder";
-import type { template } from "devextreme/core/templates/template";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { ContentReadyEvent, DisposingEvent, EditorPreparedEvent, EditorPreparingEvent, InitializedEvent, ValueChangedEvent, dxFilterBuilderField } from "dptuicomp/ui/filter_builder";
+import type { template } from "dptuicomp/core/templates/template";
+import type { DataSourceOptions } from "dptuicomp/data/data_source";
+import type { Store } from "dptuicomp/data/store";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -140,5 +140,5 @@ declare const _componentLookup: React.MemoExoticComponent<(props: ILookupProps) 
 declare const Lookup: typeof _componentLookup & IElementDescriptor;
 export default FilterBuilder;
 export { FilterBuilder, IFilterBuilderOptions, FilterBuilderRef, CustomOperation, ICustomOperationProps, Field, IFieldProps, FilterOperationDescriptions, IFilterOperationDescriptionsProps, Format, IFormatProps, GroupOperationDescriptions, IGroupOperationDescriptionsProps, Lookup, ILookupProps };
-import type * as FilterBuilderTypes from 'devextreme/ui/filter_builder_types';
+import type * as FilterBuilderTypes from 'dptuicomp/ui/filter_builder_types';
 export { FilterBuilderTypes };

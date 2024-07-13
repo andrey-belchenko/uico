@@ -1,5 +1,5 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Vector } from "@devexpress/utils/lib/geometry/vector";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Vector } from "@dptuiext/utils/lib/geometry/vector";
 
 import { Connector } from "../../Model/Connectors/Connector";
 import { ModelManipulator } from "../../Model/ModelManipulator";

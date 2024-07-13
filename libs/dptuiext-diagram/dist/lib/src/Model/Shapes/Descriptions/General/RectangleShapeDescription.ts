@@ -1,10 +1,10 @@
 import { ShapeDescription, ShapeDefaultDimension, ShapeTextPadding } from "../ShapeDescription";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { Shape } from "../../Shape";
 import { SvgPrimitive } from "../../../../Render/Primitives/Primitive";
 import { RectanglePrimitive } from "../../../../Render/Primitives/RectaglePrimitive";
 import { ShapeTypes } from "../../ShapeTypes";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 
 export class RectangleShapeDescription extends ShapeDescription {
 

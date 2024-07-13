@@ -1,4 +1,4 @@
-import { SearchUtils } from "@devexpress/utils/lib/utils/search";
+import { SearchUtils } from "@dptuiext/utils/lib/utils/search";
 
 export class SortedQueues<T> {
     private _itemsArrays: { [key: number]: T[] } = {};

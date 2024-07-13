@@ -1,7 +1,7 @@
 import { DayOfWeek } from "../DayOfWeek";
 import { DayOfWeekMonthlyOccurrence } from "../DayOfWeekMonthlyOccurrence";
 import { Month } from "../Month";
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { DateTimeUtils } from "../DateTimeUtils";
 import { RecurrenceFactory } from "./RecurrenceFactory";
 import { DataObject } from "../../Entities/DataObject";

@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,19 +8,19 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxDiagram, { Properties } from "devextreme/ui/diagram";
+import dxDiagram, { Properties } from "dptuicomp/ui/diagram";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ContentReadyEvent, CustomCommandEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemDblClickEvent, RequestEditOperationEvent, RequestLayoutUpdateEvent, CustomCommand, dxDiagramShape } from "devextreme/ui/diagram";
-import type { dxSVGElement } from "devextreme/core/element";
-import type { template } from "devextreme/core/templates/template";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
-import type DataSource from "devextreme/data/data_source";
+import type { ContentReadyEvent, CustomCommandEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemDblClickEvent, RequestEditOperationEvent, RequestLayoutUpdateEvent, CustomCommand, dxDiagramShape } from "dptuicomp/ui/diagram";
+import type { dxSVGElement } from "dptuicomp/core/element";
+import type { template } from "dptuicomp/core/templates/template";
+import type { DataSourceOptions } from "dptuicomp/data/data_source";
+import type { Store } from "dptuicomp/data/store";
+import type DataSource from "dptuicomp/data/data_source";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -361,5 +361,5 @@ declare const _componentZoomLevel: React.MemoExoticComponent<(props: IZoomLevelP
 declare const ZoomLevel: typeof _componentZoomLevel & IElementDescriptor;
 export default Diagram;
 export { Diagram, IDiagramOptions, DiagramRef, AutoLayout, IAutoLayoutProps, Command, ICommandProps, CommandItem, ICommandItemProps, ConnectionPoint, IConnectionPointProps, ContextMenu, IContextMenuProps, ContextToolbox, IContextToolboxProps, CustomShape, ICustomShapeProps, DefaultItemProperties, IDefaultItemPropertiesProps, Edges, IEdgesProps, Editing, IEditingProps, Export, IExportProps, GridSize, IGridSizeProps, Group, IGroupProps, HistoryToolbar, IHistoryToolbarProps, Item, IItemProps, MainToolbar, IMainToolbarProps, Nodes, INodesProps, PageSize, IPageSizeProps, PageSizeItem, IPageSizeItemProps, PropertiesPanel, IPropertiesPanelProps, Tab, ITabProps, TabGroup, ITabGroupProps, Toolbox, IToolboxProps, ToolboxGroup, IToolboxGroupProps, ViewToolbar, IViewToolbarProps, ZoomLevel, IZoomLevelProps };
-import type * as DiagramTypes from 'devextreme/ui/diagram_types';
+import type * as DiagramTypes from 'dptuicomp/ui/diagram_types';
 export { DiagramTypes };

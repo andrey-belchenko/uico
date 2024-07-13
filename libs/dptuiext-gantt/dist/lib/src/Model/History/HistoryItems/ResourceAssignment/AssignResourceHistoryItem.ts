@@ -1,7 +1,7 @@
 import { ModelManipulator } from "../../../Manipulators/ModelManipulator";
 import { HistoryItem } from "../HistoryItem";
 import { GanttDataObjectNames } from "../../../Entities/DataObject";
-import { MathUtils } from "@devexpress/utils/lib/utils/math";
+import { MathUtils } from "@dptuiext/utils/lib/utils/math";
 import { IDataObjectKeyUpdater } from "../../IInsertedKeyKeeper";
 
 export class AssignResourceHistoryItem extends HistoryItem {

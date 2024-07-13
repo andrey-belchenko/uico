@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,14 +8,14 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxMap, { Properties } from "devextreme/ui/map";
+import dxMap, { Properties } from "dptuicomp/ui/map";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ClickEvent, DisposingEvent, InitializedEvent, MarkerAddedEvent, MarkerRemovedEvent, ReadyEvent, RouteAddedEvent, RouteRemovedEvent } from "devextreme/ui/map";
+import type { ClickEvent, DisposingEvent, InitializedEvent, MarkerAddedEvent, MarkerRemovedEvent, ReadyEvent, RouteAddedEvent, RouteRemovedEvent } from "dptuicomp/ui/map";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -98,5 +98,5 @@ declare const _componentTooltip: React.MemoExoticComponent<(props: ITooltipProps
 declare const Tooltip: typeof _componentTooltip & IElementDescriptor;
 export default Map;
 export { Map, IMapOptions, MapRef, ApiKey, IApiKeyProps, Center, ICenterProps, Location, ILocationProps, Marker, IMarkerProps, Route, IRouteProps, Tooltip, ITooltipProps };
-import type * as MapTypes from 'devextreme/ui/map_types';
+import type * as MapTypes from 'dptuicomp/ui/map_types';
 export { MapTypes };

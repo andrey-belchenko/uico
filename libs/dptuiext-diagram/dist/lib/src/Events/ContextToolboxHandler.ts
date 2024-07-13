@@ -1,9 +1,9 @@
 import { DiagramMouseEvent, DiagramFocusEvent, DiagramEvent, MouseEventElementType, DiagramKeyboardEvent } from "./Event";
 import { EventDispatcher } from "../Utils";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { ConnectionPointSide } from "../Model/DiagramItem";
-import { KeyCode } from "@devexpress/utils/lib/utils/key";
-import { Browser } from "@devexpress/utils/lib/browser";
+import { KeyCode } from "@dptuiext/utils/lib/utils/key";
+import { Browser } from "@dptuiext/utils/lib/browser";
 import { Shape } from "../Model/Shapes/Shape";
 
 export interface IContextToolboxVisibilityChangesListener {

@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 import {
     extend
@@ -18,7 +18,7 @@ import {
 import {
     version
 } from "../version";
-const ERROR_URL = "https://js.devexpress.com/error/" + version.split(".").slice(0, 2).join("_") + "/";
+const ERROR_URL = "https://js.dptuiext.com/error/" + version.split(".").slice(0, 2).join("_") + "/";
 export default function(baseErrors, errors) {
     const exports = {
         ERROR_MESSAGES: extend(errors, baseErrors),

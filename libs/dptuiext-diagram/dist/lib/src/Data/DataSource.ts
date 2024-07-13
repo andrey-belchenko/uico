@@ -1,6 +1,6 @@
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 import { AddConnectionHistoryItem } from "../History/Common/AddConnectionHistoryItem";
 import { AddConnectorHistoryItem } from "../History/Common/AddConnectorHistoryItem";
@@ -35,7 +35,7 @@ import { ITextMeasurer, TextOwner } from "../Render/Measurer/ITextMeasurer";
 import { Selection } from "../Selection/Selection";
 import { IShapeSizeSettings } from "../Settings";
 import { ObjectUtils } from "../Utils";
-import { ColorUtils } from "@devexpress/utils/lib/utils/color";
+import { ColorUtils } from "@dptuiext/utils/lib/utils/color";
 import { Data } from "../Utils/Data";
 import { isColorProperty } from "../Utils/Svg";
 import { getOptimalTextRectangle } from "../Utils/TextUtils";

@@ -2,7 +2,7 @@ import { Shape } from "../../Shapes/Shape";
 import { DiagramModelOperation } from "../../../ModelOperationSettings";
 import { RequestedEntity, PermissionRequestEventArgs } from "./RequestedEntity";
 import { RequestOperationEventArgs } from "../PermissionsProvider";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { IApiController } from "../../../Api/ApiController";
 import { INativeShape } from "../../../Api/INativeItem";
 

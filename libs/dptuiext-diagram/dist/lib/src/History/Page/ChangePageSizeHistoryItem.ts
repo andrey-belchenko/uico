@@ -1,6 +1,6 @@
 import { HistoryItem } from "../HistoryItem";
 import { ModelManipulator } from "../../Model/ModelManipulator";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 export class ChangePageSizeHistoryItem extends HistoryItem {
     size: Size;

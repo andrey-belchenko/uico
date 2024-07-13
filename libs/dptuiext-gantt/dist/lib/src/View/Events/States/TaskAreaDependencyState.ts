@@ -1,6 +1,6 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
-import { EvtUtils } from "@devexpress/utils/lib/utils/evt";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
+import { EvtUtils } from "@dptuiext/utils/lib/utils/evt";
 import { DependencyType } from "../../../Model/Entities/Enums";
 import { TaskAreaEventSource } from "../../Helpers/Enums";
 import { TaskAreaDomHelper } from "./TaskAreaDomHelper";

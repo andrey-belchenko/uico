@@ -2,7 +2,7 @@ import { PasteSelectionCommandBase } from "./PasteSelectionCommandBase";
 import { DiagramItem } from "../../Model/DiagramItem";
 import { Shape } from "../../Model/Shapes/Shape";
 import { Connector } from "../../Model/Connectors/Connector";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 
 export class PasteSelectionInPositionCommand extends PasteSelectionCommandBase {
     protected getEventPositionOffset(items: DiagramItem[], evtPosition?: Point): Point {

@@ -1,8 +1,8 @@
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Segment } from "@devexpress/utils/lib/geometry/segment";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Segment } from "@dptuiext/utils/lib/geometry/segment";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 import { PAGE_BG_TEXTFLOOR_FILTER_IDPREFIX } from "../../../src/Render/CanvasManagerBase";
 import { INativeConnector } from "../../Api/INativeItem";

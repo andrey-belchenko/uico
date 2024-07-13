@@ -1,4 +1,4 @@
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
 import { svgNS } from "../RenderHelper";
 import { SvgPrimitive } from "./Primitive";
 import { TextStyle } from "../../Model/Style";

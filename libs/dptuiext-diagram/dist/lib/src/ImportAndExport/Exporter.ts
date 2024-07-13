@@ -3,7 +3,7 @@ import { Shape } from "../Model/Shapes/Shape";
 import { Connector } from "../Model/Connectors/Connector";
 import { DiagramItem } from "../Model/DiagramItem";
 import { ObjectUtils } from "../Utils";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { CanvasExportManager } from "../Render/CanvasExportManager";
 
 export class Exporter {

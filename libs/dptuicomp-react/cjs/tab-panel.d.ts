@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,17 +8,17 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
-export { ExplicitTypes } from "devextreme/ui/tab_panel";
+export { ExplicitTypes } from "dptuicomp/ui/tab_panel";
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxTabPanel, { Properties } from "devextreme/ui/tab_panel";
+import dxTabPanel, { Properties } from "dptuicomp/ui/tab_panel";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { dxTabPanelItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, TitleClickEvent, TitleHoldEvent, TitleRenderedEvent } from "devextreme/ui/tab_panel";
-import type { template } from "devextreme/core/templates/template";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
+import type { dxTabPanelItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemHoldEvent, ItemRenderedEvent, TitleClickEvent, TitleHoldEvent, TitleRenderedEvent } from "dptuicomp/ui/tab_panel";
+import type { template } from "dptuicomp/core/templates/template";
+import type { CollectionWidgetItem } from "dptuicomp/ui/collection/ui.collection_widget.base";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -51,7 +51,7 @@ interface TabPanelRef<TItem = any, TKey = any> {
     instance: () => dxTabPanel<TItem, TKey>;
 }
 declare const TabPanel: <TItem = any, TKey = any>(props: ReplaceFieldTypes<Properties<TItem, TKey>, ITabPanelOptionsNarrowedEvents<TItem, TKey>> & IHtmlOptions & {
-    dataSource?: import("../../devextreme/artifacts/npm/devextreme/data/data_source").DataSourceLike<TItem, TKey> | null | undefined;
+    dataSource?: import("../../dptuicomp/artifacts/npm/dptuicomp/data/data_source").DataSourceLike<TItem, TKey> | null | undefined;
     itemRender?: ((...params: any) => React.ReactNode) | undefined;
     itemComponent?: React.ComponentType<any> | undefined;
     itemTitleRender?: ((...params: any) => React.ReactNode) | undefined;
@@ -85,5 +85,5 @@ declare const _componentItem: React.MemoExoticComponent<(props: IItemProps) => R
 declare const Item: typeof _componentItem & IElementDescriptor;
 export default TabPanel;
 export { TabPanel, ITabPanelOptions, TabPanelRef, Item, IItemProps };
-import type * as TabPanelTypes from 'devextreme/ui/tab_panel_types';
+import type * as TabPanelTypes from 'dptuicomp/ui/tab_panel_types';
 export { TabPanelTypes };

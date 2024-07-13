@@ -4,14 +4,14 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 import {
     createComponentVNode
 } from "inferno";
 import {
     BaseInfernoComponent
-} from "@devextreme/runtime/inferno";
+} from "@dptuicomp/runtime/inferno";
 import {
     getTemplate
 } from "../../../../core/r1/utils/index";

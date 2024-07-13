@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,16 +8,16 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxRadioGroup, { Properties } from "devextreme/ui/radio_group";
+import dxRadioGroup, { Properties } from "dptuicomp/ui/radio_group";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "devextreme/ui/radio_group";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { template } from "devextreme/core/templates/template";
+import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "dptuicomp/ui/radio_group";
+import type { CollectionWidgetItem } from "dptuicomp/ui/collection/ui.collection_widget.base";
+import type { template } from "dptuicomp/core/templates/template";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -52,5 +52,5 @@ declare const _componentItem: React.MemoExoticComponent<(props: IItemProps) => R
 declare const Item: typeof _componentItem & IElementDescriptor;
 export default RadioGroup;
 export { RadioGroup, IRadioGroupOptions, RadioGroupRef, Item, IItemProps };
-import type * as RadioGroupTypes from 'devextreme/ui/radio_group_types';
+import type * as RadioGroupTypes from 'dptuicomp/ui/radio_group_types';
 export { RadioGroupTypes };

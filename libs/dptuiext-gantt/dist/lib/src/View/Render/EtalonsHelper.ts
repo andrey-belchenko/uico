@@ -1,4 +1,4 @@
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
 import { ViewType } from "../Helpers/Enums";
 import { EtalonSizeValues } from "../Helpers/EtalonSizeValues";
 import { GridElementInfo } from "../Helpers/GridElementInfo";

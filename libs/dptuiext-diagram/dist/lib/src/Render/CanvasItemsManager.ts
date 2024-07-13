@@ -1,7 +1,7 @@
 import { ItemChange, ItemChangeType } from "../Model/ModelChange";
 import { IMouseOperationsListener, MouseEventElementType, ITextInputOperationListener } from "../Events/Event";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { DiagramItem, ItemKey } from "../Model/DiagramItem";
 import { SvgPrimitive } from "./Primitives/Primitive";
 import { GroupPrimitive } from "./Primitives/GroupPrimitive";
@@ -10,7 +10,7 @@ import { Shape } from "../Model/Shapes/Shape";
 import { Connector } from "../Model/Connectors/Connector";
 import { ICanvasViewListener } from "./CanvasViewManager";
 import { DOMManipulator } from "./DOMManipulator";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
 import { CanvasManager } from "./CanvasManager";
 import { ISelectionChangesListener, Selection } from "../Selection/Selection";
 import { ModelUtils } from "../Model/ModelUtils";

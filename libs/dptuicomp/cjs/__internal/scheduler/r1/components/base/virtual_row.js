@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 Object.defineProperty(exports, "__esModule", {
@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.VirtualRowDefaultProps = exports.VirtualRow = void 0;
 var _inferno = require("inferno");
-var _inferno2 = require("@devextreme/runtime/inferno");
+var _inferno2 = require("@dptuicomp/runtime/inferno");
 var _index = require("../../utils/index");
 var _row = require("./row");
 var _virtual_cell = require("./virtual_cell");

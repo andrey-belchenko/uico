@@ -1,6 +1,6 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { EvtUtils } from "@devexpress/utils/lib/utils/evt";
-import { Metrics } from "@devexpress/utils/lib/geometry/metrics";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { EvtUtils } from "@dptuiext/utils/lib/utils/evt";
+import { Metrics } from "@dptuiext/utils/lib/geometry/metrics";
 import { TaskAreaStateBase } from "./TaskAreaStateBase";
 import { TaskAreaStateEventNames } from "./TaskAreaStateEventNames";
 

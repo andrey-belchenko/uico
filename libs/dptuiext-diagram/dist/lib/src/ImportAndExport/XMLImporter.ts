@@ -4,12 +4,12 @@ import { Shape } from "../Model/Shapes/Shape";
 import { ImporterBase } from "./ImporterBase";
 import { ShapeTypes } from "../Model/Shapes/ShapeTypes";
 import { ShapeDescriptionManager } from "../Model/Shapes/Descriptions/ShapeDescriptionManager";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { ImportUtils } from "./ImportUtils";
 import { DiagramItem } from "../Model/DiagramItem";
-import { ColorUtils } from "@devexpress/utils/lib/utils/color";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
+import { ColorUtils } from "@dptuiext/utils/lib/utils/color";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
 
 export class XmlImporter extends ImporterBase {
     protected doc: Document;

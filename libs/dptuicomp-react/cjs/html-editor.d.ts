@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,21 +8,21 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxHtmlEditor, { Properties } from "devextreme/ui/html_editor";
+import dxHtmlEditor, { Properties } from "dptuicomp/ui/html_editor";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ContentReadyEvent, DisposingEvent, FocusInEvent, FocusOutEvent, InitializedEvent, ValueChangedEvent, dxHtmlEditorImageUploadTabItem, dxHtmlEditorTableContextMenuItem, dxHtmlEditorToolbarItem } from "devextreme/ui/html_editor";
-import type { ContentReadyEvent as FileUploaderContentReadyEvent, DisposingEvent as FileUploaderDisposingEvent, InitializedEvent as FileUploaderInitializedEvent, ValueChangedEvent as FileUploaderValueChangedEvent, BeforeSendEvent, DropZoneEnterEvent, DropZoneLeaveEvent, FilesUploadedEvent, OptionChangedEvent, ProgressEvent, UploadAbortedEvent, UploadedEvent, UploadErrorEvent, UploadStartedEvent, dxFileUploaderOptions } from "devextreme/ui/file_uploader";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { template } from "devextreme/core/templates/template";
-import type { DataSourceOptions } from "devextreme/data/data_source";
-import type { Store } from "devextreme/data/store";
-import type UploadInfo from "devextreme/file_management/upload_info";
-import type DataSource from "devextreme/data/data_source";
+import type { ContentReadyEvent, DisposingEvent, FocusInEvent, FocusOutEvent, InitializedEvent, ValueChangedEvent, dxHtmlEditorImageUploadTabItem, dxHtmlEditorTableContextMenuItem, dxHtmlEditorToolbarItem } from "dptuicomp/ui/html_editor";
+import type { ContentReadyEvent as FileUploaderContentReadyEvent, DisposingEvent as FileUploaderDisposingEvent, InitializedEvent as FileUploaderInitializedEvent, ValueChangedEvent as FileUploaderValueChangedEvent, BeforeSendEvent, DropZoneEnterEvent, DropZoneLeaveEvent, FilesUploadedEvent, OptionChangedEvent, ProgressEvent, UploadAbortedEvent, UploadedEvent, UploadErrorEvent, UploadStartedEvent, dxFileUploaderOptions } from "dptuicomp/ui/file_uploader";
+import type { CollectionWidgetItem } from "dptuicomp/ui/collection/ui.collection_widget.base";
+import type { template } from "dptuicomp/core/templates/template";
+import type { DataSourceOptions } from "dptuicomp/data/data_source";
+import type { Store } from "dptuicomp/data/store";
+import type UploadInfo from "dptuicomp/file_management/upload_info";
+import type DataSource from "dptuicomp/data/data_source";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -255,5 +255,5 @@ declare const _componentVariables: React.MemoExoticComponent<(props: IVariablesP
 declare const Variables: typeof _componentVariables & IElementDescriptor;
 export default HtmlEditor;
 export { HtmlEditor, IHtmlEditorOptions, HtmlEditorRef, FileUploaderOptions, IFileUploaderOptionsProps, ImageUpload, IImageUploadProps, Item, IItemProps, MediaResizing, IMediaResizingProps, Mention, IMentionProps, Tab, ITabProps, TableContextMenu, ITableContextMenuProps, TableContextMenuItem, ITableContextMenuItemProps, TableResizing, ITableResizingProps, Toolbar, IToolbarProps, ToolbarItem, IToolbarItemProps, Variables, IVariablesProps };
-import type * as HtmlEditorTypes from 'devextreme/ui/html_editor_types';
+import type * as HtmlEditorTypes from 'dptuicomp/ui/html_editor_types';
 export { HtmlEditorTypes };

@@ -1,10 +1,10 @@
 {
-  "name": "devextreme-quill",
+  "name": "dptuicomp-quill",
   "version": "1.7.1",
   "description": "Core of the DevExtreme HtmlEditor",
   "author": "Developer Express Inc.",
   "main": "dist/dx-quill.js",
-  "homepage": "https://js.devexpress.com/",
+  "homepage": "https://js.dptuiext.com/",
   "files": [
     "attributors",
     "blots",
@@ -46,7 +46,7 @@
     "css-loader": "^6.7.1",
     "eslint": "^8.22.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-devextreme": "^0.2.0",
+    "eslint-config-dptuicomp": "^0.2.0",
     "eslint-import-resolver-webpack": "^0.13.2",
     "eslint-plugin-import": "^2.26.0",
     "highlight.js": "^11.6.0",
@@ -82,10 +82,10 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DevExpress/devextreme-quill.git"
+    "url": "https://github.com/DevExpress/dptuicomp-quill.git"
   },
   "bugs": {
-    "url": "https://www.devexpress.com/support/"
+    "url": "https://www.dptuiext.com/support/"
   },
   "scripts": {
     "dev": "node ./_develop/prepare_playground.mjs && webpack-dev-server --config _develop/webpack.config.js",

@@ -1,5 +1,5 @@
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 
 import { ModelManipulator } from "./Model/ModelManipulator";
 import { CommandManager, DiagramCommand } from "./Commands/CommandManager";
@@ -44,7 +44,7 @@ import { RenderUtils } from "./Render/Utils";
 import { ChangeConnectionEventArgs } from "./Model/Permissions/Entities/ChangeConnection";
 import { Browser } from ".";
 import { IDiagramController } from "./IDiagramController";
-import { MathUtils } from "@devexpress/utils/lib/utils/math";
+import { MathUtils } from "@dptuiext/utils/lib/utils/math";
 
 export class DiagramControl implements IHistoryChangesListener,
     IDataChangesListener, IToolboxDragListener, ITextInputOperationListener,

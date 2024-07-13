@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,17 +8,17 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxLinearGauge, { Properties } from "devextreme/viz/linear_gauge";
+import dxLinearGauge, { Properties } from "dptuicomp/viz/linear_gauge";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent } from "devextreme/viz/linear_gauge";
-import type { Font as ChartsFont, ChartsColor } from "devextreme/common/charts";
-import type { template } from "devextreme/core/templates/template";
-import type * as LocalizationTypes from "devextreme/localization";
+import type { DisposingEvent, DrawnEvent, ExportedEvent, ExportingEvent, FileSavingEvent, IncidentOccurredEvent, InitializedEvent, TooltipHiddenEvent, TooltipShownEvent } from "dptuicomp/viz/linear_gauge";
+import type { Font as ChartsFont, ChartsColor } from "dptuicomp/common/charts";
+import type { template } from "dptuicomp/core/templates/template";
+import type * as LocalizationTypes from "dptuicomp/localization";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -395,5 +395,5 @@ declare const _componentWidth: React.MemoExoticComponent<(props: IWidthProps) =>
 declare const Width: typeof _componentWidth & IElementDescriptor;
 export default LinearGauge;
 export { LinearGauge, ILinearGaugeOptions, LinearGaugeRef, Animation, IAnimationProps, BackgroundColor, IBackgroundColorProps, Border, IBorderProps, Color, IColorProps, Export, IExportProps, Font, IFontProps, Format, IFormatProps, Geometry, IGeometryProps, Label, ILabelProps, LoadingIndicator, ILoadingIndicatorProps, Margin, IMarginProps, MinorTick, IMinorTickProps, Range, IRangeProps, RangeContainer, IRangeContainerProps, Scale, IScaleProps, Shadow, IShadowProps, Size, ISizeProps, Subtitle, ISubtitleProps, SubvalueIndicator, ISubvalueIndicatorProps, Text, ITextProps, Tick, ITickProps, Title, ITitleProps, Tooltip, ITooltipProps, ValueIndicator, IValueIndicatorProps, Width, IWidthProps };
-import type * as LinearGaugeTypes from 'devextreme/viz/linear_gauge_types';
+import type * as LinearGaugeTypes from 'dptuicomp/viz/linear_gauge_types';
 export { LinearGaugeTypes };

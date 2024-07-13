@@ -1,5 +1,5 @@
 import { EventDispatcher } from "./Utils";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { DiagramUnit } from "./Enums";
 import { ModelUtils } from "./Model/ModelUtils";
 

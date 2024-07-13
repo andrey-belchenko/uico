@@ -1,4 +1,4 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { PdfObjectDrawer } from "../DataObjects/Drawer";
 import { IGanttPageExportInfo, IGanttTableExportInfo, PdfPageTableNames } from "../Interfaces";
 import { ExportMode } from "../Settings/Enums";

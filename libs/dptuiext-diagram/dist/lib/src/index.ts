@@ -1,18 +1,18 @@
 import { DiagramCommand } from "./Commands/CommandManager";
 import { DiagramControl } from "./Diagram";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { EventDispatcher } from "./Utils";
 import { ShapeTypes, ShapeCategories, ShapeType } from "./Model/Shapes/ShapeTypes";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
-import { Browser } from "@devexpress/utils/lib/browser";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
+import { Browser } from "@dptuiext/utils/lib/browser";
 import { AutoZoomMode } from "./Settings";
 import { DataLayoutType } from "./Data/DataLayoutParameters";
 import { DataLayoutOrientation } from "./Layout/LayoutSettings";
 
 import "../css/system.scss";
 import { ConnectorLineEnding, ConnectorLineOption } from "./Model/Connectors/ConnectorProperties";
-import { ColorUtils } from "@devexpress/utils/lib/utils/color";
+import { ColorUtils } from "@dptuiext/utils/lib/utils/color";
 import { Diagnostics } from "./Diagnostics";
 import { NativeShape, NativeConnector } from "./Api/NativeItem";
 import { DiagramLocalizationService } from "./LocalizationService";

@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,19 +8,19 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
-export { ExplicitTypes } from "devextreme/ui/context_menu";
+export { ExplicitTypes } from "dptuicomp/ui/context_menu";
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxContextMenu, { Properties } from "devextreme/ui/context_menu";
+import dxContextMenu, { Properties } from "dptuicomp/ui/context_menu";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { dxContextMenuItem, ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemRenderedEvent, PositioningEvent, ShowingEvent, ShownEvent } from "devextreme/ui/context_menu";
-import type { AnimationConfig, AnimationState } from "devextreme/animation/fx";
-import type { PositionConfig } from "devextreme/animation/position";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { template } from "devextreme/core/templates/template";
+import type { dxContextMenuItem, ContentReadyEvent, DisposingEvent, HiddenEvent, HidingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemRenderedEvent, PositioningEvent, ShowingEvent, ShownEvent } from "dptuicomp/ui/context_menu";
+import type { AnimationConfig, AnimationState } from "dptuicomp/animation/fx";
+import type { PositionConfig } from "dptuicomp/animation/position";
+import type { CollectionWidgetItem } from "dptuicomp/ui/collection/ui.collection_widget.base";
+import type { template } from "dptuicomp/core/templates/template";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -52,7 +52,7 @@ interface ContextMenuRef<TKey = any> {
     instance: () => dxContextMenu<TKey>;
 }
 declare const ContextMenu: <TKey = any>(props: ReplaceFieldTypes<Properties<TKey>, IContextMenuOptionsNarrowedEvents<TKey>> & IHtmlOptions & {
-    dataSource?: import("../../devextreme/artifacts/npm/devextreme/data/data_source").DataSourceLike<dxContextMenuItem, TKey> | null | undefined;
+    dataSource?: import("../../dptuicomp/artifacts/npm/dptuicomp/data/data_source").DataSourceLike<dxContextMenuItem, TKey> | null | undefined;
     itemRender?: ((...params: any) => React.ReactNode) | undefined;
     itemComponent?: React.ComponentType<any> | undefined;
     defaultItems?: dxContextMenuItem[] | undefined;
@@ -213,5 +213,5 @@ declare const _componentTo: React.MemoExoticComponent<(props: IToProps) => React
 declare const To: typeof _componentTo & IElementDescriptor;
 export default ContextMenu;
 export { ContextMenu, IContextMenuOptions, ContextMenuRef, Animation, IAnimationProps, At, IAtProps, BoundaryOffset, IBoundaryOffsetProps, Collision, ICollisionProps, Delay, IDelayProps, From, IFromProps, Hide, IHideProps, Item, IItemProps, My, IMyProps, Offset, IOffsetProps, Position, IPositionProps, Show, IShowProps, ShowEvent, IShowEventProps, ShowSubmenuMode, IShowSubmenuModeProps, To, IToProps };
-import type * as ContextMenuTypes from 'devextreme/ui/context_menu_types';
+import type * as ContextMenuTypes from 'dptuicomp/ui/context_menu_types';
 export { ContextMenuTypes };

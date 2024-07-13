@@ -10,7 +10,7 @@ import { History } from "../../History/History";
 import { Selection } from "../../Selection/Selection";
 import { DiagramModel } from "../../Model/Model";
 import { IVisualizerManager } from "../Visualizers/VisualizersManager";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { AddShapeHistoryItem } from "../../History/Common/AddShapeHistoryItem";
 import { ModelUtils } from "../../Model/ModelUtils";
 import { Shape } from "../../Model/Shapes/Shape";

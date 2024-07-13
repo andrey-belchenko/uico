@@ -1,5 +1,5 @@
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { ConnectionPointSide } from "../../DiagramItem";
 import { ConnectorPointsOrthogonalCalculator } from "./ConnectorPointsOrthogonalCalculator";
 import { ConnectorPointsOrthogonalSideCalculatorBase } from "./ConnectorPointsOrthogonalSideCalculatorBase";

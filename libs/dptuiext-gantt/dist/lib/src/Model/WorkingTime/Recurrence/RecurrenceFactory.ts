@@ -1,5 +1,5 @@
 import { RecurrenceBase } from "./RecurrenceBase";
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { Daily } from "./Daily";
 import { Weekly } from "./Weekly";
 import { Monthly } from "./Monthly";

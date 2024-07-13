@@ -2,7 +2,7 @@ import { ChangePagePropertyCommand } from "./ChangePagePropertyCommand";
 import { HistoryItem } from "../../History/HistoryItem";
 import { ChangePageColorHistoryItem } from "../../History/Page/ChangePageColorHistoryItem";
 import { DiagramModel } from "../../Model/Model";
-import { ColorUtils } from "@devexpress/utils/lib/utils/color";
+import { ColorUtils } from "@dptuiext/utils/lib/utils/color";
 
 export class ChangePageColorCommand extends ChangePagePropertyCommand<string> {
     getValue(): string {

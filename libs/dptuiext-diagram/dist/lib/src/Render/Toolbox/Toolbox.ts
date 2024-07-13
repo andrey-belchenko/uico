@@ -1,11 +1,11 @@
 import { EventDispatcher, HtmlFocusUtils, EventUtils } from "../../Utils";
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { EvtUtils } from "@devexpress/utils/lib/utils/evt";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { EvtUtils } from "@dptuiext/utils/lib/utils/evt";
 import { SetAbsoluteX, SetAbsoluteY } from "../../Utils/Data";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
 import { IReadOnlyChangesListener } from "../../Settings";
 import { IShapeDescriptionManager } from "../../Model/Shapes/Descriptions/ShapeDescriptionManager";
-import { Browser } from "@devexpress/utils/lib/browser";
+import { Browser } from "@dptuiext/utils/lib/browser";
 import { RenderHelper } from "../RenderHelper";
 import { NOT_VALID_CSSCLASS } from "../CanvasItemsManager";
 import { ITextMeasurer } from "../Measurer/ITextMeasurer";

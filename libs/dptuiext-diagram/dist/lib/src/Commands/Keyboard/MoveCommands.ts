@@ -1,7 +1,7 @@
 import { SimpleCommandState } from "../CommandStates";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { ModelUtils } from "../../Model/ModelUtils";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
 import { SimpleCommandBase } from "../SimpleCommandBase";
 import { SelectionDragHelper } from "../../Model/Helpers/DragHelper";
 

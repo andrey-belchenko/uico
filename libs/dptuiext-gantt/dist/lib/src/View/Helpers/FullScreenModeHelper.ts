@@ -1,6 +1,6 @@
-import { Browser } from "@devexpress/utils/lib/browser";
-import { AttrUtils } from "@devexpress/utils/lib/utils/attr";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
+import { Browser } from "@dptuiext/utils/lib/browser";
+import { AttrUtils } from "@dptuiext/utils/lib/utils/attr";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
 import { FullScreenHelperSettings } from "../Settings/InitSettings/FullScreenHelperSettings";
 
 

@@ -4,7 +4,7 @@ import { IconToolbox, IShapeIconToolboxOptions } from "./IconToolbox";
 import { IShapeDescriptionManager } from "../../Model/Shapes/Descriptions/ShapeDescriptionManager";
 import { ITextMeasurer } from "../Measurer/ITextMeasurer";
 import { TextMeasurer } from "../Measurer/TextMeasurer";
-import { MathUtils } from "@devexpress/utils/lib/utils/math";
+import { MathUtils } from "@dptuiext/utils/lib/utils/math";
 
 export class ToolboxManager {
     private toolboxes: Toolbox[] = [];

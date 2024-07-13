@@ -1,5 +1,5 @@
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { Margin } from "../Table/Margin";
 import { PdfDataRange } from "./DataRange";
 import { PdfCustomFontSettings } from "./CustomFont";

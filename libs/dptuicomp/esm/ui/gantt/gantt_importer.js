@@ -4,13 +4,13 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 import Errors from "../widget/ui.errors";
-import Gantt from "devexpress-gantt";
+import Gantt from "dptuiext-gantt";
 export function getGanttViewCore() {
     if (!Gantt) {
-        throw Errors.Error("E1041", "devexpress-gantt")
+        throw Errors.Error("E1041", "dptuiext-gantt")
     }
     return Gantt
 }

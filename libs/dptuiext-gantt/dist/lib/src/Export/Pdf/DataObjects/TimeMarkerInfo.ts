@@ -1,6 +1,6 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { Color } from "../Table/Color";
 
 export class PdfTimeMarkerInfo {

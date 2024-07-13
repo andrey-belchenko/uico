@@ -4,13 +4,13 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.getDiagram = getDiagram;
 var _ui = _interopRequireDefault(require("../widget/ui.errors"));
-var _devexpressDiagram = _interopRequireWildcard(require("devexpress-diagram"));
-var Diagram = _devexpressDiagram;
+var _dptuiextDiagram = _interopRequireWildcard(require("dptuiext-diagram"));
+var Diagram = _dptuiextDiagram;
 
 function _getRequireWildcardCache(e) {
     if ("function" != typeof WeakMap) {
@@ -56,8 +56,8 @@ function _interopRequireDefault(obj) {
 }
 
 function getDiagram() {
-    if (!_devexpressDiagram.default) {
-        throw _ui.default.Error("E1041", "devexpress-diagram")
+    if (!_dptuiextDiagram.default) {
+        throw _ui.default.Error("E1041", "dptuiext-diagram")
     }
     return Diagram
 }

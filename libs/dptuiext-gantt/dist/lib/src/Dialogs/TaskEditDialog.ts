@@ -7,7 +7,7 @@ import { Task } from "../Model/Entities/Task";
 import { DialogBase } from "./DialogBase";
 import { TaskEditParameters } from "./DialogParameters/TaskEditParameters";
 import { SimpleCommandState } from "../Commands/SimpleCommandState";
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { ITaskUpdateValues } from "../Model/Entities/ITaskUpdateValues";
 
 export class TaskEditDialogCommand extends DialogBase<TaskEditParameters> {

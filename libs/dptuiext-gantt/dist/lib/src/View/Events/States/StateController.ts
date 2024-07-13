@@ -1,7 +1,7 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
-import { EvtUtils } from "@devexpress/utils/lib/utils/evt";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
+import { EvtUtils } from "@dptuiext/utils/lib/utils/evt";
 import { TaskEditController } from "../../Edit/TaskEditController";
 import { TaskAreaEventSource } from "../../Helpers/Enums";
 import { ITaskAreaEventsListener } from "../TaskAreaEventsListener";

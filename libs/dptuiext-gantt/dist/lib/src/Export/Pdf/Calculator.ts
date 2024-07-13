@@ -1,5 +1,5 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
 import { Position, TaskTitlePosition } from "../../View/Helpers/Enums";
 import { GanttView } from "../../View/GanttView";
 import { GridElementInfo } from "../../View/Helpers/GridElementInfo";
@@ -14,7 +14,7 @@ import { CellDef } from "./Table/CellDef";
 import { TaskAreaExportHelper } from "./TaskAreaHelper";
 import { GanttPdfExportProps } from "./Settings/Props";
 import { IGanttExportInfo, IGanttPageExportInfo, IGanttTableExportInfo, IGanttObjectExportInfo, PdfPageTableNames } from "./Interfaces";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { PdfGanttPaginator } from "./Paging/Paginator";
 import { ScalingHelper } from "./ScalingHelper";
 import { PdfTimeMarkerInfo } from "./DataObjects/TimeMarkerInfo";

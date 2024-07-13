@@ -1,7 +1,7 @@
 import { MouseEventElementType, MouseEventSource, DiagramEvent } from "../Events/Event";
 import { ItemKey } from "../Model/DiagramItem";
 import { StyleBase } from "../Model/Style";
-import { MathUtils } from "@devexpress/utils/lib/utils/math";
+import { MathUtils } from "@dptuiext/utils/lib/utils/math";
 
 export class RenderUtils {
     static updateSvgElementSize(svgElement: SVGElement, width: number, height: number, forExport?: boolean) {

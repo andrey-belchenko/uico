@@ -1,5 +1,5 @@
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
 import { ITaskAreaContainer } from "../../Interfaces/ITaskAreaContainer";
 import { DateRange } from "../../Model/WorkingTime/DateRange";
 import { GanttView } from "../../View/GanttView";

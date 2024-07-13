@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,26 +8,26 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxDateBox, { Properties } from "devextreme/ui/date_box";
+import dxDateBox, { Properties } from "dptuicomp/ui/date_box";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { ChangeEvent, ClosedEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, PasteEvent, ValueChangedEvent } from "devextreme/ui/date_box";
-import type { ContentReadyEvent as ButtonContentReadyEvent, DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, OptionChangedEvent as ButtonOptionChangedEvent, ClickEvent } from "devextreme/ui/button";
-import type { DisposingEvent as CalendarDisposingEvent, InitializedEvent as CalendarInitializedEvent, ValueChangedEvent as CalendarValueChangedEvent, DisabledDate, OptionChangedEvent } from "devextreme/ui/calendar";
-import type { AnimationConfig, AnimationState } from "devextreme/animation/fx";
-import type { template } from "devextreme/core/templates/template";
-import type { event, EventInfo } from "devextreme/events/index";
-import type { Component } from "devextreme/core/component";
-import type { PositionConfig } from "devextreme/animation/position";
-import type { dxPopupToolbarItem } from "devextreme/ui/popup";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type dxOverlay from "devextreme/ui/overlay";
-import type DOMComponent from "devextreme/core/dom_component";
-import type dxPopup from "devextreme/ui/popup";
+import type { ChangeEvent, ClosedEvent, ContentReadyEvent, CopyEvent, CutEvent, DisposingEvent, EnterKeyEvent, FocusInEvent, FocusOutEvent, InitializedEvent, InputEvent, KeyDownEvent, KeyUpEvent, OpenedEvent, PasteEvent, ValueChangedEvent } from "dptuicomp/ui/date_box";
+import type { ContentReadyEvent as ButtonContentReadyEvent, DisposingEvent as ButtonDisposingEvent, InitializedEvent as ButtonInitializedEvent, dxButtonOptions, OptionChangedEvent as ButtonOptionChangedEvent, ClickEvent } from "dptuicomp/ui/button";
+import type { DisposingEvent as CalendarDisposingEvent, InitializedEvent as CalendarInitializedEvent, ValueChangedEvent as CalendarValueChangedEvent, DisabledDate, OptionChangedEvent } from "dptuicomp/ui/calendar";
+import type { AnimationConfig, AnimationState } from "dptuicomp/animation/fx";
+import type { template } from "dptuicomp/core/templates/template";
+import type { event, EventInfo } from "dptuicomp/events/index";
+import type { Component } from "dptuicomp/core/component";
+import type { PositionConfig } from "dptuicomp/animation/position";
+import type { dxPopupToolbarItem } from "dptuicomp/ui/popup";
+import type { CollectionWidgetItem } from "dptuicomp/ui/collection/ui.collection_widget.base";
+import type dxOverlay from "dptuicomp/ui/overlay";
+import type DOMComponent from "dptuicomp/core/dom_component";
+import type dxPopup from "dptuicomp/ui/popup";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -416,5 +416,5 @@ declare const _componentToolbarItem: React.MemoExoticComponent<(props: IToolbarI
 declare const ToolbarItem: typeof _componentToolbarItem & IElementDescriptor;
 export default DateBox;
 export { DateBox, IDateBoxOptions, DateBoxRef, Animation, IAnimationProps, At, IAtProps, BoundaryOffset, IBoundaryOffsetProps, Button, IButtonProps, CalendarOptions, ICalendarOptionsProps, Collision, ICollisionProps, DisplayFormat, IDisplayFormatProps, DropDownOptions, IDropDownOptionsProps, From, IFromProps, Hide, IHideProps, My, IMyProps, Offset, IOffsetProps, Options, IOptionsProps, Position, IPositionProps, Show, IShowProps, To, IToProps, ToolbarItem, IToolbarItemProps };
-import type * as DateBoxTypes from 'devextreme/ui/date_box_types';
+import type * as DateBoxTypes from 'dptuicomp/ui/date_box_types';
 export { DateBoxTypes };

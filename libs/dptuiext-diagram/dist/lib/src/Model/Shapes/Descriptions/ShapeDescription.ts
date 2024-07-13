@@ -1,5 +1,5 @@
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 
 import { DiagramLocalizationService } from "../../../LocalizationService";
 import { TextOwner } from "../../../Render/Measurer/ITextMeasurer";
@@ -7,13 +7,13 @@ import { SvgPrimitive } from "../../../Render/Primitives/Primitive";
 import { RectanglePrimitive } from "../../../Render/Primitives/RectaglePrimitive";
 import { TextAngle, TextPrimitive } from "../../../Render/Primitives/TextPrimitive";
 import { EventDispatcher } from "../../../Utils";
-import { Rectangle } from "@devexpress/utils/lib/geometry/rectangle";
+import { Rectangle } from "@dptuiext/utils/lib/geometry/rectangle";
 import { ConnectionPoint } from "../../ConnectionPoint";
 import { ConnectionPointSide, DiagramItem } from "../../DiagramItem";
 import { Shape } from "../Shape";
 import { ShapeParameterPoint } from "../ShapeParameterPoint";
 import { ShapeParameters } from "../ShapeParameters";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 
 export const ShapeDefaultDimension = 1440;
 export const ShapeMinDimension = 360;

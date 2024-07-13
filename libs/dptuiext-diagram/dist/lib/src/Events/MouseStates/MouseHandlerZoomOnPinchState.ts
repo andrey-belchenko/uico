@@ -3,9 +3,9 @@ import { IViewController } from "../../ViewController";
 import { DiagramMouseEvent, DiagramMouseEventTouch } from "../Event";
 import { AutoZoomMode, DiagramSettings } from "../../Settings";
 import { Selection } from "../../Selection/Selection";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { MouseHandlerScrollingState } from "./MouseHandlerScrollingState";
-import { Metrics } from "@devexpress/utils/lib/geometry/metrics";
+import { Metrics } from "@dptuiext/utils/lib/geometry/metrics";
 
 const PINCH_CHANGE_DISTANCE = 1;
 

@@ -3,8 +3,8 @@ import { IShapeDescriptionManager } from "../../Model/Shapes/Descriptions/ShapeD
 import { svgNS } from "../RenderHelper";
 import { Shape } from "../../Model/Shapes/Shape";
 import { ShapeDescription } from "../../Model/Shapes/Descriptions/ShapeDescription";
-import { UnitConverter } from "@devexpress/utils/lib/class/unit-converter";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { UnitConverter } from "@dptuiext/utils/lib/class/unit-converter";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { TextShapeDescription } from "../../Model/Shapes/Descriptions/General/TextShapeDescription";
 import { ITextMeasurer } from "../Measurer/ITextMeasurer";
 import { DEFAULT_STROKE_WIDTH } from "../../Model/Style";

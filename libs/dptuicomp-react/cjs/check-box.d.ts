@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,14 +8,14 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxCheckBox, { Properties } from "devextreme/ui/check_box";
+import dxCheckBox, { Properties } from "dptuicomp/ui/check_box";
 import { IHtmlOptions } from "./core/component";
-import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "devextreme/ui/check_box";
+import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "dptuicomp/ui/check_box";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -37,5 +37,5 @@ declare const CheckBox: (props: React.PropsWithChildren<ICheckBoxOptions> & {
 }) => ReactElement | null;
 export default CheckBox;
 export { CheckBox, ICheckBoxOptions, CheckBoxRef };
-import type * as CheckBoxTypes from 'devextreme/ui/check_box_types';
+import type * as CheckBoxTypes from 'dptuicomp/ui/check_box_types';
 export { CheckBoxTypes };

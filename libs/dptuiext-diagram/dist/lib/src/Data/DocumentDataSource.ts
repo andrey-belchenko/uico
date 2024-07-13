@@ -10,8 +10,8 @@ import { ModelUtils } from "../Model/ModelUtils";
 import { Data } from "../Utils/Data";
 import { ObjectUtils } from "../Utils";
 import { DiagramUnit } from "../Enums";
-import { StringUtils } from "@devexpress/utils/lib/utils/string";
-import { MathUtils } from "@devexpress/utils/lib/utils/math";
+import { StringUtils } from "@dptuiext/utils/lib/utils/string";
+import { MathUtils } from "@dptuiext/utils/lib/utils/math";
 
 export class UpdateNodeKeyRelatedObjectsStackItem {
     constructor(public shape: Shape, public nodeObj: DataSourceNodeItem) {

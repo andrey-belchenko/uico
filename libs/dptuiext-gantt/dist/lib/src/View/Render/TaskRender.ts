@@ -1,4 +1,4 @@
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
 import { Dependency } from "../../Model/Entities/Dependency";
 import { Task } from "../../Model/Entities/Task";
 import { ViewVisualModelItem } from "../../Model/VisualModel/ViewVisualModelItem";

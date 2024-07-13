@@ -1,4 +1,4 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { HistoryItem } from "../HistoryItem";
 import { ModelManipulator } from "../../Model/ModelManipulator";
 import { ItemKey } from "../../Model/DiagramItem";

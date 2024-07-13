@@ -4,7 +4,7 @@
  * Build date: Wed Apr 03 2024
  * 
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExpress licensing here: https://www.devexpress.com/Support/EULAs
+ * Read about DevExpress licensing here: https://www.dptuiext.com/Support/EULAs
  */
 var DevExpress = typeof DevExpress === "object" ? DevExpress : {}; DevExpress["WebUtils"] =
 /******/ (function(modules) { // webpackBootstrap

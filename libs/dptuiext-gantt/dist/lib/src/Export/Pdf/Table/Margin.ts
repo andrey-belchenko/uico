@@ -1,5 +1,5 @@
-import { isDefined } from "@devexpress/utils/lib/utils/common";
-import { DomUtils } from "@devexpress/utils/lib/utils/dom";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
+import { DomUtils } from "@dptuiext/utils/lib/utils/dom";
 import { IPdfTableValueProvider } from "./IPdfTableDataProvider";
 
 export class Margin implements IPdfTableValueProvider {

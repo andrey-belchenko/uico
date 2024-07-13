@@ -4,12 +4,12 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.default = void 0;
 var _size = require("../../../core/utils/size");
-var _devextremeQuill = _interopRequireDefault(require("devextreme-quill"));
+var _dptuicompQuill = _interopRequireDefault(require("dptuicomp-quill"));
 var _renderer = _interopRequireDefault(require("../../../core/renderer"));
 var _extend = require("../../../core/utils/extend");
 var _window = require("../../../core/utils/window");
@@ -26,7 +26,7 @@ function _interopRequireDefault(obj) {
 }
 const MODULE_NAMESPACE = "dxHtmlEditorPopupModule";
 let ListPopupModule = _base.default;
-if (_devextremeQuill.default) {
+if (_dptuicompQuill.default) {
     const SUGGESTION_LIST_CLASS = "dx-suggestion-list";
     const SUGGESTION_LIST_WRAPPER_CLASS = "dx-suggestion-list-wrapper";
     const DROPDOWN_EDITOR_OVERLAY_CLASS = "dx-dropdowneditor-overlay";

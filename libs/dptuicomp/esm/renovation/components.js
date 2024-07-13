@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 module.exports = [{
     name: "Button",
@@ -18,5 +18,5 @@ module.exports = [{
     name: "Pager",
     pathInRenovationFolder: "ui/pager/pager.j",
     pathInJSFolder: "ui/pager.js",
-    pathToWrapper: "/packages/devextreme/testing/helpers/renovationPagerHelper.js"
+    pathToWrapper: "/packages/dptuicomp/testing/helpers/renovationPagerHelper.js"
 }];

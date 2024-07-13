@@ -1,4 +1,4 @@
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { DiagramMouseEvent, DiagramFocusEvent, DiagramEvent, MouseEventElementType, DiagramKeyboardEvent } from "../Event";
 import { ContextMenuHandler } from "./ContextMenuHandler";
 import { Selection, ISelectionChangesListener } from "../../Selection/Selection";

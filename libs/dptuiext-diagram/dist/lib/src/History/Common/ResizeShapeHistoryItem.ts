@@ -1,6 +1,6 @@
 import { HistoryItem } from "../HistoryItem";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { ModelManipulator } from "../../Model/ModelManipulator";
 import { ItemKey } from "../../Model/DiagramItem";
 

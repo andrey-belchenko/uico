@@ -1,7 +1,7 @@
 import { svgNS } from "../RenderHelper";
 import { FilterPrimitive } from "./FilterPrimitive";
 import { DiagramModel } from "../../Model/Model";
-import { ColorUtils } from "@devexpress/utils/lib/utils/color";
+import { ColorUtils } from "@dptuiext/utils/lib/utils/color";
 
 export class TextFilterPrimitive extends FilterPrimitive {
     constructor(

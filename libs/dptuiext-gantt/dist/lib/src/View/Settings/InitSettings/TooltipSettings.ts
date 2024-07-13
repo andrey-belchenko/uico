@@ -1,4 +1,4 @@
-import { isDefined } from "@devexpress/utils/lib/utils/common";
+import { isDefined } from "@dptuiext/utils/lib/utils/common";
 import { ITaskAreaContainer } from "../../../Interfaces/ITaskAreaContainer";
 
 export class TooltipSettings {

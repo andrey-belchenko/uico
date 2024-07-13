@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,19 +8,19 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
-export { ExplicitTypes } from "devextreme/ui/menu";
+export { ExplicitTypes } from "dptuicomp/ui/menu";
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxMenu, { Properties } from "devextreme/ui/menu";
+import dxMenu, { Properties } from "dptuicomp/ui/menu";
 import { IHtmlOptions, IElementDescriptor } from "./core/component";
-import type { dxMenuItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemRenderedEvent, SubmenuHiddenEvent, SubmenuHidingEvent, SubmenuShowingEvent, SubmenuShownEvent } from "devextreme/ui/menu";
-import type { AnimationConfig, AnimationState } from "devextreme/animation/fx";
-import type { PositionConfig } from "devextreme/animation/position";
-import type { CollectionWidgetItem } from "devextreme/ui/collection/ui.collection_widget.base";
-import type { template } from "devextreme/core/templates/template";
+import type { dxMenuItem, ContentReadyEvent, DisposingEvent, InitializedEvent, ItemClickEvent, ItemContextMenuEvent, ItemRenderedEvent, SubmenuHiddenEvent, SubmenuHidingEvent, SubmenuShowingEvent, SubmenuShownEvent } from "dptuicomp/ui/menu";
+import type { AnimationConfig, AnimationState } from "dptuicomp/animation/fx";
+import type { PositionConfig } from "dptuicomp/animation/position";
+import type { CollectionWidgetItem } from "dptuicomp/ui/collection/ui.collection_widget.base";
+import type { template } from "dptuicomp/core/templates/template";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -49,7 +49,7 @@ interface MenuRef<TKey = any> {
     instance: () => dxMenu<TKey>;
 }
 declare const Menu: <TKey = any>(props: ReplaceFieldTypes<Properties<TKey>, IMenuOptionsNarrowedEvents<TKey>> & IHtmlOptions & {
-    dataSource?: import("../../devextreme/artifacts/npm/devextreme/data/data_source").DataSourceLike<dxMenuItem, TKey> | null | undefined;
+    dataSource?: import("../../dptuicomp/artifacts/npm/dptuicomp/data/data_source").DataSourceLike<dxMenuItem, TKey> | null | undefined;
     itemRender?: ((...params: any) => React.ReactNode) | undefined;
     itemComponent?: React.ComponentType<any> | undefined;
     defaultItems?: dxMenuItem[] | undefined;
@@ -213,5 +213,5 @@ declare const _componentTo: React.MemoExoticComponent<(props: IToProps) => React
 declare const To: typeof _componentTo & IElementDescriptor;
 export default Menu;
 export { Menu, IMenuOptions, MenuRef, Animation, IAnimationProps, At, IAtProps, BoundaryOffset, IBoundaryOffsetProps, Collision, ICollisionProps, Delay, IDelayProps, From, IFromProps, Hide, IHideProps, Item, IItemProps, My, IMyProps, Offset, IOffsetProps, Position, IPositionProps, Show, IShowProps, ShowFirstSubmenuMode, IShowFirstSubmenuModeProps, ShowSubmenuMode, IShowSubmenuModeProps, To, IToProps };
-import type * as MenuTypes from 'devextreme/ui/menu_types';
+import type * as MenuTypes from 'dptuicomp/ui/menu_types';
 export { MenuTypes };

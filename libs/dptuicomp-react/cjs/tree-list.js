@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,7 +8,7 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 "use client";
@@ -44,7 +44,7 @@ exports.Pager = exports.OperationDescriptions = exports.Offset = exports.Numeric
 exports.ValidationRule = exports.TreeListSelection = exports.TreeListHeaderFilterTexts = exports.TreeListHeaderFilterSearch = exports.TreeListHeaderFilter = exports.ToolbarItem = exports.Toolbar = exports.To = exports.Texts = exports.StringLengthRule = exports.StateStoring = exports.Sorting = exports.Show = exports.Selection = exports.SearchPanel = exports.Search = exports.Scrolling = exports.RowDragging = exports.RequiredRule = exports.RemoteOperations = exports.RangeRule = exports.Position = exports.Popup = exports.PatternRule = exports.Paging = void 0;
 const React = __importStar(require("react"));
 const react_1 = require("react");
-const tree_list_1 = __importDefault(require("devextreme/ui/tree_list"));
+const tree_list_1 = __importDefault(require("dptuicomp/ui/tree_list"));
 const component_1 = require("./core/component");
 const nested_option_1 = __importDefault(require("./core/nested-option"));
 const TreeList = (0, react_1.memo)((0, react_1.forwardRef)((props, ref) => {

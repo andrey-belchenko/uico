@@ -4,7 +4,7 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 var _errors = _interopRequireDefault(require("../../../core/errors"));
@@ -259,7 +259,7 @@ describe("version mismatch", (() => {
             [{
                 name: "A",
                 version: "24.2.2"
-            }], "devextreme: 24.2.3\nA: 24.2.2"
+            }], "dptuicomp: 24.2.3\nA: 24.2.2"
         ],
         [
             [{
@@ -271,7 +271,7 @@ describe("version mismatch", (() => {
             }, {
                 name: "B",
                 version: "24.2.3"
-            }], "devextreme: 24.2.3\nA: 24.2.5"
+            }], "dptuicomp: 24.2.3\nA: 24.2.5"
         ],
         [
             [{
@@ -283,7 +283,7 @@ describe("version mismatch", (() => {
             }, {
                 name: "B",
                 version: "24.2.3"
-            }], "devextreme: 24.2.3\nA: 24.2.5\nA: 24.2.5"
+            }], "dptuicomp: 24.2.3\nA: 24.2.5\nA: 24.2.5"
         ],
         [
             [{
@@ -301,7 +301,7 @@ describe("version mismatch", (() => {
             }, {
                 name: "E",
                 version: "24.2.3-beta"
-            }], "devextreme: 24.2.3\nB: 24.2.5\nC: a.b.c\nD: NaN\nE: 24.2.3-beta"
+            }], "dptuicomp: 24.2.3\nB: 24.2.5\nC: a.b.c\nD: NaN\nE: 24.2.3-beta"
         ]
     ])("Correct version list is generated", ((reportedVersions, versionList) => {
         reportedVersions.forEach((_ref3 => {

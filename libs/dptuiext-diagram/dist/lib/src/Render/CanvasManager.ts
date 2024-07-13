@@ -1,6 +1,6 @@
 import { IModelChangesListener } from "../Model/ModelManipulator";
 import { ItemChange, ItemChangeType } from "../Model/ModelChange";
-import { Size } from "@devexpress/utils/lib/geometry/size";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
 import { CanvasManagerBase } from "./CanvasManagerBase";
 
 export abstract class CanvasManager extends CanvasManagerBase implements IModelChangesListener {

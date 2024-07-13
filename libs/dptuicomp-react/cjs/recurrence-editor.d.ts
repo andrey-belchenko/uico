@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,14 +8,14 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxRecurrenceEditor, { Properties } from "devextreme/ui/recurrence_editor";
+import dxRecurrenceEditor, { Properties } from "dptuicomp/ui/recurrence_editor";
 import { IHtmlOptions } from "./core/component";
-import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "devextreme/ui/recurrence_editor";
+import type { ContentReadyEvent, DisposingEvent, InitializedEvent, ValueChangedEvent } from "dptuicomp/ui/recurrence_editor";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -37,5 +37,5 @@ declare const RecurrenceEditor: (props: React.PropsWithChildren<IRecurrenceEdito
 }) => ReactElement | null;
 export default RecurrenceEditor;
 export { RecurrenceEditor, IRecurrenceEditorOptions, RecurrenceEditorRef };
-import type * as RecurrenceEditorTypes from 'devextreme/ui/recurrence_editor_types';
+import type * as RecurrenceEditorTypes from 'dptuicomp/ui/recurrence_editor_types';
 export { RecurrenceEditorTypes };

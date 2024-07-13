@@ -1,5 +1,5 @@
 {
-  "name": "devexpress-gantt",
+  "name": "dptuiext-gantt",
   "version": "4.1.55",
   "description": "DevExpress Gantt Control",
   "main": "dist/dx-gantt.min.js",
@@ -70,15 +70,15 @@
     "test": "ts-node node_modules/jasmine/bin/jasmine --require=ignore-styles",
     "start": "webpack --mode development --watch"
   },
-  "homepage": "https://devexpress.com/",
-  "bugs": "https://www.devexpress.com/support/",
+  "homepage": "https://dptuiext.com/",
+  "bugs": "https://www.dptuiext.com/support/",
   "author": "Developer Express Inc.",
   "license": "SEE LICENSE IN README.md",
   "keywords": [
     "gantt",
     "editor",
-    "devextreme",
-    "devexpress"
+    "dptuicomp",
+    "dptuiext"
   ],
   "pre-commit": "lint-staged"
 }

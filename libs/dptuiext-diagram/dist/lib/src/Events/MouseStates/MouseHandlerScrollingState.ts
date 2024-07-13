@@ -2,7 +2,7 @@ import { MouseHandlerCancellableState } from "./MouseHandlerStateBase";
 import { MouseHandler } from "../MouseHandler";
 import { IViewController } from "../../ViewController";
 import { DiagramKeyboardEvent, DiagramMouseEvent, MouseButton } from "../Event";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { Selection } from "../../Selection/Selection";
 
 export class MouseHandlerScrollingState extends MouseHandlerCancellableState {

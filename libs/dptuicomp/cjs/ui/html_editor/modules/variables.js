@@ -4,11 +4,11 @@
  * Build date: Tue Jun 11 2024
  *
  * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
- * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ * Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
  */
 "use strict";
 exports.default = void 0;
-var _devextremeQuill = _interopRequireDefault(require("devextreme-quill"));
+var _dptuicompQuill = _interopRequireDefault(require("dptuicomp-quill"));
 var _renderer = _interopRequireDefault(require("../../../core/renderer"));
 var _position = require("../../../core/utils/position");
 var _popup = _interopRequireDefault(require("./popup"));
@@ -22,11 +22,11 @@ function _interopRequireDefault(obj) {
     }
 }
 let VariableModule = _base.default;
-if (_devextremeQuill.default) {
+if (_dptuicompQuill.default) {
     const VARIABLE_FORMAT_CLASS = "dx-variable-format";
     const ACTIVE_FORMAT_CLASS = "dx-format-active";
     const SELECTED_STATE_CLASS = "dx-state-selected";
-    _devextremeQuill.default.register({
+    _dptuicompQuill.default.register({
         "formats/variable": _variable.default
     }, true);
     VariableModule = class extends _popup.default {

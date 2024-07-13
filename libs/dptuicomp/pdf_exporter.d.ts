@@ -4,7 +4,7 @@
 * Build date: Tue Jun 11 2024
 *
 * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
-* Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+* Read about DevExtreme licensing here: https://js.dptuiext.com/Licensing/
 */
 import { DxPromise } from './core/utils/deferred';
 import dxDataGrid from './ui/data_grid';
@@ -21,7 +21,7 @@ export type DataGridCell = PdfDataGridCell;
 
  /**
  * @deprecated Use DataGridCell instead
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface PdfDataGridCell extends ExcelCell {}
 
@@ -119,7 +119,7 @@ export interface Cell {
 
 /**
  * Properties that can be passed as a parameter to the exportDataGrid(options) method from the pdfExporter module.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface PdfExportDataGridProps {
     /**
@@ -205,7 +205,7 @@ export function exportDataGrid(options: PdfExportDataGridProps): DxPromise<void>
 
 /**
  * Properties that you can pass as a parameter to the exportGantt(options) method from the pdfExporter module.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface PdfExportGanttProps {
   /**
@@ -252,7 +252,7 @@ export interface PdfExportGanttProps {
 
 /**
  * Configures a custom font used for the Gantt data export.
- * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+ * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.dptuiext.com/ticket/create Support Center}. We will check if there is an alternative solution.
  */
 export interface PdfExportGanttFont {
   /**

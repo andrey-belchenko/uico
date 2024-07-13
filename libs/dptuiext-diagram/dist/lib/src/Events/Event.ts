@@ -1,6 +1,6 @@
-import { ModifierKey } from "@devexpress/utils/lib/utils/key";
-import { Size } from "@devexpress/utils/lib/geometry/size";
-import { Point } from "@devexpress/utils/lib/geometry/point";
+import { ModifierKey } from "@dptuiext/utils/lib/utils/key";
+import { Size } from "@dptuiext/utils/lib/geometry/size";
+import { Point } from "@dptuiext/utils/lib/geometry/point";
 import { DiagramItem, ItemKey } from "../Model/DiagramItem";
 
 export enum MouseButton {

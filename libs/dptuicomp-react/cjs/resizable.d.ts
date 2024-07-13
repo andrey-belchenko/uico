@@ -1,5 +1,5 @@
 /*!
- * devextreme-react
+ * dptuicomp-react
  * Version: 24.1.3
  * Build date: Tue Jun 11 2024
  *
@@ -8,14 +8,14 @@
  * This software may be modified and distributed under the terms
  * of the MIT license. See the LICENSE file in the root of the project for details.
  *
- * https://github.com/DevExpress/devextreme-react
+ * https://github.com/DevExpress/dptuicomp-react
  */
 
 import * as React from "react";
 import { Ref, ReactElement } from "react";
-import dxResizable, { Properties } from "devextreme/ui/resizable";
+import dxResizable, { Properties } from "dptuicomp/ui/resizable";
 import { IHtmlOptions } from "./core/component";
-import type { DisposingEvent, InitializedEvent, ResizeEvent, ResizeEndEvent, ResizeStartEvent } from "devextreme/ui/resizable";
+import type { DisposingEvent, InitializedEvent, ResizeEvent, ResizeEndEvent, ResizeStartEvent } from "dptuicomp/ui/resizable";
 type ReplaceFieldTypes<TSource, TReplacement> = {
     [P in keyof TSource]: P extends keyof TReplacement ? TReplacement[P] : TSource[P];
 };
@@ -40,5 +40,5 @@ declare const Resizable: (props: React.PropsWithChildren<IResizableOptions> & {
 }) => ReactElement | null;
 export default Resizable;
 export { Resizable, IResizableOptions, ResizableRef };
-import type * as ResizableTypes from 'devextreme/ui/resizable_types';
+import type * as ResizableTypes from 'dptuicomp/ui/resizable_types';
 export { ResizableTypes };

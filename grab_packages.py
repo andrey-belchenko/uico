@@ -5,7 +5,7 @@ import subprocess
 
 
 source_dir = r"C:\Repos\mygithub\uicomp-test\my-app"
-target_dir = r"C:\Repos\mygithub\uicomp-test\libs"
+target_dir = r"C:\Repos\mygithub\uicomp\libs"
 
 
 def npm_publish(folder_path):
@@ -67,6 +67,19 @@ def publish_package(package_name: str):
     print("Published: " + new_package_path)
 
 
+def rename_files_and_folders(path, old_text, new_text):
+    for dirpath, dirnames, filenames in os.walk(path, topdown=False):
+        for dirname in dirnames:
+            if old_text in dirname:
+                src = os.path.join(dirpath, dirname)
+                dst = os.path.join(dirpath, dirname.replace(old_text, new_text))
+                os.rename(src, dst)
+        for filename in filenames:
+            if old_text in filename:
+                src = os.path.join(dirpath, filename)
+                dst = os.path.join(dirpath, filename.replace(old_text, new_text))
+                os.rename(src, dst)
+
 packages = [
     "devextreme-quill",
     "devextreme-react",
@@ -77,11 +90,13 @@ packages = [
     r"@devextreme/runtime",
 ]
 
+rename_files_and_folders(target_dir,"devextreme", "dptuicomp")
+rename_files_and_folders(target_dir,"devexpress", "dptuiext")
 # for item in packages:
 #     grab_package(item, packages)
 
 # for item in packages:
 #     publish_package(item)
 
-for item in packages:
-    install_package(r"C:\Repos\mygithub\uicomp-test\my-app", item)
+# for item in packages:
+#     install_package(r"C:\Repos\mygithub\uicomp-test\my-app", item)

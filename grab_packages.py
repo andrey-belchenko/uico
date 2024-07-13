@@ -80,20 +80,22 @@ def rename_files_and_folders(path, old_text, new_text):
                 dst = os.path.join(dirpath, filename.replace(old_text, new_text))
                 os.rename(src, dst)
 
+
 def replace_text_in_files(dir_path, old_text, new_text):
     for foldername, subfolders, filenames in os.walk(dir_path):
         for filename in filenames:
             file_path = os.path.join(foldername, filename)
             try:
-                with open(file_path, 'r', encoding='utf-8') as file:
+                with open(file_path, "r", encoding="utf-8") as file:
                     filedata = file.read()
                 if old_text in filedata:
                     filedata = filedata.replace(old_text, new_text)
-                    with open(file_path, 'w', encoding='utf-8') as file:
+                    with open(file_path, "w", encoding="utf-8") as file:
                         file.write(filedata)
                     print(file_path)
             except:
                 pass
+
 
 packages = [
     "devextreme-quill",
@@ -105,16 +107,33 @@ packages = [
     r"@devextreme/runtime",
 ]
 
+new_packages = [
+    "dptuicomp-quill",
+    "dptuicomp-react",
+    "dptuiext-diagram",
+    "dptuiext-gantt",
+    "dptuicomp",
+    r"@dptuiext/utils",
+    r"@dptuicomp/runtime",
+]
+
+
 # rename_files_and_folders(target_dir,"devextreme", "dptuicomp")
 # rename_files_and_folders(target_dir,"devexpress", "dptuiext")
-replace_text_in_files(target_dir,"devextreme", "dptuicomp")
-replace_text_in_files(target_dir,"devexpress", "dptuiext")
+# replace_text_in_files(target_dir, "devextreme", "dptuicomp")
+# replace_text_in_files(target_dir, "devexpress", "dptuiext")
 
 # for item in packages:
 #     grab_package(item, packages)
 
-# for item in packages:
+# for item in new_packages:
 #     publish_package(item)
 
-# for item in packages:
-#     install_package(r"C:\Repos\mygithub\uicomp-test\my-app", item)
+
+rename_files_and_folders(target_dir, "dptuicomp", "dpt-ui")
+rename_files_and_folders(target_dir, "dptuiext", "dpt-ext-ui")
+replace_text_in_files(target_dir, "dptuicomp", "dpt-ui")
+replace_text_in_files(target_dir, "dptuiext", "dpt-ext-ui")
+
+# for item in new_packages:
+#     install_package(r"C:\Repos\mygithub_alt\uicomp-test\my-app", item)

@@ -1,0 +1,21 @@
+{
+  "name": "@dpt-ext-ui/utils",
+  "version": "1.4.3",
+  "description": "DevExpress utils",
+  "author": "DevExpress Inc.",
+  "license": "SEE LICENSE IN README.md",
+  "homepage": "https://dpt-ext-ui.com/",
+  "bugs": "https://www.dpt-ext-ui.com/support/",
+  "scripts": {},
+  "dependencies": {
+    "tslib": "2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevExpress/WebUtils"
+  },
+  "keywords": [
+    "dpt-ext-ui",
+    "dpt-ui"
+  ]
+}

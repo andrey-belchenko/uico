@@ -108,13 +108,13 @@ packages = [
 ]
 
 new_packages = [
-    "dptuicomp-quill",
-    "dptuicomp-react",
-    "dptuiext-diagram",
-    "dptuiext-gantt",
-    "dptuicomp",
-    r"@dptuiext/utils",
-    r"@dptuicomp/runtime",
+    "dpt-ui-quill",
+    "dpt-ui-react",
+    "dpt-ext-ui-diagram",
+    "dpt-ext-ui-gantt",
+    "dpt-ui",
+    r"@dpt-ext-ui/utils",
+    r"@dpt-ui/runtime",
 ]
 
 
@@ -130,10 +130,10 @@ new_packages = [
 #     publish_package(item)
 
 
-rename_files_and_folders(target_dir, "dptuicomp", "dpt-ui")
-rename_files_and_folders(target_dir, "dptuiext", "dpt-ext-ui")
-replace_text_in_files(target_dir, "dptuicomp", "dpt-ui")
-replace_text_in_files(target_dir, "dptuiext", "dpt-ext-ui")
+# rename_files_and_folders(target_dir, "dptuicomp", "dpt-ui")
+# rename_files_and_folders(target_dir, "dptuiext", "dpt-ext-ui")
+# replace_text_in_files(target_dir, "dptuicomp", "dpt-ui")
+# replace_text_in_files(target_dir, "dptuiext", "dpt-ext-ui")
 
-# for item in new_packages:
-#     install_package(r"C:\Repos\mygithub_alt\uicomp-test\my-app", item)
+for item in new_packages:
+    install_package(r"C:\Repos\mygithub_alt\uicomp-test\my-app", item)

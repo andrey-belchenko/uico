@@ -1,6 +1,6 @@
 {
   "name": "dpt-ext-ui-gantt",
-  "version": "4.1.55",
+  "version": "1.0.0",
   "description": "DevExpress Gantt Control",
   "main": "dist/dx-gantt.min.js",
   "repository": {

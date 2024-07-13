@@ -1,6 +1,6 @@
 {
   "name": "dpt-ext-ui-diagram",
-  "version": "2.2.8",
+  "version": "1.0.0",
   "description": "DevExpress Diagram Control",
   "main": "dist/dx-diagram.min.js",
   "files": [

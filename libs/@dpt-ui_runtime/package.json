@@ -1,6 +1,6 @@
 {
   "name": "@dpt-ui/runtime",
-  "version": "3.0.13",
+  "version": "1.0.0",
   "description": "DevExtreme virtual DOM common components",
   "author": "Developer Express Inc.",
   "license": "SEE LICENSE IN LICENSE",

@@ -126,8 +126,8 @@ new_packages = [
 # for item in packages:
 #     grab_package(item, packages)
 
-# for item in new_packages:
-#     publish_package(item)
+for item in new_packages:
+    publish_package(item)
 
 
 # rename_files_and_folders(target_dir, "dptuicomp", "dpt-ui")
@@ -135,5 +135,5 @@ new_packages = [
 # replace_text_in_files(target_dir, "dptuicomp", "dpt-ui")
 # replace_text_in_files(target_dir, "dptuiext", "dpt-ext-ui")
 
-for item in new_packages:
-    install_package(r"C:\Repos\mygithub_alt\uicomp-test\my-app", item)
+# for item in new_packages:
+#     install_package(r"C:\Repos\mygithub_alt\uicomp-test\my-app", item)

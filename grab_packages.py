@@ -80,6 +80,16 @@ def rename_files_and_folders(path, old_text, new_text):
                 dst = os.path.join(dirpath, filename.replace(old_text, new_text))
                 os.rename(src, dst)
 
+def replace_text_in_files(dir_path, old_text, new_text):
+    for foldername, subfolders, filenames in os.walk(dir_path):
+        for filename in filenames:
+            file_path = os.path.join(foldername, filename)
+            with open(file_path, 'r', encoding='utf-8') as file:
+                filedata = file.read()
+            filedata = filedata.replace(old_text, new_text)
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.write(filedata)
+
 packages = [
     "devextreme-quill",
     "devextreme-react",
@@ -90,8 +100,11 @@ packages = [
     r"@devextreme/runtime",
 ]
 
-rename_files_and_folders(target_dir,"devextreme", "dptuicomp")
-rename_files_and_folders(target_dir,"devexpress", "dptuiext")
+# rename_files_and_folders(target_dir,"devextreme", "dptuicomp")
+# rename_files_and_folders(target_dir,"devexpress", "dptuiext")
+replace_text_in_files(target_dir,"devextreme", "dptuicomp")
+replace_text_in_files(target_dir,"devexpress", "dptuiext")
+
 # for item in packages:
 #     grab_package(item, packages)
 
